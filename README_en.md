@@ -64,7 +64,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case01/output.png" width="600"> |
+| <img src="images/case001/output.png" width="600"> |
 
 **Prompt:**
 
@@ -134,7 +134,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case02/output.png" width="600"> |
+| <img src="images/case002/output.png" width="600"> |
 
 **Prompt:**
 
@@ -197,7 +197,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case04/output.png" width="600"> |
+| <img src="images/case004/output.png" width="600"> |
 
 **Prompt:**
 
@@ -251,7 +251,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case05/output.png" width="600"> |
+| <img src="images/case005/output.png" width="600"> |
 
 **Prompt:**
 
@@ -301,7 +301,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case07/output.png" width="600"> |
+| <img src="images/case007/output.png" width="600"> |
 
 **Prompt:**
 
@@ -351,7 +351,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case10/output.png" width="600"> |
+| <img src="images/case010/output.png" width="600"> |
 
 **Prompt:**
 
@@ -396,7 +396,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case06/output.png" width="600"> |
+| <img src="images/case006/output.png" width="600"> |
 
 **Prompt:**
 
@@ -443,7 +443,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case08/output.png" width="600"> |
+| <img src="images/case008/output.png" width="600"> |
 
 **Prompt:**
 
@@ -492,7 +492,7 @@ Each prompt follows a standardized JSON schema containing:
 
 | Output |
 | :---: |
-| <img src="images/case09/output.png" width="600"> |
+| <img src="images/case009/output.png" width="600"> |
 
 **Prompt:**
 
