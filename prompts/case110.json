@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "伊瓜苏大瀑布“魔鬼喉咙”正上方",
+    "camera_position": "无人机俯冲视角",
+    "camera_height": "中高空航拍",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "巨大的弧形瀑布环绕视角",
+    "weather": "晴朗，伴有巨大的水雾云",
+    "depth_of_field": "全清晰"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "巨大的马蹄形瀑布群倾泻而下，白色的水流汹涌澎湃", "motion": "水流的高速坠落动感" },
+    "midground_subjects": { "terrain": "被森林覆盖的峡谷边缘", "river": "瀑布底部的湍急河流与弥漫的白色水汽", "mist": "巨大的水雾柱升起，遮蔽部分视野" },
+    "background": { "landscape": "远处平静的伊瓜苏河与两岸的原始森林延伸至天边", "sky": "湛蓝天空与白色的水雾相互映衬" },
+    "environment": { "ground_hemisphere": "水与森林的壮阔交汇", "atmosphere": "震慑人心、充满力量感" }
+  },
+  "rendering_style": {
+    "lighting": "直射阳光在水雾中可能形成彩虹",
+    "color_grading": "真实自然，强调水流的白色与植被的深绿",
+    "texture_quality": { "description": "动感与清晰度并存的摄影风格", "artifacts": "无缝拼接", "stitching": "无缝360" }
+  },
+  "constraints": {
+    "must_keep": [ "巨大的马蹄形瀑布结构", "弥漫的水雾", "森林背景", "360°全景透视" ],
+    "avoid": [ "观光船", "观景桥", "人物", "低画质的水流" ]
+  },
+  "negative_prompt": [ "ui", "text", "boats", "bridge", "tourists", "static water", "low resolution" ]
+}"
+}

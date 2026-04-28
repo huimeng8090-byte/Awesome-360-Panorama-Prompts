@@ -1,0 +1,83 @@
+{
+  "1. {
+  "title": "堪察加火山喷发雪景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "俄罗斯堪察加半岛火山群",
+    "camera_position": "高空无人机航拍视角",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，日出/日落时分，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "正在喷发的火山口，橙红色岩浆翻涌，火山灰与蒸汽向上升腾",
+      "motion": "岩浆流动、火山灰飘散形成自然动态模糊"
+    },
+    "midground_subjects": {
+      "terrain": "积雪覆盖的火山山体，黑色火山岩与白雪形成强烈对比",
+      "plume": "巨型火山灰云团在火山口上方形成，被阳光染成暖粉色",
+      "mountains": "远处多座积雪火山沿地平线排列"
+    },
+    "background": {
+      "landscape": "火山群向远方延伸，与地平线无缝衔接",
+      "sky": "澄澈的深蓝色天空，日出/日落的太阳在右侧地平线散发暖光"
+    },
+    "environment": {
+      "ground_hemisphere": "从高空俯瞰喷发火山、积雪山体与火山灰云",
+      "atmosphere": "壮丽、震撼、充满原始地质力量的火山环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然日出/日落暖光，冷暖色调对比强烈",
+    "color_grading": "真实自然色彩，以橙红、雪白、深蓝为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "高空航拍视角",
+      "火山喷发与雪景为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "城市或人工建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

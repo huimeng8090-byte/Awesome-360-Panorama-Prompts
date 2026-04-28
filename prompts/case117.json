@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "撒哈拉线性沙丘日落全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "摩洛哥梅尔祖加沙丘群",
+    "camera_position": "无人机位于最高沙脊线正上方",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "极度干燥晴朗，金色日落",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "优美的S型沙脊线如刀刻般清晰，沙面呈现细腻的流沙质感",
+      "motion": "静止"
+    },
+    "midground_subjects": {
+      "terrain": "起伏的黄金沙丘波浪，明暗分界线极其优美",
+      "details": "背光面呈深咖啡色，向光面呈明亮的橙黄色"
+    },
+    "background": {
+      "landscape": "远方是平坦的荒漠戈壁，地平线消失在暮色中",
+      "sky": "巨大的金色落日位于地平线上方，天空色彩纯净渐变"
+    },
+    "environment": {
+      "ground_hemisphere": "纯净、简约的自然地理艺术",
+      "atmosphere": "温暖、辽阔、极致纯净"
+    }
+  },
+  "rendering_style": {
+    "lighting": "极致侧光，勾勒出沙丘的流线型轮廓",
+    "color_grading": "高饱和度的黄金色调，纯净度极高",
+    "texture_quality": {
+      "description": "超高精细沙粒纹理",
+      "stitching": "无缝拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["完美的S型沙脊线", "落日圆轮", "360投影"],
+    "avoid": ["脚印", "骆驼", "植被", "垃圾"]
+  },
+  "negative_prompt": ["ui", "watermark", "footprints", "camels", "tents", "plants"]
+}"
+}

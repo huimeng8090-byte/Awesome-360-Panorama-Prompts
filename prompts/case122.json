@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "拉普兰极地雪树森林日落全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "芬兰拉普兰极地森林",
+    "camera_position": "无人机悬停于雪坡林带上方",
+    "camera_height": "低空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "极地清澈寒冷，日落余晖",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "被厚重积雪包裹的云杉林，呈现奇特的白色圆锥状‘雪怪’造型",
+      "motion": "静止"
+    },
+    "midground_subjects": {
+      "terrain": "起伏的雪原山丘，树木密集，雪地反射着淡淡的紫红色余晖",
+      "details": "雪面质感蓬松松软，无人类足迹"
+    },
+    "background": {
+      "landscape": "无边无际的北极圈雪原向远方延伸",
+      "sky": "低垂的金紫色夕阳，渐变色天空，带有丝状薄云"
+    },
+    "environment": {
+      "ground_hemisphere": "被白雪完全覆盖的极地生态系统",
+      "atmosphere": "纯净、宁静、童话般的极寒氛围"
+    }
+  },
+  "rendering_style": {
+    "lighting": "极地暖色侧光，照亮树木一侧，另一侧呈现冰蓝色阴影",
+    "color_grading": "粉紫色、冰蓝色与金色的梦幻交织",
+    "texture_quality": {
+      "description": "超写实极地摄影",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["360°视角", "雪树细节", "高度写实"],
+    "avoid": ["融化的雪", "裸露的绿色叶片", "足迹", "建筑"]
+  },
+  "negative_prompt": ["ui", "text", "watermark", "green grass", "human cabins", "dirt"]
+}"
+}

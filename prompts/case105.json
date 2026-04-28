@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "尼泊尔喜马拉雅山脉，珠穆朗玛峰近距离航拍",
+    "camera_position": "超高空飞行平台视角",
+    "camera_height": "极高海拔全景",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "雪山峰顶呈放射状环绕，天底可见巨大的冰川裂隙",
+    "weather": "晴朗，伴有强烈的峰顶旗云（Flag cloud）",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "近处被积雪和浮冰覆盖的黑色岩石脊线，质感极度清晰", "motion": "旗云在峰顶被强风吹拂的动感" },
+    "midground_subjects": { "terrain": "深邃的昆布冰川，布满蓝色的裂缝与冰塔林", "river": "冰川形成的白色冰流感", "mist": "高海拔细碎的雪雾" },
+    "background": { "landscape": "连绵不绝的喜马拉雅八千米级群峰，延伸至弧形的地平线", "sky": "深邃的深蓝色天空，接近近地空间色调" },
+    "environment": { "ground_hemisphere": "纯净的冰雪世界，无任何生命迹象", "atmosphere": "冷峻、神圣、极致荒凉" }
+  },
+  "rendering_style": {
+    "lighting": "强烈的极高海拔直射光，产生极深的暗部阴影",
+    "color_grading": "冷色调，强调纯白雪面与深蓝天空的对比",
+    "texture_quality": { "description": "写实主义高空摄影", "artifacts": "无缝360全景拼接", "stitching": "完美无暇" }
+  },
+  "constraints": {
+    "must_keep": [ "珠穆朗玛峰标志性三角形轮廓", "峰顶旗云", "深蓝色高空", "360°包围感" ],
+    "avoid": [ "登山队", "帐篷", "任何颜色鲜艳的人造物体", "电影特效感" ]
+  },
+  "negative_prompt": [ "ui", "text", "human", "tent", "helicopter", "pixelated", "overexposed snow" ]
+}"
+}

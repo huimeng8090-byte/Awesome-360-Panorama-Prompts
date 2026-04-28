@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "张掖七彩丹霞地质奇观全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "中国甘肃张掖丹霞地质公园",
+    "camera_position": "无人机悬停于彩丘带正上方",
+    "camera_height": "中高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "多云转晴，柔和散射光",
+    "depth_of_field": "整个场景清晰"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "色彩斑斓的岩层丘陵，红、黄、橙、白条纹交替，质感如丝绸",
+      "motion": "无"
+    },
+    "midground_subjects": {
+      "terrain": "波浪状起伏的彩丘群，地表几乎无植被，展现纯粹矿物色",
+      "details": "岩层褶皱细节极其丰富，阴影随山势起伏"
+    },
+    "background": {
+      "landscape": "连绵不绝的红色砂岩山脉向远方延伸",
+      "sky": "浅蓝色天空，云影投射在山峦上"
+    },
+    "environment": {
+      "ground_hemisphere": "宛如上帝调色盘的自然地质奇迹",
+      "atmosphere": "惊艳、超写实、色彩浓郁"
+    }
+  },
+  "rendering_style": {
+    "lighting": "柔和散射光，避免强光反射以保留色彩细节",
+    "color_grading": "自然高对比度色彩，强调红色与橙色调",
+    "texture_quality": {
+      "description": "极高精度岩土纹理",
+      "stitching": "无缝360度全景"
+    }
+  },
+  "constraints": {
+    "must_keep": ["彩色条纹岩层", "丹霞地貌特征", "无UI"],
+    "avoid": ["旅游栈道", "游客", "围栏", "树木"]
+  },
+  "negative_prompt": ["ui", "watermark", "tourists", "stairs", "fence", "trees", "buildings"]
+}"
+}

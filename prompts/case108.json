@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "8K超高分辨率"
+  },
+  "scene_composition": {
+    "location": "埃及吉萨大金字塔群正上方",
+    "camera_position": "高空无人机视角",
+    "camera_height": "中高空全景",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "金字塔呈三角几何分布，地平线极其宽广",
+    "weather": "晴朗，伴有极轻微的沙尘形成的丁达尔效应",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "三座巨大的石质金字塔，石块纹理清晰，侧面阴影深邃", "motion": "完全静态" },
+    "midground_subjects": { "terrain": "波浪状的金色沙丘，散布着考古遗迹的断壁残垣", "river": "远方模糊的尼罗河绿洲带", "mist": "低空轻微的热浪升腾感" },
+    "background": { "landscape": "开罗城市的建筑轮廓在地平线上若隐若现", "sky": "湛蓝到浅金色的日落渐变天空，带有稀疏的条状云" },
+    "environment": { "ground_hemisphere": "古老文明与永恒荒漠的交织", "atmosphere": "庄严、宏大、神秘" }
+  },
+  "rendering_style": {
+    "lighting": "低角度金色夕阳，侧光强调了金字塔的几何刻面",
+    "color_grading": "暖黄色、古铜色与天空深蓝色的高对比调性",
+    "texture_quality": { "description": "超写实国家地理级别航拍", "artifacts": "无缝360拼接", "stitching": "完美无痕" }
+  },
+  "constraints": {
+    "must_keep": [ "三座主要金字塔的完整布局", "明显的长阴影", "360度全景透视", "沙漠与天空的比例" ],
+    "avoid": [ "过度拥挤的游客", "现代电塔", "模糊的石块纹理" ]
+  },
+  "negative_prompt": [ "ui", "text", "watermark", "modern cars", "tourists", "blurry pyramids", "broken horizon" ]
+}"
+}

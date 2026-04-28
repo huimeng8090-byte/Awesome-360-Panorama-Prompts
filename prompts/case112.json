@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "热带加勒比海群岛上空",
+    "camera_position": "高空无人机视角",
+    "camera_height": "极高空全景",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "海面呈球形延展，岛屿点缀其中",
+    "weather": "艳阳高照，微风",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "清澈透亮的青绿色浅滩和珊瑚礁纹理", "motion": "平静水面" },
+    "midground_subjects": { "terrain": "几个被茂密绿色植被覆盖的小岛和白沙滩", "river": "无", "mist": "无" },
+    "background": { "landscape": "深蓝色的远洋延伸至360度地平线，远处有点点帆船", "sky": "清澈的浅蓝色天空，分布着朵朵白云" },
+    "environment": { "ground_hemisphere": "半透明的海水和水底地形", "atmosphere": "纯净、度假感、清新" }
+  },
+  "rendering_style": {
+    "lighting": "明亮、垂直的自然阳光，直射海底",
+    "color_grading": "清爽的青绿色、天蓝色与白色的组合",
+    "texture_quality": { "description": "超清热带海洋摄影", "artifacts": "无拼接痕迹", "stitching": "完美360全景" }
+  },
+  "constraints": {
+    "must_keep": [ "极清澈的海水颜色", "岛屿环状分布", "360度海平线", "珊瑚礁细节" ],
+    "avoid": [ "城市建筑", "垃圾", "暗淡的色彩", "阴天" ]
+  },
+  "negative_prompt": [ "ui", "text", "cities", "dirty water", "dark colors", "stormy sky" ]
+}"
+}

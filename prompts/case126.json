@@ -1,0 +1,83 @@
+{
+  "7. {
+  "title": "北极冰原日出冰封海面",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "北极圈冰封海面",
+    "camera_position": "低空无人机航拍视角",
+    "camera_height": "近冰面航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，日出时分，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "起伏的冰封海面，冰面呈现雪白色，冰裂缝中透出深邃的蓝绿色海水",
+      "motion": "无明显动态，场景静谧"
+    },
+    "midground_subjects": {
+      "terrain": "连绵起伏的海冰丘与冰裂缝，冰面纹理与积雪痕迹清晰",
+      "water_body": "冰裂缝中的海水呈现通透的蓝绿色，与白雪形成强烈对比",
+      "ice_landforms": "海冰形成的自然曲线与凹陷结构向四周延伸"
+    },
+    "background": {
+      "landscape": "冰封海面向远方无限延伸，与地平线无缝衔接",
+      "sky": "日出时分的天空，从地平线的暖橙黄向上过渡到深邃的宝蓝色，两侧有暖粉色的厚重云团"
+    },
+    "environment": {
+      "ground_hemisphere": "从低空俯瞰冰封海面、冰裂缝与日出景观",
+      "atmosphere": "寒冷、辽阔、充满极地孤寂感的冰原环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然日出暖光，冷暖色调对比强烈，冰面边缘形成金色轮廓光",
+    "color_grading": "真实自然色彩，以暖橙、雪白、宝蓝为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "低空航拍视角",
+      "冰封海面与日出为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "城市或人工建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

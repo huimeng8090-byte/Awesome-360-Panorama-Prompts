@@ -1,0 +1,83 @@
+{
+  "5. {
+  "title": "格陵兰巨型冰山与冰海",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "格陵兰迪斯科湾冰山群",
+    "camera_position": "高空无人机航拍视角",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "巨型南极/格陵兰冰山，冰体呈现纯白与蒂芙尼蓝渐变，冰面纹理与冰洞清晰可见",
+      "motion": "无明显动态，场景静谧"
+    },
+    "midground_subjects": {
+      "water_body": "澄澈的冰海，水面呈现从浅蓝到深蓝的渐变，清晰倒映冰山轮廓",
+      "icebergs": "多座小型冰山漂浮在海面，沿地平线分布",
+      "ice_texture": "冰山表面的冰裂、积雪与蓝冰结构纹理丰富"
+    },
+    "background": {
+      "landscape": "冰海向远方无限延伸，与地平线无缝衔接",
+      "sky": "澄澈的蓝天，日出/日落的暖光在天际线晕染，少量薄云点缀"
+    },
+    "environment": {
+      "ground_hemisphere": "从高空俯瞰巨型冰山、冰海与远处冰山群",
+      "atmosphere": "纯净、辽阔、充满极地气息的冰川海洋环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然极地日光，光线柔和，强化冰体通透感",
+    "color_grading": "真实自然色彩，以蒂芙尼蓝、纯白、深蓝为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "高空航拍视角",
+      "巨型冰山与冰海为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "城市或人工建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

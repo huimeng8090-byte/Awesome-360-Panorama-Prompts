@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "俄罗斯堪察加半岛火山谷",
+    "camera_position": "无人机飞越地热区域",
+    "camera_height": "中高空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "极其复杂的地理纹理延展",
+    "weather": "多云转晴，光线多变",
+    "depth_of_field": "全景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "深秋季节色彩绚丽的苔原，呈现出深红、亮黄和苔藓绿", "motion": "静态" },
+    "midground_subjects": { "terrain": "蜿蜒的硫磺色河流、火山湖和冒着蒸汽的地热喷泉", "river": "如血管般交错的地热河道", "mist": "地面升起的白色地热蒸汽" },
+    "background": { "landscape": "背景是矗立的黑色火山锥和积雪的山峰，云层低垂", "sky": "蓝天在厚重的云层中显现，充满戏剧性" },
+    "environment": { "ground_hemisphere": "原始、蛮荒、色彩浓郁的地表", "atmosphere": "狂野、原始、大地母亲的脉动" }
+  },
+  "rendering_style": {
+    "lighting": "柔和且具有层次感的阴天散射光，局部有阳光洒下",
+    "color_grading": "极度浓郁的深红、土色调与河水的淡蓝色对比",
+    "texture_quality": { "description": "电影级野外景观摄影", "artifacts": "无缝拼接", "stitching": "完美无暇" }
+  },
+  "constraints": {
+    "must_keep": [ "红色苔原植被", "蜿蜒的地热河道", "远处的火山峰", "360°宏大视角" ],
+    "avoid": [ "任何人类痕迹", "飞机影子", "过度的色彩滤镜" ]
+  },
+  "negative_prompt": [ "ui", "text", "human traces", "roads", "tents", "drone shadow", "fake colors" ]
+}"
+}

@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "上海陆家嘴CBD巅峰夜景全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "中国上海浦东陆家嘴核心区",
+    "camera_position": "无人机位于上海中心大厦旁侧高空",
+    "camera_height": "极高层摩天大楼视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "清澈夜空，能见度极佳",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "上海中心、环球金融中心、金茂大厦近距离环绕，金属与玻璃质感强烈",
+      "motion": "地面街道车流形成细长光轨"
+    },
+    "midground_subjects": {
+      "cityscape": "密集的写字楼群灯火辉煌，东方明珠塔在不远处闪烁",
+      "river": "深蓝色的黄浦江倒映着两岸斑斓霓虹"
+    },
+    "background": {
+      "landscape": "浦西外滩历史建筑群与无尽的城市远景灯火",
+      "sky": "深蓝调夜空，地平线有轻微城市光晕"
+    },
+    "environment": {
+      "ground_hemisphere": "繁华、现代的世界级大都市核心区航拍",
+      "atmosphere": "科幻感、繁华、极速"
+    }
+  },
+  "rendering_style": {
+    "lighting": "复杂城市人工照明，霓虹与LED灯光交织",
+    "color_grading": "现代都市冷蓝调，点缀暖色灯光",
+    "texture_quality": {
+      "description": "高动态范围夜景摄影",
+      "stitching": "无缝360度全景"
+    }
+  },
+  "constraints": {
+    "must_keep": ["陆家嘴三大地标", "黄浦江弯曲视角", "夜景氛围"],
+    "avoid": ["白昼场景", "模糊噪点", "人物"]
+  },
+  "negative_prompt": ["ui", "watermark", "daylight", "blurry", "noise", "fog"]
+}"
+}

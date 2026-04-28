@@ -1,0 +1,83 @@
+{
+  "9. {
+  "title": "张掖七彩丹霞层理地貌全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "中国甘肃张掖七彩丹霞地质公园",
+    "camera_position": "高空无人机航拍视角",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "大跨度的彩色丹霞岩层，红、橙、黄、白、灰彩色水平层理极致清晰",
+      "motion": "无明显动态，场景静谧"
+    },
+    "midground_subjects": {
+      "terrain": "连绵起伏的丹霞丘陵，岩层呈现完美的平行层理结构，沟壑纵横",
+      "landforms": "丹霞山体的褶皱、缓坡与峡谷结构向四周延伸，色彩层次随地形起伏变化",
+      "valley": "丹霞峡谷的平缓地带与自然侵蚀痕迹清晰可见"
+    },
+    "background": {
+      "landscape": "丹霞地貌群向远方延伸，与远山轮廓相接，逐渐融入薄雾",
+      "sky": "澄澈的浅蓝色天空，点缀着轻薄的白色云絮"
+    },
+    "environment": {
+      "ground_hemisphere": "从高空俯瞰彩色丹霞层理、丘陵与峡谷地貌",
+      "atmosphere": "壮丽、雄浑、充满地质奇观感的丹霞地貌环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然正午顶光，均匀呈现岩层色彩与纹理",
+    "color_grading": "真实自然色彩，以赤红、明黄、浅灰、浅蓝为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "高空航拍视角",
+      "七彩丹霞层理地貌为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "城市或人工建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

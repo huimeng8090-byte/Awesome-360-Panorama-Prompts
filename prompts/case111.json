@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "阿尔卑斯山脉少女峰地区上空",
+    "camera_position": "无人机飞越雪峰与冰川",
+    "camera_height": "极高空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "险峻的山峰环绕，地平线高低起伏",
+    "weather": "寒冷清澈，伴有丝滑的拉伸卷云",
+    "depth_of_field": "全景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "被积雪覆盖的陡峭山脊，冰川的褶皱和裂隙细节可见", "motion": "静态" },
+    "midground_subjects": { "terrain": "连绵不绝的终年雪山和白茫茫的雪原", "river": "冰川形成的固定流向感", "mist": "稀薄的极寒雾气" },
+    "background": { "landscape": "远方无数雪峰构成的地平线，与深蓝色天空交接", "sky": "呈现极高海拔特征的深蓝色天空，带有放射状云彩" },
+    "environment": { "ground_hemisphere": "纯净无暇的冰雪世界", "atmosphere": "寒冷、孤独、神圣不可侵犯" }
+  },
+  "rendering_style": {
+    "lighting": "强烈的极地日光，造成冰雪面极高的对比度",
+    "color_grading": "清冷的蓝白色调，对比分明的冷色系",
+    "texture_quality": { "description": "高精度写实山脉摄影", "artifacts": "无缝360拼接", "stitching": "完美无暇" }
+  },
+  "constraints": {
+    "must_keep": [ "险峻的山脊线", "冰川细节", "高空视角", "360°环绕感" ],
+    "avoid": [ "绿色植被", "小木屋", "滑雪者", "过曝的雪面" ]
+  },
+  "negative_prompt": [ "ui", "text", "grass", "trees", "houses", "skiers", "overexposed white" ]
+}"
+}

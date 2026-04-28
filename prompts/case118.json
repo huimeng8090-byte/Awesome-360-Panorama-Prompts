@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "南极洲冰山与极地海域全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "南极半岛近海浮冰区",
+    "camera_position": "无人机在巨大浮冰群上方航拍",
+    "camera_height": "中低空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "多云，极地漫反射光",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "形态各异的巨型冰山漂浮，水下部分透出迷人的荧光蓝色",
+      "motion": "海水微弱的波纹感"
+    },
+    "midground_subjects": {
+      "terrain": "深蓝黑色的寒冷海面，散落着细碎的浮冰快",
+      "mountains": "背景是覆盖着永久冰川的黑色火山岩岛屿，云雾缭绕其间"
+    },
+    "background": {
+      "landscape": "无尽的极地海洋与冰雪大陆延伸",
+      "sky": "厚重的灰色云层，边缘透出微弱的冷光"
+    },
+    "environment": {
+      "ground_hemisphere": "地球南极冰封世界航拍",
+      "atmosphere": "冷冽、孤寂、史诗感"
+    }
+  },
+  "rendering_style": {
+    "lighting": "极地柔和散射光，强调冰山的体积与通透度",
+    "color_grading": "极致冷色调，纯白、灰蓝、深蓝、荧光蓝",
+    "texture_quality": {
+      "description": "超写实冰雪与海水质感",
+      "stitching": "无缝拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["冰山荧光蓝", "黑色岩石对比", "360全景"],
+    "avoid": ["考察船", "现代设施", "鲜艳暖色"]
+  },
+  "negative_prompt": ["ui", "watermark", "ship", "bright red", "warm yellow", "people"]
+}"
+}

@@ -1,0 +1,83 @@
+{
+  "10. {
+  "title": "印度泰姬陵全景航拍",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "印度阿格拉泰姬陵",
+    "camera_position": "高空无人机航拍视角",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "泰姬陵主体白色大理石建筑，穹顶、拱门与雕花细节清晰可见，两侧对称的宣礼塔笔直矗立",
+      "motion": "飞鸟在空中飞行形成轻微动态模糊"
+    },
+    "midground_subjects": {
+      "structures": "两侧对称的红砂岩附属建筑，拱门与穹顶结构完整",
+      "plaza": "纯白色大理石广场，对称的几何步道与花园清晰可见",
+      "garden": "前景的莫卧儿式花园，绿植、水池与步道呈现完美的中轴对称布局"
+    },
+    "background": {
+      "landscape": "亚穆纳河与阿格拉城市远景在建筑后方延伸，与地平线相接",
+      "sky": "澄澈的浅蓝色天空，带有拉丝状的白色云絮，整体通透干净"
+    },
+    "environment": {
+      "ground_hemisphere": "从高空俯瞰泰姬陵主体、对称建筑群与花园",
+      "atmosphere": "庄严、典雅、充满古典美学的世界文化遗产环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然日光，光线柔和，均匀呈现大理石建筑的质感",
+    "color_grading": "真实自然色彩，以纯白、赭红、浅绿、浅蓝为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "高空航拍视角",
+      "泰姬陵主体建筑为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "现代密集建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

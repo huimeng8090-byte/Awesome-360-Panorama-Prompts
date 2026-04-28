@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "迪拜哈利法塔巅峰夜景全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "阿联酋迪拜市中心",
+    "camera_position": "无人机俯瞰哈利法塔及喷泉区",
+    "camera_height": "极高空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "清澈夜空，极少雾霭",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "哈利法塔如巨型钻针直插入云霄，塔身景观灯全亮，细节惊人",
+      "motion": "复杂的立交桥车流光轨"
+    },
+    "midground_subjects": {
+      "cityscape": "密集的摩天大楼矩阵与星罗棋布的城市灯光，迪拜喷泉可见轮廓",
+      "infrastructure": "金色的谢赫扎耶德路如城市血脉蜿蜒"
+    },
+    "background": {
+      "landscape": "远方暗处的沙漠腹地与地平线处的波斯湾星点灯光",
+      "sky": "深蓝紫色夜空，群星微弱"
+    },
+    "environment": {
+      "ground_hemisphere": "沙漠中建立起的未来感奢华都会夜景",
+      "atmosphere": "奢华、现代、震撼"
+    }
+  },
+  "rendering_style": {
+    "lighting": "暖色路灯与冷白色摩天楼亮化灯光对比",
+    "color_grading": "高动态对比，现代都市华丽色调",
+    "texture_quality": {
+      "description": "顶级城市夜景航拍",
+      "stitching": "无缝拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["哈利法塔中心构图", "灯光轨道细节", "360全景"],
+    "avoid": ["白天", "噪点", "雾霾"]
+  },
+  "negative_prompt": ["ui", "watermark", "daylight", "low res", "foggy", "blurry"]
+}"
+}

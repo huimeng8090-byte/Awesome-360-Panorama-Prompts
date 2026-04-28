@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率"
+  },
+  "scene_composition": {
+    "location": "印度阿格拉，泰姬陵（Taj Mahal）正上方",
+    "camera_position": "无人机天底俯视兼顾全景",
+    "camera_height": "中高空航拍",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "极其规整的轴线对称地貌",
+    "weather": "日出时分，带有轻微的薄雾",
+    "depth_of_field": "全景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "泰姬陵白色大理石圆顶及其精美纹饰，对称的几何花园网格", "motion": "完全静态" },
+    "midground_subjects": { "terrain": "规整的莫卧儿花园与长条形水池", "river": "背后的亚穆纳河，水面平滑如镜", "mist": "河面上蒸腾的轻柔晨雾" },
+    "background": { "landscape": "远处阿格拉城市的晨间剪影，森林与雾气交织", "sky": "粉橙色渐变的晨曦天空，色彩温和" },
+    "environment": { "ground_hemisphere": "建筑几何与自然河流的和谐统一", "atmosphere": "圣洁、庄严、宁静、典雅" }
+  },
+  "rendering_style": {
+    "lighting": "柔和的侧逆光，为大理石边缘带来圣洁的光辉",
+    "color_grading": "暖白色与清新的植物绿，辅以淡粉色的天空调性",
+    "texture_quality": { "description": "写实建筑航拍", "artifacts": "无缝全景", "stitching": "完美拼接" }
+  },
+  "constraints": {
+    "must_keep": [ "完美的对称构图", "白色圆顶细节", "亚穆纳河背景", "360°全景透视" ],
+    "avoid": [ "大量的游客", "脚手架", "人造电杆", "杂乱的树影" ]
+  },
+  "negative_prompt": [ "ui", "text", "scaffolding", "crowd", "pollution", "dirty river", "low detail" ]
+}"
+}

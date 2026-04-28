@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高清"
+  },
+  "scene_composition": {
+    "location": "纳米比亚，纳米布-诺克卢福国家公园",
+    "camera_position": "无人机跨越云层与沙丘交界处",
+    "camera_height": "中高空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "沙丘脊线如曲线般在画面中穿梭",
+    "weather": "独特的平流雾景观，上方晴空万里",
+    "depth_of_field": "全清晰"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "极其陡峭且锋利的红色沙丘边缘，阴影面呈深紫色", "motion": "云层带有丝滑的流动感" },
+    "midground_subjects": { "terrain": "被白色浓雾填满的沙漠谷地，呈现出“云海漫岛”的视觉感", "river": "无", "mist": "厚重、洁白且平整的低空云团" },
+    "background": { "landscape": "红色的沙丘如浪潮般向远方起伏，直至消失在云海尽头", "sky": "深蓝色的高空，阳光明媚，无杂云" },
+    "environment": { "ground_hemisphere": "极简主义色彩对比", "atmosphere": "奇幻、超现实、极致优雅" }
+  },
+  "rendering_style": {
+    "lighting": "斜侧阳光，将沙丘一分为二，明暗对比强烈",
+    "color_grading": "鲜艳的铁锈红与纯粹的白色、深蓝色",
+    "texture_quality": { "description": "细腻的沙粒纹理与丝滑云雾的质感对比", "artifacts": "无缝360拼接", "stitching": "完美" }
+  },
+  "constraints": {
+    "must_keep": [ "红沙与白云的对比", "锋利的沙脊线", "360°沉浸视角" ],
+    "avoid": [ "足迹", "灌木", "杂乱的云彩" ]
+  },
+  "negative_prompt": [ "ui", "text", "footprints", "bushes", "gray clouds", "messy horizon" ]
+}"
+}

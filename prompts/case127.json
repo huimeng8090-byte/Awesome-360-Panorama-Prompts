@@ -1,0 +1,83 @@
+{
+  "6. {
+  "title": "波罗的海狭长海岸森林航拍",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "波罗的海狭长海岸带",
+    "camera_position": "高空无人机航拍视角",
+    "camera_height": "高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "狭长的海岸陆地，两侧被海洋环绕，茂密的深绿色森林覆盖陆地",
+      "motion": "海浪拍打沙滩形成轻微动态模糊"
+    },
+    "midground_subjects": {
+      "terrain": "米白色的沙滩沿狭长陆地两侧延伸，海浪在沙滩边缘形成白色浪花",
+      "water_body": "两侧的海面呈现从浅绿到深蓝的渐变，清晰倒映天空的白云与太阳",
+      "vegetation": "茂密的温带森林覆盖陆地核心区域，树冠纹理清晰"
+    },
+    "background": {
+      "landscape": "狭长海岸带向远方无限延伸，与海平线相接",
+      "sky": "澄澈的蓝天，大朵蓬松的白云点缀，太阳高悬，阳光在海面形成耀眼反光"
+    },
+    "environment": {
+      "ground_hemisphere": "从高空俯瞰狭长海岸、森林与两侧海洋",
+      "atmosphere": "辽阔、清新、充满自然气息的滨海森林环境"
+    }
+  },
+  "rendering_style": {
+    "lighting": "自然正午阳光，光线强烈，海面反光清晰",
+    "color_grading": "真实自然色彩，以深绿、浅蓝、纯白为主",
+    "texture_quality": {
+      "description": "超写实航拍摄影风格",
+      "artifacts": "轻微自然锐化，无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": [
+      "纯360°全景透视",
+      "高空航拍视角",
+      "狭长海岸森林为核心主体",
+      "无任何UI或界面元素",
+      "高度写实"
+    ],
+    "avoid": [
+      "城市或人工建筑",
+      "人物",
+      "电影感灯光",
+      "奇幻风格",
+      "插画或绘画感",
+      "单帧构图"
+    ]
+  },
+  "negative_prompt": [
+    "ui",
+    "hud",
+    "text overlay",
+    "watermark",
+    "buildings",
+    "bridges",
+    "people",
+    "fantasy art",
+    "illustration",
+    "cinematic lighting",
+    "hdr",
+    "overprocessed",
+    "frame",
+    "border",
+    "cropped view",
+    "broken panorama seams"
+  ]
+}"
+}

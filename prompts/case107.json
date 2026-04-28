@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率"
+  },
+  "scene_composition": {
+    "location": "印度尼西亚拉贾安帕特（Raja Ampat）Wayag岛上空",
+    "camera_position": "高空俯瞰全景",
+    "camera_height": "极高空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "圆锥形岛屿在水面上呈星罗棋布分布",
+    "weather": "晴朗，云朵在海面投下阴影",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "近处半透明的青绿色海水，可见水底沙洲与珊瑚纹理", "motion": "平静" },
+    "midground_subjects": { "terrain": "数百个被深绿色植被覆盖的喀斯特小岛，呈蘑菇状或圆锥状", "river": "无", "mist": "无" },
+    "background": { "landscape": "深蓝色的印度洋与远处的岛屿群连接到360度地平线", "sky": "巨大的、带有透视畸变的积云点缀在蔚蓝天空中" },
+    "environment": { "ground_hemisphere": "破碎的地貌与纯净海洋的结合", "atmosphere": "原始、热带、宁静" }
+  },
+  "rendering_style": {
+    "lighting": "正午充足的阳光，直射海面，产生极佳的透明度",
+    "color_grading": "极高饱和度的青绿色、宝石蓝与森林绿",
+    "texture_quality": { "description": "超清晰卫星及无人机摄影", "artifacts": "无缝360拼接", "stitching": "完美" }
+  },
+  "constraints": {
+    "must_keep": [ "特有的圆锥形小岛", "海水的颜色分层", "360°球形视野", "云影效果" ],
+    "avoid": [ "大型船只", "现代码头", "浑浊的水质" ]
+  },
+  "negative_prompt": [ "ui", "text", "big ships", "pollution", "muddy water", "flat lighting" ]
+}"
+}

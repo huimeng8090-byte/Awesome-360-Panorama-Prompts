@@ -1,0 +1,35 @@
+{
+  "{
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "辽阔的蒙古大草原",
+    "camera_position": "无人机中低空航拍",
+    "camera_height": "低空视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "自然地平线延展",
+    "weather": "晴朗，伴有拉伸的卷云",
+    "depth_of_field": "全景深"
+  },
+  "visual_elements": {
+    "foreground": { "primary_view": "一群普氏野马在绿色的草原上自由奔跑与站立", "motion": "野马带有轻微的动态感" },
+    "midground_subjects": { "terrain": "一望无际的、平缓起伏的绿色草地", "river": "远方隐约可见的蓝色地表水体", "mist": "无" },
+    "background": { "landscape": "地平线极低，草原与天空在远方交汇成一线", "sky": "巨大的、呈现弧形畸变的湛蓝天空，伴有稀疏白云" },
+    "environment": { "ground_hemisphere": "纯净、广阔的草原植被", "atmosphere": "宁静、原始、充满生命力" }
+  },
+  "rendering_style": {
+    "lighting": "明亮的自然日光，阴影柔和地投射在草地上",
+    "color_grading": "高饱和度的鲜绿色与天空蓝",
+    "texture_quality": { "description": "国家地理风格野生动物摄影", "artifacts": "无人工痕迹", "stitching": "无缝拼接" }
+  },
+  "constraints": {
+    "must_keep": [ "野马群主体", "地平线居中", "纯粹草原景观", "360°全景" ],
+    "avoid": [ "人类建筑", "围栏", "道路", "过度锐化" ]
+  },
+  "negative_prompt": [ "ui", "text", "buildings", "fence", "people", "cars", "distorted horses" ]
+}"
+}

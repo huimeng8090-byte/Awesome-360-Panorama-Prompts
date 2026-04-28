@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "普托拉纳平原峡谷秋色全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "俄罗斯普托拉纳平原峡谷",
+    "camera_position": "无人机位于峡谷拐角处上空",
+    "camera_height": "高空俯瞰",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "秋季晴空，空气极度通透",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "陡峭的阶梯状岩壁，岩石层理分明，顶部覆盖金色的落叶松",
+      "motion": "静止"
+    },
+    "midground_subjects": {
+      "terrain": "深邃的V型峡谷切割地表，谷底可见蜿蜒的细小河流",
+      "vegetation": "漫山遍野的金黄色原始森林，色彩浓烈"
+    },
+    "background": {
+      "landscape": "平坦的高原面延伸至天际，地壳裂缝视觉震撼",
+      "sky": "清澈深蓝色天空，无云"
+    },
+    "environment": {
+      "ground_hemisphere": "原始地壳变动形成的巨型玄武岩台地",
+      "atmosphere": "壮阔、苍茫、地学奇观"
+    }
+  },
+  "rendering_style": {
+    "lighting": "高角度顶光偏侧，强化岩石的阶梯结构与深度",
+    "color_grading": "高饱和的金黄色与冷灰色岩石对比",
+    "texture_quality": {
+      "description": "超写实航拍摄影",
+      "stitching": "无缝拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["阶梯状岩层", "金色秋季森林", "360全景"],
+    "avoid": ["夏季绿植", "雪景", "道路", "车辆"]
+  },
+  "negative_prompt": ["ui", "watermark", "greenery", "snow", "road", "cars"]
+}"
+}

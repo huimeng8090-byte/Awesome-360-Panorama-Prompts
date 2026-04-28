@@ -1,0 +1,51 @@
+{
+  "{
+  "title": "阿尔及利亚阿杰尔高原地质全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "阿尔及利亚阿杰尔高原",
+    "camera_position": "无人机位于巨大风蚀岩群上方",
+    "camera_height": "高空俯瞰视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "晴朗干燥，空气通透",
+    "depth_of_field": "无限景深"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "大片橙黄色沙丘与形态奇特的黑色风蚀砂岩立柱交错，阴影深邃",
+      "motion": "静止"
+    },
+    "midground_subjects": {
+      "terrain": "‘石林’景观散布在沙海中，展现亿万年风化痕迹",
+      "details": "岩石表面的蜂窝状孔洞与沙面涟漪清晰可见"
+    },
+    "background": {
+      "landscape": "广阔的高原平台向地平线无限延伸，地质结构奇崛",
+      "sky": "浅蓝色天空，少量拉伸状白云"
+    },
+    "environment": {
+      "ground_hemisphere": "原始、古老、带有异星气息的荒漠岩林",
+      "atmosphere": "神秘、古老、地质美学"
+    }
+  },
+  "rendering_style": {
+    "lighting": "午后侧光，产生极具立体感的长阴影",
+    "color_grading": "强烈的橙沙与黑岩对比，自然饱和度",
+    "texture_quality": {
+      "description": "超高细节地质航拍",
+      "stitching": "无缝360度全景"
+    }
+  },
+  "constraints": {
+    "must_keep": ["黑色岩山与沙丘结合", "360全景透视", "高度写实"],
+    "avoid": ["植被", "现代建筑", "车辆", "人物"]
+  },
+  "negative_prompt": ["ui", "watermark", "greenery", "cars", "buildings", "tent"]
+}"
+}

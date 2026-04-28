@@ -1,0 +1,52 @@
+{
+  "{
+  "title": "撒哈拉核心区U型沙丘盆地全景",
+  "image_meta": {
+    "type": "360度等距柱状全景图",
+    "projection": "完整球形等距柱状投影",
+    "aspect_ratio": "2:1",
+    "resolution": "超高分辨率全景"
+  },
+  "scene_composition": {
+    "location": "阿尔及利亚撒哈拉核心区",
+    "camera_position": "无人机位于巨大沙丘盆地正上方",
+    "camera_height": "中高空航拍视角",
+    "field_of_view": "360° 水平，180° 垂直",
+    "projection_behavior": "正确的等距柱状畸变",
+    "weather": "日落前夕，空气通透",
+    "depth_of_field": "无限景深（整个全景清晰）"
+  },
+  "visual_elements": {
+    "foreground": {
+      "primary_view": "底部宽大的U型沙丘盆地，深色阴影勾勒出沙丘的陡峭边缘，沙纹细腻",
+      "motion": "静止"
+    },
+    "midground_subjects": {
+      "terrain": "金黄色的连绵沙丘与深褐色的岩石基底交错分布",
+      "details": "沙脊线笔直清晰，迎风坡与背风坡明暗对比极致"
+    },
+    "background": {
+      "landscape": "地平线在远方微微弯曲，无尽沙漠向天边延伸",
+      "sky": "夕阳位于视觉中心，天空呈现淡蓝色至明亮的金黄色过渡"
+    },
+    "environment": {
+      "ground_hemisphere": "荒凉宏大的沙漠腹地俯视图",
+      "atmosphere": "静谧、苍凉、宏伟"
+    }
+  },
+  "rendering_style": {
+    "lighting": "低角度夕阳斜射，长阴影增强地貌立体感",
+    "color_grading": "暖橙色调与深色阴影形成强烈对比",
+    "texture_quality": {
+      "description": "写实风光摄影风格",
+      "artifacts": "无人工痕迹",
+      "stitching": "无缝360度全景拼接"
+    }
+  },
+  "constraints": {
+    "must_keep": ["纯360°全景透视", "沙丘阴影对比", "高度写实"],
+    "avoid": ["植被", "水源", "人工建筑", "人物"]
+  },
+  "negative_prompt": ["ui", "watermark", "people", "buildings", "vegetation", "distorted horizon"]
+}"
+}
