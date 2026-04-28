@@ -21,7 +21,6 @@
 | [**🌊 水域** <sup>(58)</sup>](#%F0%9F%8C%8A%20%E6%B0%B4%E5%9F%9F) | [**🏔️ 山川** <sup>(57)</sup>](#%F0%9F%8F%94%EF%B8%8F%20%E5%B1%B1%E5%B7%9D) | [**🎨 其他** <sup>(16)</sup>](#%F0%9F%8E%A8%20%E5%85%B6%E4%BB%96) |
 | [**❄️ 雪境** <sup>(7)</sup>](#%E2%9D%84%EF%B8%8F%20%E9%9B%AA%E5%A2%83) | [**🏙️ 城市** <sup>(7)</sup>](#%F0%9F%8F%99%EF%B8%8F%20%E5%9F%8E%E5%B8%82) | [**🌸 春景** <sup>(4)</sup>](#%F0%9F%8C%B8%20%E6%98%A5%E6%99%AF) |
 | [**🌲 森林** <sup>(4)</sup>](#%F0%9F%8C%B2%20%E6%A3%AE%E6%9E%97) |  |  |
-</details>
 </div>
 <details>
 <summary><b>📖 如何使用这些提示词？</b></summary>
@@ -46,7 +45,7 @@
 <a href="images/case004/output.png"><img src="images/case004/output.png" width="100%" alt="冰岛春日花海瀑布全景提示词" /></a>
 <br/><b>冰岛春日花海瀑布全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23004-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -133,15 +132,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case004.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case007/output.png"><img src="images/case007/output.png" width="100%" alt="春日雏菊花海超低机位沉浸全景提示词" /></a>
 <br/><b>春日雏菊花海超低机位沉浸全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23007-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -231,15 +228,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case007.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case008/output.png"><img src="images/case008/output.png" width="100%" alt="湖畔漫步：1.6米人眼高度360度沉浸全景提示词" /></a>
 <br/><b>湖畔漫步：1.6米人眼高度360度沉浸全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23008-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -319,15 +314,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case008.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case009/output.png"><img src="images/case009/output.png" width="100%" alt="幻境之巅：银河拱门下的云端天梯360°全景提示词" /></a>
 <br/><b>幻境之巅：银河拱门下的云端天梯360°全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23009-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -419,15 +412,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case009.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case010/output.png"><img src="images/case010/output.png" width="100%" alt="星轨云海下的山巅灯火 360全景提示词" /></a>
 <br/><b>星轨云海下的山巅灯火 360全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23010-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -522,15 +513,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case010.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case101/output.png"><img src="images/case101/output.png" width="100%" alt="云海松风：黄山奇峰的仙境全景" /></a>
 <br/><b>云海松风：黄山奇峰的仙境全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23101-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -571,15 +560,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case101.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case103/output.png"><img src="images/case103/output.png" width="100%" alt="水墨浮城：威尼斯水网的沉浸式历史画卷" /></a>
 <br/><b>水墨浮城：威尼斯水网的沉浸式历史画卷</b>
 <br/><img src="https://img.shields.io/badge/No.-%23103-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -620,15 +607,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case103.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case104/output.png"><img src="images/case104/output.png" width="100%" alt="永恒对称：印度泰姬陵与亚穆纳河的圣洁清晨" /></a>
 <br/><b>永恒对称：印度泰姬陵与亚穆纳河的圣洁清晨</b>
 <br/><img src="https://img.shields.io/badge/No.-%23104-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -669,15 +654,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case104.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case107/output.png"><img src="images/case107/output.png" width="100%" alt="千岛迷宫：拉贾安帕特群岛的翡翠珍珠与清澈海域" /></a>
 <br/><b>千岛迷宫：拉贾安帕特群岛的翡翠珍珠与清澈海域</b>
 <br/><img src="https://img.shields.io/badge/No.-%23107-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -718,15 +701,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case107.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case110/output.png"><img src="images/case110/output.png" width="100%" alt="地狱之喉：汹涌磅礴的伊瓜苏马蹄形大瀑布" /></a>
 <br/><b>地狱之喉：汹涌磅礴的伊瓜苏马蹄形大瀑布</b>
 <br/><img src="https://img.shields.io/badge/No.-%23110-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -767,15 +748,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case110.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case112/output.png"><img src="images/case112/output.png" width="100%" alt="加勒比之光：清澈如镜的青绿色离岛与珊瑚礁" /></a>
 <br/><b>加勒比之光：清澈如镜的青绿色离岛与珊瑚礁</b>
 <br/><img src="https://img.shields.io/badge/No.-%23112-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -816,15 +795,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case112.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case113/output.png"><img src="images/case113/output.png" width="100%" alt="云巔神迹：巴西里约救世基督像与壮丽云海" /></a>
 <br/><b>云巔神迹：巴西里约救世基督像与壮丽云海</b>
 <br/><img src="https://img.shields.io/badge/No.-%23113-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -865,15 +842,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case113.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case118/output.png"><img src="images/case118/output.png" width="100%" alt="南极洲冰山与极地海域360度航拍全景" /></a>
 <br/><b>南极洲冰山与极地海域360度航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23118-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -930,15 +905,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case118.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case119/output.png"><img src="images/case119/output.png" width="100%" alt="上海陆家嘴摩天大楼夜景360度全景" /></a>
 <br/><b>上海陆家嘴摩天大楼夜景360度全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23119-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -995,15 +968,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case119.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case012/output.png"><img src="images/case012/output.png" width="100%" alt="春日林地全景，花海与晨光的洗礼提示词" /></a>
 <br/><b>春日林地全景，花海与晨光的洗礼提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23012-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1094,15 +1065,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case012.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case126/output.png"><img src="images/case126/output.png" width="100%" alt="北极冰封海面日出360°全景" /></a>
 <br/><b>北极冰封海面日出360°全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23126-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1191,15 +1160,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case126.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case127/output.png"><img src="images/case127/output.png" width="100%" alt="波罗的海狭长海岸森林360°航拍全景" /></a>
 <br/><b>波罗的海狭长海岸森林360°航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23127-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1288,15 +1255,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case127.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case023/output.png"><img src="images/case023/output.png" width="100%" alt="悉尼港：世界级都市海港全景" /></a>
 <br/><b>悉尼港：世界级都市海港全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23023-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1354,15 +1319,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case023.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case025/output.png"><img src="images/case025/output.png" width="100%" alt="60度绝美海岛全景图：碧海、金沙与绿岛" /></a>
 <br/><b>60度绝美海岛全景图：碧海、金沙与绿岛</b>
 <br/><img src="https://img.shields.io/badge/No.-%23025-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1443,15 +1406,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case025.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case026/output.png"><img src="images/case026/output.png" width="100%" alt="拉贾安帕特：360度热带群岛航拍全景" /></a>
 <br/><b>拉贾安帕特：360度热带群岛航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23026-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1540,15 +1501,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case026.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case027/output.png"><img src="images/case027/output.png" width="100%" alt="拉贾安帕特喀斯特群岛高空全景" /></a>
 <br/><b>拉贾安帕特喀斯特群岛高空全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23027-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1634,15 +1593,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case027.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case028/output.png"><img src="images/case028/output.png" width="100%" alt="航拍拉贾安帕特群岛：黎明时分梦幻般的喀斯特海景" /></a>
 <br/><b>航拍拉贾安帕特群岛：黎明时分梦幻般的喀斯特海景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23028-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1728,15 +1685,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case028.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case029/output.png"><img src="images/case029/output.png" width="100%" alt="四王群岛，360度空中全景：遗失的蓝色天堂" /></a>
 <br/><b>四王群岛，360度空中全景：遗失的蓝色天堂</b>
 <br/><img src="https://img.shields.io/badge/No.-%23029-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1817,15 +1772,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case029.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case030/output.png"><img src="images/case030/output.png" width="100%" alt="龙目岛吉利群岛的高空无缝360全景" /></a>
 <br/><b>龙目岛吉利群岛的高空无缝360全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23030-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -1910,15 +1863,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case030.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case035/output.png"><img src="images/case035/output.png" width="100%" alt="梦幻云海：黄山奇峰360度航拍全景提示词" /></a>
 <br/><b>梦幻云海：黄山奇峰360度航拍全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23035-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2009,15 +1960,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case035.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case041/output.png"><img src="images/case041/output.png" width="100%" alt="上海陆家嘴黄浦江日出 360° 全景航拍" /></a>
 <br/><b>上海陆家嘴黄浦江日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23041-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2074,15 +2023,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case041.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case043/output.png"><img src="images/case043/output.png" width="100%" alt="黄山花岗岩峰林云海 360° 全景航拍" /></a>
 <br/><b>黄山花岗岩峰林云海 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23043-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2139,15 +2086,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case043.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case046/output.png"><img src="images/case046/output.png" width="100%" alt="南极半岛冰雪海湾日出 360° 全景航拍" /></a>
 <br/><b>南极半岛冰雪海湾日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23046-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2204,15 +2149,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case046.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case048/output.png"><img src="images/case048/output.png" width="100%" alt="里约热内卢基督像云海日出 360° 全景航拍" /></a>
 <br/><b>里约热内卢基督像云海日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23048-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2269,15 +2212,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case048.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case056/output.png"><img src="images/case056/output.png" width="100%" alt="冰岛高地苔原秋季彩林与湖泊 360° 全景航拍" /></a>
 <br/><b>冰岛高地苔原秋季彩林与湖泊 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23056-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2334,15 +2275,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case056.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case058/output.png"><img src="images/case058/output.png" width="100%" alt="加勒比海群岛珊瑚礁海域 360° 全景航拍" /></a>
 <br/><b>加勒比海群岛珊瑚礁海域 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23058-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2399,15 +2338,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case058.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case059/output.png"><img src="images/case059/output.png" width="100%" alt="阿尔泰山区曲流河与雪山日出 360° 全景航拍" /></a>
 <br/><b>阿尔泰山区曲流河与雪山日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23059-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2464,15 +2401,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case059.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case060/output.png"><img src="images/case060/output.png" width="100%" alt="西伯利亚苔原湿地曲流河 360° 全景航拍" /></a>
 <br/><b>西伯利亚苔原湿地曲流河 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23060-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2529,15 +2464,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case060.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case061/output.png"><img src="images/case061/output.png" width="100%" alt="伊瓜苏大瀑布群彩虹奇观 360° 全景航拍" /></a>
 <br/><b>伊瓜苏大瀑布群彩虹奇观 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23061-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2594,15 +2527,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case061.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case065/output.png"><img src="images/case065/output.png" width="100%" alt="加勒比海热带珊瑚礁群岛 360° 全景航拍" /></a>
 <br/><b>加勒比海热带珊瑚礁群岛 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23065-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2659,15 +2590,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case065.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case066/output.png"><img src="images/case066/output.png" width="100%" alt="堪察加荒野溪流棕熊栖息地 360° 全景航拍" /></a>
 <br/><b>堪察加荒野溪流棕熊栖息地 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23066-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2724,15 +2653,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case066.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case068/output.png"><img src="images/case068/output.png" width="100%" alt="印尼四王岛热带群岛珊瑚礁海域 360° 全景航拍" /></a>
 <br/><b>印尼四王岛热带群岛珊瑚礁海域 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23068-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2790,15 +2717,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case068.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case069/output.png"><img src="images/case069/output.png" width="100%" alt="南极极地雪原冰湖荒原 360° 全景航拍" /></a>
 <br/><b>南极极地雪原冰湖荒原 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23069-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2855,15 +2780,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case069.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case076/output.png"><img src="images/case076/output.png" width="100%" alt="冰镜岩岛：贝加尔湖冰裂镜面的日落盛景" /></a>
 <br/><b>冰镜岩岛：贝加尔湖冰裂镜面的日落盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23076-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2904,15 +2827,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case076.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case077/output.png"><img src="images/case077/output.png" width="100%" alt="蓝湖秋境：堪察加地热蓝湖的秋日盛景" /></a>
 <br/><b>蓝湖秋境：堪察加地热蓝湖的秋日盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23077-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -2953,15 +2874,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case077.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case079/output.png"><img src="images/case079/output.png" width="100%" alt="绿野九曲：堪察加原始湿地的河曲湖境盛景" /></a>
 <br/><b>绿野九曲：堪察加原始湿地的河曲湖境盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23079-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3002,15 +2921,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case079.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case084/output.png"><img src="images/case084/output.png" width="100%" alt="冰裂岩岛：贝加尔湖碎冰蓝冰的凛冬奇景" /></a>
 <br/><b>冰裂岩岛：贝加尔湖碎冰蓝冰的凛冬奇景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23084-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3051,15 +2968,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case084.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case091/output.png"><img src="images/case091/output.png" width="100%" alt="极地冰境：南极半岛的冰雪海湾日落盛景" /></a>
 <br/><b>极地冰境：南极半岛的冰雪海湾日落盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23091-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3100,15 +3015,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case091.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case093/output.png"><img src="images/case093/output.png" width="100%" alt="云巅之上：北美雪山云海的日出盛景" /></a>
 <br/><b>云巅之上：北美雪山云海的日出盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23093-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3149,15 +3062,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case093.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case094/output.png"><img src="images/case094/output.png" width="100%" alt="蓝海秘境：加勒比热带海岛的日落金辉" /></a>
 <br/><b>蓝海秘境：加勒比热带海岛的日落金辉</b>
 <br/><img src="https://img.shields.io/badge/No.-%23094-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3198,15 +3109,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case094.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case097/output.png"><img src="images/case097/output.png" width="100%" alt="爱琴海之吻：圣托里尼的蓝白浪漫全景" /></a>
 <br/><b>爱琴海之吻：圣托里尼的蓝白浪漫全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23097-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3247,15 +3156,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case097.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case099/output.png"><img src="images/case099/output.png" width="100%" alt="雷鸣之烟：维多利亚大瀑布的垂直震撼" /></a>
 <br/><b>雷鸣之烟：维多利亚大瀑布的垂直震撼</b>
 <br/><img src="https://img.shields.io/badge/No.-%23099-4ECDC4?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3296,8 +3203,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case099.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -3307,7 +3212,7 @@
 <a href="images/case001/output.png"><img src="images/case001/output.png" width="100%" alt="春日梯田大地颂歌·360全景提示词" /></a>
 <br/><b>春日梯田大地颂歌·360全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23001-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3398,15 +3303,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case001.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case002/output.png"><img src="images/case002/output.png" width="100%" alt="万物复苏云巅梯田春色沉浸式空间全景提示词" /></a>
 <br/><b>万物复苏云巅梯田春色沉浸式空间全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23002-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3492,15 +3395,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case002.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case005/output.png"><img src="images/case005/output.png" width="100%" alt="梦幻春日大地：繁花梯田与孤傲樱树 360 全景提示词" /></a>
 <br/><b>梦幻春日大地：繁花梯田与孤傲樱树 360 全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23005-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3589,15 +3490,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case005.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case006/output.png"><img src="images/case006/output.png" width="100%" alt="金山玉幕·360度春天雪山日落梯田奇观全景提示词" /></a>
 <br/><b>金山玉幕·360度春天雪山日落梯田奇观全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23006-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3690,15 +3589,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case006.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case100/output.png"><img src="images/case100/output.png" width="100%" alt="大地调色盘：张掖丹霞的斑斓地质史诗" /></a>
 <br/><b>大地调色盘：张掖丹霞的斑斓地质史诗</b>
 <br/><img src="https://img.shields.io/badge/No.-%23100-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3739,15 +3636,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case100.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case102/output.png"><img src="images/case102/output.png" width="100%" alt="金色脊线：撒哈拉沙漠的极简光影史诗" /></a>
 <br/><b>金色脊线：撒哈拉沙漠的极简光影史诗</b>
 <br/><img src="https://img.shields.io/badge/No.-%23102-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3788,15 +3683,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case102.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case106/output.png"><img src="images/case106/output.png" width="100%" alt="沙海幻境：纳米布沙漠红色沙丘与罕见平流云海" /></a>
 <br/><b>沙海幻境：纳米布沙漠红色沙丘与罕见平流云海</b>
 <br/><img src="https://img.shields.io/badge/No.-%23106-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3837,15 +3730,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case106.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case108/output.png"><img src="images/case108/output.png" width="100%" alt="永恒丰碑：吉萨大金字塔群与撒哈拉沙漠的落日余晖" /></a>
 <br/><b>永恒丰碑：吉萨大金字塔群与撒哈拉沙漠的落日余晖</b>
 <br/><img src="https://img.shields.io/badge/No.-%23108-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3886,15 +3777,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case108.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case109/output.png"><img src="images/case109/output.png" width="100%" alt="地球脉动：堪察加半岛深秋火山与色彩斑斓的苔原" /></a>
 <br/><b>地球脉动：堪察加半岛深秋火山与色彩斑斓的苔原</b>
 <br/><img src="https://img.shields.io/badge/No.-%23109-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3935,15 +3824,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case109.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case111/output.png"><img src="images/case111/output.png" width="100%" alt="极寒巅峰：瑞士阿尔卑斯山脉的银色冰雪荒原" /></a>
 <br/><b>极寒巅峰：瑞士阿尔卑斯山脉的银色冰雪荒原</b>
 <br/><img src="https://img.shields.io/badge/No.-%23111-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -3984,15 +3871,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case111.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case115/output.png"><img src="images/case115/output.png" width="100%" alt="阿杰尔高原岩林与沙丘360度全景" /></a>
 <br/><b>阿杰尔高原岩林与沙丘360度全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23115-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4049,15 +3934,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case115.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case117/output.png"><img src="images/case117/output.png" width="100%" alt="撒哈拉线性沙丘日落360度航拍全景" /></a>
 <br/><b>撒哈拉线性沙丘日落360度航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23117-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4114,15 +3997,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case117.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case120/output.png"><img src="images/case120/output.png" width="100%" alt="张掖七彩丹霞地貌360度航拍全景" /></a>
 <br/><b>张掖七彩丹霞地貌360度航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23120-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4179,15 +4060,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case120.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case121/output.png"><img src="images/case121/output.png" width="100%" alt="普托拉纳平原玄武岩峡谷秋色全景" /></a>
 <br/><b>普托拉纳平原玄武岩峡谷秋色全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23121-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4244,15 +4123,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case121.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case123/output.png"><img src="images/case123/output.png" width="100%" alt="撒哈拉U型沙丘盆地360度航拍全景" /></a>
 <br/><b>撒哈拉U型沙丘盆地360度航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23123-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4310,15 +4187,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case123.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case129/output.png"><img src="images/case129/output.png" width="100%" alt="张掖七彩丹霞360°日出全景" /></a>
 <br/><b>张掖七彩丹霞360°日出全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23129-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4407,15 +4282,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case129.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case130/output.png"><img src="images/case130/output.png" width="100%" alt="埃及吉萨金字塔群沙漠航拍" /></a>
 <br/><b>埃及吉萨金字塔群沙漠航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23130-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4504,15 +4377,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case130.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case131/output.png"><img src="images/case131/output.png" width="100%" alt="高原镜面湖泊与山脉" /></a>
 <br/><b>高原镜面湖泊与山脉</b>
 <br/><img src="https://img.shields.io/badge/No.-%23131-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4601,15 +4472,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case131.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case132/output.png"><img src="images/case132/output.png" width="100%" alt="堪察加火山喷发雪景" /></a>
 <br/><b>堪察加火山喷发雪景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23132-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4698,15 +4567,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case132.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case015/output.png"><img src="images/case015/output.png" width="100%" alt="高原俯视：红土地质的宏大指纹" /></a>
 <br/><b>高原俯视：红土地质的宏大指纹</b>
 <br/><img src="https://img.shields.io/badge/No.-%23015-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4764,15 +4631,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case015.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case018/output.png"><img src="images/case018/output.png" width="100%" alt="死亡谷：红沙丘与千年枯木" /></a>
 <br/><b>死亡谷：红沙丘与千年枯木</b>
 <br/><img src="https://img.shields.io/badge/No.-%23018-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4830,15 +4695,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case018.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case021/output.png"><img src="images/case021/output.png" width="100%" alt="纳瓦霍高原：光影雕琢的迷宫" /></a>
 <br/><b>纳瓦霍高原：光影雕琢的迷宫</b>
 <br/><img src="https://img.shields.io/badge/No.-%23021-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4896,15 +4759,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case021.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case032/output.png"><img src="images/case032/output.png" width="100%" alt="山河咏叹：塔吉姆峡谷与阿萨河的360度田园诗画" /></a>
 <br/><b>山河咏叹：塔吉姆峡谷与阿萨河的360度田园诗画</b>
 <br/><img src="https://img.shields.io/badge/No.-%23032-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -4983,15 +4844,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case032.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case034/output.png"><img src="images/case034/output.png" width="100%" alt="360度高空无人机视角下雄伟的梯田群山" /></a>
 <br/><b>360度高空无人机视角下雄伟的梯田群山</b>
 <br/><img src="https://img.shields.io/badge/No.-%23034-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5081,15 +4940,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case034.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case036/output.png"><img src="images/case036/output.png" width="100%" alt="堪察加火山湖与云海全景：自然的极致壮丽" /></a>
 <br/><b>堪察加火山湖与云海全景：自然的极致壮丽</b>
 <br/><img src="https://img.shields.io/badge/No.-%23036-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5176,15 +5033,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case036.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case037/output.png"><img src="images/case037/output.png" width="100%" alt="阿尔及利亚塔西里·纳杰尔（Tassili nAjjer）沙漠与石林 360° 全景：壮阔的自然奇观" /></a>
 <br/><b>阿尔及利亚塔西里·纳杰尔（Tassili nAjjer）沙漠与石林 360° 全景：壮阔的自然奇观</b>
 <br/><img src="https://img.shields.io/badge/No.-%23037-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5270,15 +5125,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case037.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case040/output.png"><img src="images/case040/output.png" width="100%" alt="云巅之上的自然史诗：哈尼梯田日出全景提示词" /></a>
 <br/><b>云巅之上的自然史诗：哈尼梯田日出全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23040-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5363,15 +5216,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case040.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case042/output.png"><img src="images/case042/output.png" width="100%" alt="约旦瓦迪拉姆沙漠峡谷地貌正午 360° 全景航拍" /></a>
 <br/><b>约旦瓦迪拉姆沙漠峡谷地貌正午 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23042-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5428,15 +5279,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case042.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case044/output.png"><img src="images/case044/output.png" width="100%" alt="堪察加半岛火山与火山湖 360° 全景航拍" /></a>
 <br/><b>堪察加半岛火山与火山湖 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23044-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5493,15 +5342,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case044.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case045/output.png"><img src="images/case045/output.png" width="100%" alt="阿尔及利亚撒哈拉沙漠峡谷地貌正午 360° 全景航拍" /></a>
 <br/><b>阿尔及利亚撒哈拉沙漠峡谷地貌正午 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23045-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5558,15 +5405,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case045.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case047/output.png"><img src="images/case047/output.png" width="100%" alt="约旦瓦迪拉姆沙漠峡谷地貌正午 360° 全景航拍" /></a>
 <br/><b>约旦瓦迪拉姆沙漠峡谷地貌正午 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23047-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5623,15 +5468,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case047.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case049/output.png"><img src="images/case049/output.png" width="100%" alt="云南元阳梯田日出 360° 全景航拍" /></a>
 <br/><b>云南元阳梯田日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23049-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5688,15 +5531,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case049.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case050/output.png"><img src="images/case050/output.png" width="100%" alt="安第斯高原地热池与湖泊 360° 全景航拍" /></a>
 <br/><b>安第斯高原地热池与湖泊 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23050-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5753,15 +5594,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case050.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case051/output.png"><img src="images/case051/output.png" width="100%" alt="纳米布沙漠峡谷地貌日出 360° 全景航拍" /></a>
 <br/><b>纳米布沙漠峡谷地貌日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23051-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5818,15 +5657,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case051.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case052/output.png"><img src="images/case052/output.png" width="100%" alt="天山山脉戈壁雪原日出 360° 全景航拍" /></a>
 <br/><b>天山山脉戈壁雪原日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23052-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5883,15 +5720,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case052.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case053/output.png"><img src="images/case053/output.png" width="100%" alt="张掖七彩丹霞彩色丘陵正午 360° 全景航拍" /></a>
 <br/><b>张掖七彩丹霞彩色丘陵正午 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23053-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -5948,15 +5783,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case053.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case054/output.png"><img src="images/case054/output.png" width="100%" alt="约旦瓦迪拉姆沙漠峡谷地貌 360° 全景航拍" /></a>
 <br/><b>约旦瓦迪拉姆沙漠峡谷地貌 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23054-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6013,15 +5846,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case054.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case055/output.png"><img src="images/case055/output.png" width="100%" alt="阿尔泰山区蛇形曲流河峡谷 360° 全景航拍》" /></a>
 <br/><b>阿尔泰山区蛇形曲流河峡谷 360° 全景航拍》</b>
 <br/><img src="https://img.shields.io/badge/No.-%23055-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6078,15 +5909,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case055.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case062/output.png"><img src="images/case062/output.png" width="100%" alt="撒哈拉沙漠沙丘戈壁地貌 360° 全景航拍" /></a>
 <br/><b>撒哈拉沙漠沙丘戈壁地貌 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23062-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6143,15 +5972,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case062.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case067/output.png"><img src="images/case067/output.png" width="100%" alt="张掖七彩丹霞彩色丘陵日出 360° 全景航拍" /></a>
 <br/><b>张掖七彩丹霞彩色丘陵日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23067-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6208,15 +6035,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case067.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case070/output.png"><img src="images/case070/output.png" width="100%" alt="北海道秋季火山湖群 360° 全景航拍" /></a>
 <br/><b>北海道秋季火山湖群 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23070-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6273,15 +6098,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case070.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case071/output.png"><img src="images/case071/output.png" width="100%" alt="张掖七彩丹霞彩色丘陵侧光 360° 全景航拍" /></a>
 <br/><b>张掖七彩丹霞彩色丘陵侧光 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23071-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6338,15 +6161,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case071.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case072/output.png"><img src="images/case072/output.png" width="100%" alt="堪察加锥形火山云海日出 360° 全景航拍" /></a>
 <br/><b>堪察加锥形火山云海日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23072-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6403,15 +6224,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case072.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case080/output.png"><img src="images/case080/output.png" width="100%" alt="彩谷秘境：阿尔泰五彩河谷的丹霞峡谷盛景" /></a>
 <br/><b>彩谷秘境：阿尔泰五彩河谷的丹霞峡谷盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23080-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6452,15 +6271,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case080.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case081/output.png"><img src="images/case081/output.png" width="100%" alt="彩丘神迹：张掖丹霞地貌的红层丘陵盛景" /></a>
 <br/><b>彩丘神迹：张掖丹霞地貌的红层丘陵盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23081-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6501,15 +6318,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case081.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case082/output.png"><img src="images/case082/output.png" width="100%" alt="梯田天境：元阳哈尼梯田的日出云海盛景" /></a>
 <br/><b>梯田天境：元阳哈尼梯田的日出云海盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23082-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6550,15 +6365,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case082.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case083/output.png"><img src="images/case083/output.png" width="100%" alt="金沙瀚海：撒哈拉沙漠新月沙丘的正午盛景" /></a>
 <br/><b>金沙瀚海：撒哈拉沙漠新月沙丘的正午盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23083-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6599,15 +6412,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case083.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case086/output.png"><img src="images/case086/output.png" width="100%" alt="火山湖境：堪察加火山群的冰斗湖日出盛景" /></a>
 <br/><b>火山湖境：堪察加火山群的冰斗湖日出盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23086-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6648,15 +6459,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case086.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case087/output.png"><img src="images/case087/output.png" width="100%" alt="彩谷烟岚：地热峡谷的多彩喷烟奇景" /></a>
 <br/><b>彩谷烟岚：地热峡谷的多彩喷烟奇景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23087-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6697,15 +6506,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case087.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case088/output.png"><img src="images/case088/output.png" width="100%" alt="火山圣境：印尼布罗莫火山的日出奇景" /></a>
 <br/><b>火山圣境：印尼布罗莫火山的日出奇景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23088-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6746,15 +6553,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case088.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case089/output.png"><img src="images/case089/output.png" width="100%" alt="蒸汽秘境：地热火山带的翻涌云海奇景" /></a>
 <br/><b>蒸汽秘境：地热火山带的翻涌云海奇景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23089-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6795,15 +6600,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case089.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case090/output.png"><img src="images/case090/output.png" width="100%" alt="瀚海戈壁：撒哈拉沙漠的风蚀岩漠日落盛景" /></a>
 <br/><b>瀚海戈壁：撒哈拉沙漠的风蚀岩漠日落盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23090-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6844,15 +6647,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case090.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case092/output.png"><img src="images/case092/output.png" width="100%" alt="巴西伦索伊斯马拉赫塞斯的沙漠奇景" /></a>
 <br/><b>巴西伦索伊斯马拉赫塞斯的沙漠奇景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23092-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6893,15 +6694,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case092.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case096/output.png"><img src="images/case096/output.png" width="100%" alt="沙漠未来：迪拜棕榈岛的人造奇迹航拍" /></a>
 <br/><b>沙漠未来：迪拜棕榈岛的人造奇迹航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23096-FF6B6B?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -6942,8 +6741,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case096.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -6953,7 +6750,7 @@
 <a href="images/case011/output.png"><img src="images/case011/output.png" width="100%" alt="暮色苍穹：雪国极巅的360度全景颂歌提示词" /></a>
 <br/><b>暮色苍穹：雪国极巅的360度全景颂歌提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23011-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7047,15 +6844,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case011.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case125/output.png"><img src="images/case125/output.png" width="100%" alt="拉普兰雾凇雪林日出360°全景" /></a>
 <br/><b>拉普兰雾凇雪林日出360°全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23125-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7144,15 +6939,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case125.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case128/output.png"><img src="images/case128/output.png" width="100%" alt="格陵兰迪斯科湾巨型冰山360°全景" /></a>
 <br/><b>格陵兰迪斯科湾巨型冰山360°全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23128-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7241,15 +7034,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case128.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case038/output.png"><img src="images/case038/output.png" width="100%" alt="极地冰雪日落，360度航拍全景提示词" /></a>
 <br/><b>极地冰雪日落，360度航拍全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23038-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7331,15 +7122,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case038.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case075/output.png"><img src="images/case075/output.png" width="100%" alt="雪林秘境：芬兰拉普兰雪林的日出盛景" /></a>
 <br/><b>雪林秘境：芬兰拉普兰雪林的日出盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23075-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7380,15 +7169,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case075.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case085/output.png"><img src="images/case085/output.png" width="100%" alt="雪原冰脉：极北冬日冰封雪原的正午盛景" /></a>
 <br/><b>雪原冰脉：极北冬日冰封雪原的正午盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23085-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7429,15 +7216,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case085.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case098/output.png"><img src="images/case098/output.png" width="100%" alt="冰与火之歌：瓦特纳冰川的幽蓝深处" /></a>
 <br/><b>冰与火之歌：瓦特纳冰川的幽蓝深处</b>
 <br/><img src="https://img.shields.io/badge/No.-%23098-74B9FF?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7478,8 +7263,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case098.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -7489,7 +7272,7 @@
 <a href="images/case116/output.png"><img src="images/case116/output.png" width="100%" alt="迪拜哈利法塔夜景360度航拍全景" /></a>
 <br/><b>迪拜哈利法塔夜景360度航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23116-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7546,15 +7329,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case116.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case124/output.png"><img src="images/case124/output.png" width="100%" alt="泰姬陵360°航拍全景" /></a>
 <br/><b>泰姬陵360°航拍全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23124-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7643,8 +7424,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case124.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
@@ -7652,7 +7431,7 @@
 <br/><b>莫斯科：新圣女修道院之夜</b>
 <br/><img src="https://img.shields.io/badge/No.-%23017-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
 <br/><sub>🎨 高定时尚大片、电影感胶片静帧、模拟胶片美学</sub>
-<br/><details><summary>📋 核心提示词</summary>
+
 
 ```json
 {
@@ -7666,15 +7445,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case017.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case039/output.png"><img src="images/case039/output.png" width="100%" alt="云端救赎：里约基督像与日照金山全景提示词" /></a>
 <br/><b>云端救赎：里约基督像与日照金山全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23039-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7758,15 +7535,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case039.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case063/output.png"><img src="images/case063/output.png" width="100%" alt="莫斯科克里姆林宫教堂群日出 360° 全景航拍" /></a>
 <br/><b>莫斯科克里姆林宫教堂群日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23063-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7823,15 +7598,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case063.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case064/output.png"><img src="images/case064/output.png" width="100%" alt="芝加哥城市天际线日出 360° 全景航拍" /></a>
 <br/><b>芝加哥城市天际线日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23064-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7888,15 +7661,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case064.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case095/output.png"><img src="images/case095/output.png" width="100%" alt="古城回响：马丘比丘云端之城的全景秘境" /></a>
 <br/><b>古城回响：马丘比丘云端之城的全景秘境</b>
 <br/><img src="https://img.shields.io/badge/No.-%23095-45B7D1?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -7937,8 +7708,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case095.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -7948,7 +7717,7 @@
 <a href="images/case003/output.png"><img src="images/case003/output.png" width="100%" alt="金色黄昏下的蒲公英花田360全景提示词" /></a>
 <br/><b>金色黄昏下的蒲公英花田360全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23003-FD79A8?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8036,15 +7805,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case003.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case013/output.png"><img src="images/case013/output.png" width="100%" alt="欧式庄园春日郁金香360全景提示词" /></a>
 <br/><b>欧式庄园春日郁金香360全景提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23013-FD79A8?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8136,15 +7903,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case013.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case014/output.png"><img src="images/case014/output.png" width="100%" alt="🌷 春意盎然：微距视界下的360全景宇宙提示词" /></a>
 <br/><b>🌷 春意盎然：微距视界下的360全景宇宙提示词</b>
 <br/><img src="https://img.shields.io/badge/No.-%23014-FD79A8?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8206,8 +7971,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case014.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -8217,7 +7980,7 @@
 <a href="images/case114/output.png"><img src="images/case114/output.png" width="100%" alt="生命律动：蒙古大草原上的普氏野马群自由奔袭" /></a>
 <br/><b>生命律动：蒙古大草原上的普氏野马群自由奔袭</b>
 <br/><img src="https://img.shields.io/badge/No.-%23114-00B894?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8258,15 +8021,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case114.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case122/output.png"><img src="images/case122/output.png" width="100%" alt="拉普兰极地雪树森林日落360度全景" /></a>
 <br/><b>拉普兰极地雪树森林日落360度全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23122-00B894?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8323,15 +8084,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case122.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case020/output.png"><img src="images/case020/output.png" width="100%" alt="伊瓜苏：雨林之巅的圣水" /></a>
 <br/><b>伊瓜苏：雨林之巅的圣水</b>
 <br/><img src="https://img.shields.io/badge/No.-%23020-00B894?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8389,15 +8148,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case020.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case074/output.png"><img src="images/case074/output.png" width="100%" alt="亚马逊热带雨林流域原生地貌 360° 全景航拍" /></a>
 <br/><b>亚马逊热带雨林流域原生地貌 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23074-00B894?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8455,8 +8212,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case074.json)</sub>
-</details>
-</div>
 
 <br/><hr/><br/>
 <div align="center">
@@ -8466,7 +8221,7 @@
 <a href="images/case105/output.png"><img src="images/case105/output.png" width="100%" alt="世界之巅：喜马拉雅珠穆朗玛峰的宏伟群峰" /></a>
 <br/><b>世界之巅：喜马拉雅珠穆朗玛峰的宏伟群峰</b>
 <br/><img src="https://img.shields.io/badge/No.-%23105-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8507,15 +8262,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case105.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case016/output.png"><img src="images/case016/output.png" width="100%" alt="纪念碑谷：图腾柱的时间之塔" /></a>
 <br/><b>纪念碑谷：图腾柱的时间之塔</b>
 <br/><img src="https://img.shields.io/badge/No.-%23016-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8573,15 +8326,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case016.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case019/output.png"><img src="images/case019/output.png" width="100%" alt="死谷恶水盆地：盐碱之花的几何" /></a>
 <br/><b>死谷恶水盆地：盐碱之花的几何</b>
 <br/><img src="https://img.shields.io/badge/No.-%23019-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8639,15 +8390,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case019.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case022/output.png"><img src="images/case022/output.png" width="100%" alt="纪念碑谷：史诗般的晚霞孤峰" /></a>
 <br/><b>纪念碑谷：史诗般的晚霞孤峰</b>
 <br/><img src="https://img.shields.io/badge/No.-%23022-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8705,15 +8454,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case022.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case024/output.png"><img src="images/case024/output.png" width="100%" alt="亚利桑那州：马蹄湾翡翠之环" /></a>
 <br/><b>亚利桑那州：马蹄湾翡翠之环</b>
 <br/><img src="https://img.shields.io/badge/No.-%23024-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8771,15 +8518,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case024.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case031/output.png"><img src="images/case031/output.png" width="100%" alt="光影赞歌：塞洛姆主峰的“日照金山”360度落日全景" /></a>
 <br/><b>光影赞歌：塞洛姆主峰的“日照金山”360度落日全景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23031-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8857,15 +8602,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case031.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case033/output.png"><img src="images/case033/output.png" width="100%" alt="暮色金顶：塞洛姆山脊的360度黄昏全景史诗" /></a>
 <br/><b>暮色金顶：塞洛姆山脊的360度黄昏全景史诗</b>
 <br/><img src="https://img.shields.io/badge/No.-%23033-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -8946,15 +8689,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case033.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case057/output.png"><img src="images/case057/output.png" width="100%" alt="黄山花岗岩峰林日出 360° 全景航拍" /></a>
 <br/><b>黄山花岗岩峰林日出 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23057-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -9011,15 +8752,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case057.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case073/output.png"><img src="images/case073/output.png" width="100%" alt="黄山花岗岩峰林晨雾 360° 全景航拍" /></a>
 <br/><b>黄山花岗岩峰林晨雾 360° 全景航拍</b>
 <br/><img src="https://img.shields.io/badge/No.-%23073-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -9076,15 +8815,13 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case073.json)</sub>
-</details>
-</div>
 
 <hr/>
 <div align="center">
 <a href="images/case078/output.png"><img src="images/case078/output.png" width="100%" alt="黄山奇境：黄山花岗岩峰林的日出丁达尔盛景" /></a>
 <br/><b>黄山奇境：黄山花岗岩峰林的日出丁达尔盛景</b>
 <br/><img src="https://img.shields.io/badge/No.-%23078-A29BFE?style=flat-square" /> <img src="https://img.shields.io/badge/Prompt-✅-3fb950?style=flat-square" />
-<br/><details><summary>📋 核心提示词</summary>
+</div>
 
 ```json
 {
@@ -9125,7 +8862,6 @@
 ```
 
 <sub>📄 [下载完整 JSON](prompts/case078.json)</sub>
-</details>
 </div>
 
 <hr/>
