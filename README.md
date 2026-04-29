@@ -1,37 +1,220 @@
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- HEADER BANNER                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=280&section=header&text=Awesome%20360%C2%B0%20Panorama&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Curated%20AI%20Panoramic%20Prompt%20Gallery&descSize=16&descColor=ffffffaa&descAlignY=52" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=300&section=header&text=Awesome%20360%C2%B0%20Panorama%20Prompts&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=33&desc=Professional%20AI%20Equirectangular%20Prompt%20Library%20%7C%20VR-Ready%20%7C%20JSON%20Structured&descSize=15&descColor=b0d4f1&descAlignY=55" width="100%" />
 </div>
+
 <p align="center">
-<b>🌍 GPT Image / DALL·E 360° 全景 AI 提示词合集</b><br/>
-<i>精选全景视角提示词 · 涵盖山川、水域、城市、星空等多种场景 · JSON 格式开箱即用</i>
+  <a href="https://github.com/huimeng8090-byte/Awesome-360-Panorama-Prompts/stargazers"><img src="https://img.shields.io/github/stars/huimeng8090-byte/Awesome-360-Panorama-Prompts?style=for-the-badge&color=FFD700&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/huimeng8090-byte/Awesome-360-Panorama-Prompts/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge" alt="License"/></a>
+  <img src="https://img.shields.io/badge/Prompts-132-4ECDC4?style=for-the-badge&logo=openai" alt="Prompts"/>
+  <img src="https://img.shields.io/badge/Format-JSON-FF6B6B?style=for-the-badge&logo=json" alt="JSON"/>
+  <img src="https://img.shields.io/badge/VR--Ready-360°-A29BFE?style=for-the-badge" alt="VR"/>
+  <img src="https://img.shields.io/badge/Equirectangular-2:1%20AR-74B9FF?style=for-the-badge" alt="Equirectangular"/>
 </p>
+
+<p align="center">
+  <b>🌍 专业级 360° 等距柱状投影 AI 提示词库 · Professional Equirectangular Prompt Gallery</b><br/>
+  <i>涵盖山川 / 水域 / 城市 / 星空 · 结构化 JSON · VR 全景直出 · 132 个经过验证的高质量案例</i><br/>
+  <i>Covers nature, cityscape, interior & cosmos · Structured JSON · VR-ready output · 132 verified cases</i>
+</p>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- STATS ROW                                                       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <div align="center">
 
-| 🖼️ 案例总数 | 📋 JSON 提示词 | 🌐 高清配图 | 📂 分类数 |
+| 🖼️ 案例总数 Cases | 📋 JSON 提示词 Prompts | 🎨 场景分类 Categories | 📐 投影方式 Projection |
 |:---:|:---:|:---:|:---:|
-| **0** | **132** | **0** | **7** |
+| **132** | **132** | **7** | **Equirectangular 2:1** |
 
 </div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- VISUAL DEMO SECTION                                             -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🎥 Visual Demo — VR 全景预览
+
+> 以下所有图片均为 **等距柱状投影（Equirectangular）**，可直接导入 VR 播放器 / PTGui / Krpano 进行 360° 球形预览。
+>
+> All images use **Equirectangular projection (2:1 aspect ratio)** and are natively compatible with VR headsets, Marzipano, Pannellum, Krpano, and PTGui.
+
+<div align="center">
+
+| 🌊 水域 Water | 🏔️ 山川 Mountain | 🏙️ 城市 Urban |
+|:---:|:---:|:---:|
+| <a href="images/case004/output.png"><img src="images/case004/output.png" width="280" alt="冰岛花海瀑布"/></a> | <a href="images/case009/output.png"><img src="images/case009/output.png" width="280" alt="山川全景"/></a> | <a href="images/case073/output.png"><img src="images/case073/output.png" width="280" alt="城市夜景全景"/></a> |
+| 冰岛春日花海瀑布 | 壮阔山川云海 | 城市霓虹全景 |
+
+</div>
+
+<p align="center"><i>💡 用任意 360° 图片查看器（如 <a href="https://pannellum.org/">Pannellum</a>）打开图片，即可沉浸式 VR 预览 · Open with any equirectangular viewer for immersive VR experience</i></p>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- PROMPT FORMAT SPECIFICATION                                     -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 📐 Prompt Format — 结构化提示词规范
+
+本仓库提示词采用 **标准化 JSON 结构**，精准控制每一个视觉参数，确保 AI 输出专业级 360° 全景效果。
+
+All prompts use a **standardized JSON schema** to precisely control every visual parameter for professional-grade equirectangular panoramic output.
+
+<details open>
+<summary><b>📋 JSON 提示词结构示例 · Schema Example</b></summary>
+
+```json
+{
+  "图像元数据": {
+    "类型": "360度等距柱状全景图",
+    "投影方式": "equirectangular · 完整球形等距柱状投影",
+    "宽高比": "2:1",
+    "分辨率": "8K超高分辨率全景"
+  },
+  "相机参数": {
+    "焦距": "等效 85mm 全画幅定焦镜头",
+    "光圈": "f/1.8 大光圈，虚化背景层次感",
+    "快门": "1/250s",
+    "ISO": "ISO 100 低噪点",
+    "白平衡": "自然日光 5500K"
+  },
+  "场景构图": {
+    "地点": "场景地点描述",
+    "相机位置": "贴近地面 / 低空 / 高空",
+    "视野范围": "水平360度，垂直180度",
+    "投影行为": "正确的等距柱状畸变，确保无缝球形拼接"
+  },
+  "渲染风格": {
+    "光照": "黄金时刻柔和斜射光 / 蓝调时刻漫射光",
+    "调色": "自然写实，高动态范围",
+    "质感质量": {
+      "精度": "极高精度写实主义，细节丰富",
+      "拼接": "完美的360度无缝拼接，无接缝断裂"
+    }
+  },
+  "约束条件": {
+    "必须保留": ["纯360度全景透视", "2:1宽高比", "equirectangular投影"],
+    "必须避免": ["人物", "文字水印", "非全景普通布局", "拼接断裂"]
+  },
+  "负面提示词": ["水印", "文字", "边框", "裁剪视图", "拼接裂缝", "过度处理"]
+}
+```
+
+</details>
+
+### 🔑 核心关键参数 · Key Parameters
+
+| 参数 Parameter | 规范值 Standard Value | 作用 Purpose |
+|:---|:---|:---|
+| `宽高比` | **2:1** | 等距柱状投影标准比例 |
+| `投影方式` | **equirectangular** | 确保 VR 球形映射正确 |
+| `视野范围` | **水平360° / 垂直180°** | 完整球形覆盖 |
+| `焦距` | **85mm 等效焦距** | 自然透视，无畸变 |
+| `光圈` | **f/1.8 ~ f/8** | 控制景深层次 |
+| `分辨率` | **8K / 超高分辨率** | 保证 VR 清晰度 |
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- WORKFLOW SECTION                                                -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🔬 全景分辨率突破方案 · Panorama Resolution Enhancement Workflow
+
+> 仅凭 AI 单次生成往往无法达到 VR 级别的清晰度需求。本仓库推荐以下三阶段工作流，可将最终输出提升至 **16K~32K** 超分辨率全景。
+>
+> A single AI generation rarely meets VR-grade sharpness requirements. The following 3-stage workflow can push final output to **16K–32K** ultra-resolution panoramas.
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│  STAGE 1 · AI 基础图生成                                              │
+│  AI Base Image Generation                                            │
+│                                                                     │
+│  • 使用本仓库 JSON 提示词生成 2:1 基础全景图（建议 4K 起步）             │
+│  • Use repo JSON prompts → generate 2:1 base panorama (4K min)     │
+│  • 工具 Tools: GPT Image / DALL·E / Midjourney / Stable Diffusion   │
+└─────────────────────┬───────────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│  STAGE 2 · AI 切片重绘（Slicing & Redrawing）                         │
+│  AI Tile-based Upscaling & Inpainting                               │
+│                                                                     │
+│  • 将全景图切分为重叠切片（推荐 20% overlap）                            │
+│  • Slice panorama into overlapping tiles (20% overlap recommended)  │
+│  • 对每个切片执行 AI img2img 重绘 / 超分 (×4)                          │
+│  • Run AI img2img inpainting / ×4 upscaling on each tile            │
+│  • 工具 Tools: Stable Diffusion · ControlNet Tile · Real-ESRGAN     │
+└─────────────────────┬───────────────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│  STAGE 3 · PTGui 无缝缝合                                             │
+│  Seamless Stitching with PTGui                                      │
+│                                                                     │
+│  • 将所有重绘切片导入 PTGui / Hugin 进行球面拼接                         │
+│  • Import all inpainted tiles into PTGui / Hugin for spherical stitch│
+│  • 输出 16K~32K 等距柱状全景 · 可直接用于 VR 头显 / 全景播放器            │
+│  • Output 16K–32K equirectangular · Ready for VR headsets & viewers │
+│  • 工具 Tools: PTGui Pro · Hugin · Autopano                          │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**推荐工具链 · Recommended Toolchain：**
+
+| 阶段 Stage | 推荐工具 Recommended Tools | 用途 Purpose |
+|:---|:---|:---|
+| AI 基础生成 | GPT Image, DALL·E 3, Midjourney v6 | 生成结构化全景基础图 |
+| 切片重绘 | SD + ControlNet Tile, Real-ESRGAN | 超分放大 + 细节重绘 |
+| 无缝拼接 | PTGui Pro, Hugin | 球面拼接 + 曝光融合 |
+| VR 预览 | Pannellum, Krpano, Marzipano | 360° 在线/本地预览 |
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- QUICK START & NAVIGATION                                        -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🚀 快速开始 · Quick Start
+
 <div align="center">
 <details>
-<summary><b>📂 快速跳转分类</b></summary>
+<summary><b>📂 场景分类快速跳转 · Browse by Category</b></summary>
 
 | | | |
 |:---:|:---:|:---:|
 | [**🌊 水域** <sup>(58)</sup>](#%F0%9F%8C%8A%20%E6%B0%B4%E5%9F%9F) | [**🏔️ 山川** <sup>(57)</sup>](#%F0%9F%8F%94%EF%B8%8F%20%E5%B1%B1%E5%B7%9D) | [**🎨 其他** <sup>(16)</sup>](#%F0%9F%8E%A8%20%E5%85%B6%E4%BB%96) |
 | [**❄️ 雪境** <sup>(7)</sup>](#%E2%9D%84%EF%B8%8F%20%E9%9B%AA%E5%A2%83) | [**🏙️ 城市** <sup>(7)</sup>](#%F0%9F%8F%99%EF%B8%8F%20%E5%9F%8E%E5%B8%82) | [**🌸 春景** <sup>(4)</sup>](#%F0%9F%8C%B8%20%E6%98%A5%E6%99%AF) |
-| [**🌲 森林** <sup>(4)</sup>](#%F0%9F%8C%B2%20%E6%A3%AE%E6%9E%97) |  |  |
-</div>
-<details>
-<summary><b>📖 如何使用这些提示词？</b></summary>
+| [**🌲 森林** <sup>(4)</sup>](#%F0%9F%8C%B2%20%E6%A3%AE%E6%9E%97) | [📐 提示词规范](#-prompt-format--结构化提示词规范) | [🔬 工作流](#-全景分辨率突破方案--panorama-resolution-enhancement-workflow) |
 
-> 💡 所有提示词均为 **JSON 格式**，可直接复制到 GPT Image / DALL·E 等 AI 绘图工具中使用。
+</details>
+</div>
+
+<details>
+<summary><b>📖 如何使用提示词？· How to Use These Prompts?</b></summary>
+
+> 💡 所有提示词均为 **JSON 格式**，可直接复制到 GPT Image / DALL·E / Midjourney 等 AI 绘图工具中使用。
+>
+> All prompts are in **JSON format** and can be directly copied into GPT Image, DALL·E, Midjourney, or any compatible AI image tool.
 
 ```
+中文步骤：
 1. 浏览下方画廊，找到感兴趣的全景场景
-2. 点击 "📋 查看提示词" 展开核心参数
-3. 点击 "📄 完整 JSON" 链接下载原始提示词文件
-4. 复制 JSON 到 AI 绘图工具生成你的 360° 全景作品
+2. 点击 "📋 核心提示词" 展开查看核心参数
+3. 点击 "📄 下载完整 JSON" 获取原始提示词文件
+4. 将 JSON 内容粘贴到 AI 绘图工具生成你的 360° 全景作品
+5. 可选：通过"全景分辨率突破方案"工作流进一步提升分辨率
+
+EN Steps:
+1. Browse the gallery below and find a scene you like
+2. Click "📋 核心提示词" to expand the core prompt parameters
+3. Click "📄 下载完整 JSON" to download the raw JSON file
+4. Paste JSON content into your AI image tool to generate 360° panoramas
+5. Optional: use the Resolution Enhancement Workflow to upscale to 16K+
 ```
 
 </details>
@@ -9129,22 +9312,83 @@
 <hr/>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=3&section=header" width="100%" />
 
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- STATS & FOOTER                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 <div align="center">
-<h2>📊 分类统计</h2>
+<h2>📊 分类统计 · Category Distribution</h2>
 
-<sub>🌊 水域 </sub><code>███████████████░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>58 (38%)</sub><br/>
-<sub>🏔️ 山川 </sub><code>██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>57 (37%)</sub><br/>
-<sub>🎨 其他 </sub><code>████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>16 (10%)</sub><br/>
+| 分类 Category | 数量 Count | 占比 % |
+|:---|:---:|:---:|
+| 🌊 水域 Water & Ocean | 58 | 44% |
+| 🏔️ 山川 Mountains & Valleys | 57 | 43% |
+| 🎨 其他 Others | 16 | 12% |
+| ❄️ 雪境 Snow & Ice | 7 | 5% |
+| 🏙️ 城市 Cityscape | 7 | 5% |
+| 🌸 春景 Spring Scenery | 4 | 3% |
+| 🌲 森林 Forest | 4 | 3% |
+
+<br/>
+
+<sub>🌊 水域 </sub><code>████████████████░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>58 (44%)</sub><br/>
+<sub>🏔️ 山川 </sub><code>████████████████░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>57 (43%)</sub><br/>
+<sub>🎨 其他 </sub><code>████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>16 (12%)</sub><br/>
 <sub>❄️ 雪境 </sub><code>█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>7 (5%)</sub><br/>
 <sub>🏙️ 城市 </sub><code>█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>7 (5%)</sub><br/>
 <sub>🌸 春景 </sub><code>█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>4 (3%)</sub><br/>
 <sub>🌲 森林 </sub><code>█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</code> <sub>4 (3%)</sub><br/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" />
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- CONTRIBUTING                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🤝 贡献指南 · Contributing
+
+欢迎提交 PR 添加新的全景提示词案例！请确保：
+
+1. **JSON 格式**：按照本仓库 JSON Schema 规范编写
+2. **宽高比**：必须为 `2:1` Equirectangular
+3. **关键词**：必须包含 `equirectangular`、`360 degree panorama`
+4. **图片**：附上生成效果图（PNG，建议 4K+）
+
+We welcome PRs adding new panorama prompt cases! Requirements:
+- Follow the JSON Schema in this repo
+- Must be `2:1` equirectangular format
+- Must include `equirectangular` and `360 degree panorama` keywords
+- Attach a generated output image (PNG, 4K+ recommended)
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SEO FOOTER LINKS                                                -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🔗 相关资源 · Related Resources
+
+> 🎨 更多 AI 绘图工具、全景摄影教程和提示词技巧，欢迎访问：
+>
+> More AI art tools, 360° photography tutorials, and prompt engineering tips:
+>
+> **➡️ [绘梦拾光 — AI 创作工具与全景摄影资源站 (diysq.com)](https://www.diysq.com)**
+
+| 资源 | 链接 |
+|:---|:---|
+| 🌐 更多 AI 绘图提示词 · More AI Art Prompts | [diysq.com](https://www.diysq.com) |
+| 📸 360° 全景摄影教程 · Panorama Photography Guide | [diysq.com/360-panorama](https://www.diysq.com) |
+| 🛠️ PTGui 无缝拼接教程 · PTGui Stitching Tutorial | [diysq.com](https://www.diysq.com) |
+| 🤖 AI 超分辨率工作流 · AI Upscaling Workflow | [diysq.com](https://www.diysq.com) |
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=140&section=footer" width="100%" />
 
 <div align="center">
-<b>Made with ❤️</b> by <a href="https://www.diysq.com"><b>绘梦拾光</b></a>
+<b>Made with ❤️ for the VR & AI Art community</b><br/>
+by <a href="https://www.diysq.com"><b>绘梦拾光 (diysq.com)</b></a> · 
+<a href="https://github.com/huimeng8090-byte/Awesome-360-Panorama-Prompts/stargazers">⭐ Star this repo if it helped you!</a>
+<br/><br/>
+<sub>Keywords: 360 panorama prompts · AI panorama · equirectangular · VR panorama · DALL-E panorama · GPT Image panorama · Midjourney panorama · stable diffusion 360 · AI art prompts · panoramic photography</sub>
 <br/><br/>
 <sub>数据来源于 <a href="https://www.diysq.com/archives/category/aitupian/360quanjing">360全景视觉</a> 专栏 · 仅供学习参考</sub>
 </div>
