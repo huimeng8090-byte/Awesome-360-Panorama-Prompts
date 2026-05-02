@@ -1,8 +1,9 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- HEADER BANNER                                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- AWESOME-360-PANORAMA-PROMPTS · 绘梦拾光 Technical Solution Library -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=300&section=header&text=Awesome%20360%C2%B0%20Panorama%20Prompts&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=33&desc=Professional%20AI%20Equirectangular%20Prompt%20Library%20%7C%20VR-Ready%20%7C%20JSON%20Structured&descSize=15&descColor=b0d4f1&descAlignY=55" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=320&section=header&text=Awesome%20360°%20Panorama%20Prompts&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=33&desc=AI%20Equirectangular%20Technical%20Solution%20Library%20%7C%20VR-Ready%20%7C%20132%20JSON%20Prompts&descSize=14&descColor=b0d4f1&descAlignY=55" width="100%" />
 </div>
 
 <p align="center">
@@ -11,24 +12,26 @@
   <img src="https://img.shields.io/badge/Prompts-132-4ECDC4?style=for-the-badge&logo=openai" alt="Prompts"/>
   <img src="https://img.shields.io/badge/Format-JSON-FF6B6B?style=for-the-badge&logo=json" alt="JSON"/>
   <img src="https://img.shields.io/badge/VR--Ready-360°-A29BFE?style=for-the-badge" alt="VR"/>
-  <img src="https://img.shields.io/badge/Equirectangular-2:1%20AR-74B9FF?style=for-the-badge" alt="Equirectangular"/>
+  <img src="https://img.shields.io/badge/Equirectangular-2:1-74B9FF?style=for-the-badge" alt="Equirectangular"/>
+  <a href="https://www.diysq.com"><img src="https://img.shields.io/badge/By-绘梦拾光_diysq.com-FF6B9D?style=for-the-badge" alt="绘梦拾光"/></a>
 </p>
 
 <p align="center">
-  <b>🌍 专业级 360° 等距柱状投影 AI 提示词库 · Professional Equirectangular Prompt Library</b><br/>
-  <i>涵盖山川 / 水域 / 城市 / 星空 · 结构化 JSON · VR 全景直出 · 132 个经过验证的高质量案例</i><br/>
-  <i>Covers nature, cityscape, interior & cosmos · Structured JSON · VR-ready output · 132 verified cases</i>
+  <b>🌍 专业级 360° AI 全景图技术解决方案库 · Professional AI Equirectangular Technical Solution Library</b><br/>
+  <i>不只是提示词字典 — 这是专门解决接缝、极点畸变、等距柱状投影生成问题的工程级方案</i><br/>
+  <i>Not just a prompt dictionary — an engineering solution for seams, pole distortion & equirectangular generation</i><br/>
+  <i>涵盖山川 / 水域 / 城市 / 星空 · 结构化 JSON · AirPano 级精准控制 · 132 个经过验证的高质量案例</i>
 </p>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- THE PROBLEM                                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- THE PROBLEM HOOK                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-> ## Most AI-generated 360 panoramas are broken. Here's why.
+> ## Most AI-generated 360 panoramas are broken. Here's why — and how to fix it.
 >
-> 大多数 AI 生成的 360° 全景图都有问题。以下是根本原因。
+> 大多数 AI 生成的 360° 全景图都有问题。以下是根本原因——以及修复方法。
 
 The root cause isn't prompt quality. It's **architectural**: diffusion models were trained on perspective images — photographs taken through a single viewpoint with finite field-of-view. They have no concept of a surface that wraps around a viewer.
 
@@ -36,44 +39,33 @@ The root cause isn't prompt quality. It's **architectural**: diffusion models we
 
 | # | 缺陷 Failure | 你看到的 What You See | 实际发生的 What's Actually Happening |
 |:---:|:---|:---|:---|
-| 1 | **Broken Seams** 拼接断裂 | 投影后 0°/360° 接缝处天空错位、建筑截断 | AI 按单画面构图，左边缘和右边缘是完全独立的像素——从未被约束为"必须匹配" |
-| 2 | **Distorted Horizon** 地平线畸变 | 地平线弯曲如碗底，天空/地面比例失衡 | AI 把 2:1 图片理解为"宽幅风景画"而非"球面展开图"，地平线自然弯曲 |
-| 3 | **Inconsistent Environment** 环境突变 | 向左看是海滩，向右看变成雪山 | AI 在一张图中拼贴多个不连续的空间，没有"全局一致性"概念 |
+| 1 | **Broken Seams** 拼接断裂 | 投影后 0°/360° 接缝处天空错位、建筑截断 | AI 按单画面构图，左右边缘从未被约束为"必须匹配" |
+| 2 | **Distorted Horizon** 地平线畸变 | 地平线弯曲如碗底，天空/地面比例失衡 | AI 把 2:1 图片理解为"宽幅风景画"而非"球面展开图" |
+| 3 | **Inconsistent Environment** 环境突变 | 向左看是海滩，向右看变成雪山 | AI 在一张图中拼贴多个不连续的空间，无"全局一致性" |
 
 This isn't a bug. It's the expected output when you ask a perspective-trained model to produce a spherical projection without explicit structural constraints.
 
-这不是 bug。当你要求一个透视投影训练出来的模型生成球面投影，却不给任何结构性约束时，这就是预期输出。
+这不是 bug——这是预期行为。本仓库提供的是**系统性技术解决方案**，而不仅仅是提示词。
 
 ---
 
-## 🧠 Why 360 AI Generation Breaks — 根本原因
+## 🧠 Why 360 AI Generation Breaks — 根本原因分析
 
 Diffusion models generate pixels. They don't generate geometry. This distinction is critical.
 
 扩散模型生成的是**像素**，不是**几何体**。这个区别是致命的。
 
-When a photographer shoots a 360° panorama, they use a panoramic head on a tripod, rotate the camera in precise increments around the no-parallax point (NPP), and stitch the results. Every frame shares the same optical center. The math is clean: `x = θ / π`, `y = φ / π`.
+When an AI model generates a "panorama," the following architectural failures occur:
 
-摄影师拍全景时，用全景云台绕无视差点旋转，每帧共享同一光心。数学是精确的。
-
-When an AI model generates a "panorama," none of this happens. The model:
-
-当 AI 生成"全景"时，以上过程完全不发生。模型的实际行为是：
-
-- **Generates a perspective image by default.** The latent space is optimized for single-viewpoint, rectilinear projection. The model has never seen a training sample where "left edge = right edge."
-  - **默认生成透视投影图像。** 潜在空间为单视点、直线投影优化。模型从未见过"左边缘 = 右边缘"的训练样本。
-- **Has no understanding of spherical space.** The model doesn't know that pixel column 0 and pixel column 2048 are the same point on a sphere. To it, they're just two unrelated columns of pixels.
-  - **不理解球形空间。** 模型不知道第 0 列像素和第 2048 列像素是球面上的同一点。对它来说，这只是两列毫无关联的像素。
-- **Cannot guarantee global consistency.** Self-attention operates over local patches. The model may generate a coherent left half and a coherent right half, but nothing in the architecture forces them to describe the same continuous space.
-  - **无法保证全局一致性。** 自注意力机制在局部 patch 上操作。模型可能生成了一个连贯的左半部分和一个连贯的右半部分，但架构中没有任何机制强制它们描述同一个连续空间。
-
-The implication: **you cannot solve this by choosing prettier words in your prompt.** You need structural constraints that directly address each failure mode.
+- **默认生成透视投影图像。** 潜在空间为单视点、直线投影优化。模型从未见过"左边缘 = 右边缘"的训练样本。
+- **不理解球形空间。** 模型不知道第 0 列像素和第 2048 列像素是球面上的同一点。
+- **无法保证全局一致性。** 自注意力机制在局部 patch 上操作，架构中没有机制强制左右描述同一连续空间。
 
 结论：**你不能通过选择更漂亮的词汇来解决这个问题。** 你需要直接针对每个失败模式的结构性约束。
 
 ---
 
-## 💡 Key Insight — 核心洞察
+## 💡 Key Insight — 核心洞察：三约束缺一不可
 
 After testing 132+ cases across GPT Image, DALL·E 3, and Midjourney, we identified a critical finding:
 
@@ -89,90 +81,70 @@ Three constraints must be present in every prompt. **Missing any one of them gua
 
 | # | 约束 Constraint | 它解决的问题 What It Solves | 缺失时会发生 What Happens Without It |
 |:---:|:---|:---|:---|
-| 1 | **`equirectangular`** (几何约束) | Forces spherical projection instead of perspective → correct distortion at poles, flat horizon | AI defaults to perspective → curved horizon, non-VR-compatible projection |
-| 2 | **`seamless`** (边界约束) | Forces the model to consider left-right edge continuity → no visible seam at 0°/360° | Left and right edges are independent pixels → visible fracture on sphere wrap |
-| 3 | **`360 panorama`** (场景完整性) | Expands scene scope to full sphere → single continuous environment | AI generates "wide landscape" → multiple disconnected spaces in one image |
+| 1 | **`equirectangular`** 几何约束 | Forces spherical projection → correct distortion at poles, flat horizon | AI defaults to perspective → curved horizon, non-VR-compatible projection |
+| 2 | **`seamless`** 边界约束 | Forces left-right edge continuity → no visible seam at 0°/360° | Left and right edges are independent pixels → visible fracture on sphere wrap |
+| 3 | **`360 panorama`** 场景完整性 | Expands scene scope to full sphere → single continuous environment | AI generates "wide landscape" → multiple disconnected spaces in one image |
 
-**缺一不可。** 这不是"最好有三个"，而是"少一个，输出就不能用于 VR skybox 或 360° 全景播放器。"
-
-Not "nice to have." Not "best practice." **Structurally required.** Remove any one, and the output fails in a predictable, specific way.
+**缺一不可。** Not "nice to have." Not "best practice." **Structurally required.**
 
 ---
 
-## 🧪 Failure Breakdown — 失败机制拆解
+## 🔬 Technical Solutions — 技术解决方案
 
-What exactly breaks when each constraint is missing? Here's the mechanism:
+这是本仓库的核心价值：**针对每一类全景图生成故障，提供可复现的工程级解决方案。**
 
-当缺少每个约束时，具体会发生什么？以下是机制分析：
+This is the core value of this repo: **reproducible engineering solutions for every class of panorama generation failure.**
 
-### Without `equirectangular` → 几何约束缺失
-
-```
-Prompt: "A beautiful mountain landscape, 2:1 aspect ratio"
-```
-
-**What happens:** The model generates a perspective image with forced 2:1 ratio. It looks like a wide photograph — not a spherical projection.
-
-**发生什么：** 模型生成了一张强制 2:1 比例的透视投影图片。看起来像宽幅摄影——而不是球面投影。
-
-**Mechanism:** Without the `equirectangular` keyword, the model's latent space biases toward rectilinear geometry. The horizon curves (because perspective lines converge), the zenith and nadir are compressed (because the model treats top/bottom as image edges, not poles), and the entire image cannot be correctly mapped to a sphere in any 360° viewer or VR headset.
-
-**机制：** 没有 `equirectangular` 关键词，模型潜在空间偏向直线透视几何。地平线弯曲（因为透视线会聚）、天顶天底被压缩（因为模型把它们当图像边缘而非极点处理），整张图无法正确映射到任何 360° 查看器或 VR 头显。
-
-**Result:** ❌ Usable as wallpaper, ❌ unusable as VR skybox, ❌ fails PTGui sphere projection.
-
-**结果：** ❌ 可以做壁纸，❌ 不能做 VR skybox，❌ PTGui 球面投影失败。
-
-### Without `seamless` → 边界约束缺失
+### Solution 1 · 接缝断裂修复 (Seam Repair)
 
 ```
-Prompt: "equirectangular 360 degree panorama of a beach"
+问题：   left edge ≠ right edge → 球面上出现竖向裂缝
+根因：   Transformer attention 不覆盖跨端 patch
+解决：   在 JSON prompt 中显式声明 seamless + 球形拼接约束
+验证：   将输出图像导入 Pannellum / Krpano，旋转至 0°/360° 处检查
 ```
 
-**What happens:** The model generates correct geometry (because `equirectangular` is present), but the left edge and right edge are unrelated. When you wrap this image into a sphere, there's a visible seam — like a badly wallpapered room.
-
-**发生什么：** 模型生成了正确的几何（因为 `equirectangular` 存在），但左边缘和右边缘毫无关联。当你将这张图包裹成球面时，会出现一条可见的接缝——像贴得很差的壁纸。
-
-**Mechanism:** The transformer's attention window operates on local patches. Pixel columns 0 and 2048 are never in the same attention span. Without an explicit `seamless` constraint, nothing in the architecture forces them to be continuous. The model solves each local patch independently — and two independently-solved patches at the wrap point almost never match.
-
-**机制：** Transformer 的注意力窗口在局部 patch 上操作。像素第 0 列和第 2048 列永远不会出现在同一个注意力范围内。没有显式的 `seamless` 约束，架构中没有任何机制强制它们连续。模型独立解决每个局部 patch——而两个独立求解的 patch 在包裹点几乎不可能匹配。
-
-**Result:** ✅ Correct geometry, ❌ visible fracture at 0°/360°, ❌ destroys immersion in VR.
-
-**结果：** ✅ 几何正确，❌ 0°/360° 处可见裂缝，❌ 破坏 VR 沉浸感。
-
-### Without `360 panorama` → 场景约束缺失
+### Solution 2 · 地平线畸变修复 (Horizon Correction)
 
 ```
-Prompt: "equirectangular seamless image of a forest"
+问题：   地平线弯曲，VR 头显中出现"碗底效应"
+根因：   模型以透视投影生成，非等距柱状投影
+解决：   JSON 中锁定 equirectangular + 2:1 宽高比 + 地平线居中
+后处理：  PTGui 球面重投影可二次修正残余畸变
 ```
 
-**What happens:** The model generates a geometrically correct, edge-continuous image — but it's only showing one "slice" of a scene. The left half might be a dense forest, the right half a clearing. Both are individually coherent, but they don't form a single continuous environment.
+### Solution 3 · 环境一致性修复 (Environment Coherence)
 
-**发生什么：** 模型生成了一张几何正确、边缘连续的图片——但它只展示了场景的一个"切片"。左半部分可能是密林，右半部分是空地。各自都连贯，但它们不构成一个连续环境。
+```
+问题：   左右场景风格/光照/色调不连续
+根因：   模型将 360° 空间视为多个独立构图
+解决：   JSON 中明确"单一连续空间"约束 + 光照方向固定
+验证：   在 VR 查看器中缓慢旋转一周，检查场景过渡是否自然
+```
 
-**Mechanism:** `equirectangular` constrains geometry. `seamless` constrains edges. But neither tells the model "this is one place, viewed from all directions." Without `360 panorama`, the model has no reason to maintain environmental coherence across the full horizontal span. It may generate 2-3 "nice scenes" and tile them side by side.
+### Solution 4 · 极点畸变控制 (Pole Distortion Management)
 
-**机制：** `equirectangular` 约束几何。`seamless` 约束边缘。但两者都没有告诉模型"这是一个地方，从各个方向观看。"没有 `360 panorama`，模型没有理由在整个水平跨度上维持环境一致性。它可能生成 2-3 个"好看的场景"然后并排放置。
-
-**Result:** ✅ Correct projection, ✅ no seam, ❌ spatially incoherent, ❌ breaks the "360° illusion" when you rotate.
-
-**结果：** ✅ 投影正确，✅ 无接缝，❌ 空间不连贯，❌ 旋转时打破"360° 幻觉"。
+```
+问题：   天顶/天底区域过度拉伸，内容识别度低
+根因：   等距柱状投影的数学特性（非 bug）
+解决：   在 JSON 中明确告知模型"极点拉伸是预期行为"
+进阶：   Stage 2 切片重绘时单独处理极点区域
+```
 
 ---
 
 ## ❌ Common Failures — 典型失败模式速览
 
-以下是三种失败模式的直观对比。每张图都是用普通提示词（缺少一个或多个约束）生成的实际失败案例占位。
-
 ### 1. Broken Seams — 拼接断裂
 
 <details>
-<summary><b>📖 为什么会出现 Broken Seams？</b></summary>
+<summary><b>📖 为什么会出现 Broken Seams？点击展开机制分析</b></summary>
 
-After `equirectangular` and `seamless` constraints are both present, seams become rare. But when either is missing, the model treats left and right edges as independent regions. The result: sky gradients don't match, foreground objects are cut mid-edge, and the 0°/360° boundary becomes a vertical scar on the sphere.
+When `seamless` is missing, the model treats left and right edges as independent regions. The result: sky gradients don't match, foreground objects are cut mid-edge, and the 0°/360° boundary becomes a vertical scar on the sphere.
 
-当 `equirectangular` 和 `seamless` 约束同时存在时，接缝很少出现。但缺少任何一个，模型就会把左右边缘当作独立区域处理。结果：天空渐变不匹配、前景物体在边缘被截断、0°/360° 边界成为球面上的一道竖疤。
+当 `seamless` 约束缺失，模型把左右边缘当作独立区域处理。结果：天空渐变不匹配、前景物体在边缘被截断、0°/360° 边界成为球面上的一道竖疤。
+
+**Predictable failure:** ❌ Usable as wallpaper · ❌ Unusable as VR skybox · ❌ Fails PTGui sphere projection
 
 </details>
 
@@ -182,19 +154,20 @@ After `equirectangular` and `seamless` constraints are both present, seams becom
 |:---:|:---:|
 | <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=200&text=Broken%20Seam%0A(placeholder)&fontSize=20&fontColor=ffffff" width="420" alt="Broken seam example"/> | <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1b2e&height=200&text=Seamless%20Result%0A(placeholder)&fontSize=20&fontColor=4ECDC4" width="420" alt="Seamless result"/> |
 
-<sub>左：左右边缘不匹配，投影后出现裂缝 · Right edge doesn't match left — seam visible on sphere</sub><br/>
-<sub>右：边缘连续，投影后无缝 · Edges are continuous — seamless on sphere</sub>
+<sub>左：左右边缘不匹配，投影后出现裂缝 · Right: edges are continuous — seamless on sphere</sub>
 
 </div>
 
 ### 2. Distorted Horizon — 地平线畸变
 
 <details>
-<summary><b>📖 为什么会出现 Distorted Horizon？</b></summary>
+<summary><b>📖 为什么会出现 Distorted Horizon？点击展开机制分析</b></summary>
 
-In equirectangular projection, the horizon MUST be a straight horizontal line at the exact vertical center of the image. Any deviation — even 2-3 pixels — becomes a visible "bowl effect" when projected to sphere. Without the `equirectangular` keyword, the model generates perspective geometry where the horizon naturally curves, and no amount of post-processing can fix this without introducing new distortions.
+In equirectangular projection, the horizon MUST be a straight horizontal line at the exact vertical center. Without the `equirectangular` keyword, the model generates perspective geometry where the horizon naturally curves, and no amount of post-processing can fix this without introducing new distortions.
 
-在等距柱状投影中，地平线必须是图像正中间的一条完美水平直线。任何偏差——即使只有 2-3 像素——投影到球面后都会变成可见的"碗底效应"。没有 `equirectangular` 关键词，模型生成的透视几何中地平线自然弯曲，且任何后处理都无法在不引入新畸变的情况下修复这一点。
+在等距柱状投影中，地平线必须是图像正中间的完美水平直线。没有 `equirectangular` 关键词，模型生成透视几何，地平线自然弯曲，任何后处理都无法在不引入新畸变的情况下修复。
+
+**Predictable failure:** ❌ Correct aspect ratio · ❌ Curved horizon in VR · ❌ "Bowl effect" in headset
 
 </details>
 
@@ -204,19 +177,20 @@ In equirectangular projection, the horizon MUST be a straight horizontal line at
 |:---:|:---:|
 | <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=200&text=Curved%20Horizon%0A(placeholder)&fontSize=20&fontColor=ffffff" width="420" alt="Distorted horizon"/> | <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1b2e&height=200&text=Flat%20Horizon%0A(placeholder)&fontSize=20&fontColor=4ECDC4" width="420" alt="Correct horizon"/> |
 
-<sub>左：地平线弯曲，投影后天空/地面比例失衡 · Curved horizon — distorted proportions on sphere</sub><br/>
-<sub>右：地平线居中平直，投影比例正确 · Horizon is flat and centered — correct proportions</sub>
+<sub>左：地平线弯曲，天空/地面比例失衡 · Right: horizon is flat and centered — correct proportions</sub>
 
 </div>
 
 ### 3. Inconsistent Environment — 环境不连续
 
 <details>
-<summary><b>📖 为什么会出现 Inconsistent Environment？</b></summary>
+<summary><b>📖 为什么会出现 Inconsistent Environment？点击展开机制分析</b></summary>
 
-True 360° means: looking left 90° and right 270° should show the same direction. Without the `360 panorama` constraint, the model has no incentive to maintain a single coherent world. It generates 2-3 "pretty scenes" and tiles them horizontally. Each scene is internally consistent, but collectively they describe impossible geography.
+True 360° means: looking left 90° and right 270° should show the same direction. Without the `360 panorama` constraint, the model has no incentive to maintain a single coherent world. It generates 2-3 "pretty scenes" tiled horizontally.
 
-真正的 360° 意味着：向左转 90° 和向右转 270° 应该看到同一个方向。没有 `360 panorama` 约束，模型没有动机维持一个连贯的世界。它生成 2-3 个"漂亮的场景"然后水平排列。每个场景内部一致，但放在一起描述的是不可能存在的地理。
+真正的 360° 意味着：向左转 90° 和向右转 270° 应该看到同一个方向。没有 `360 panorama` 约束，模型没有动机维持一个连贯的世界。
+
+**Predictable failure:** ✅ Correct projection · ✅ No seam · ❌ Spatially incoherent · ❌ Breaks the 360° illusion
 
 </details>
 
@@ -226,8 +200,7 @@ True 360° means: looking left 90° and right 270° should show the same directi
 |:---:|:---:|
 | <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=200&text=Inconsistent%20Env%0A(placeholder)&fontSize=20&fontColor=ffffff" width="420" alt="Inconsistent environment"/> | <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1b2e&height=200&text=Consistent%20360°%0A(placeholder)&fontSize=20&fontColor=4ECDC4" width="420" alt="Consistent environment"/> |
 
-<sub>左：场景风格/光照/色调不连续 · Scene style, lighting, and tone are inconsistent</sub><br/>
-<sub>右：360° 环境统一连续 · Unified, consistent 360° environment</sub>
+<sub>左：场景风格/光照/色调不连续 · Right: unified, consistent 360° environment</sub>
 
 </div>
 
@@ -235,134 +208,63 @@ True 360° means: looking left 90° and right 270° should show the same directi
 
 ## 📐 Technical Constraints — 技术约束规范
 
-For an AI-generated image to be usable as an **equirectangular image** (compatible with VR skybox, Pannellum, Krpano, PTGui), these four constraints must hold simultaneously:
-
-要让 AI 输出的图像成为一张 **可用的 equirectangular image**（兼容 VR skybox、Pannellum、Krpano、PTGui），以下四项约束必须同时成立：
+For an AI-generated image to be usable as a **VR-grade equirectangular image** (compatible with Pannellum, Krpano, PTGui, AirPano workflow), these four constraints must hold simultaneously:
 
 | 约束 Constraint | 规范 Specification | 违反后果 Violation |
 |:---|:---|:---|
-| **Aspect Ratio** 宽高比 | `2:1` (2048×1024, 4096×2048, 7680×3840) | 球面映射后天空/地面比例失衡 |
+| **Aspect Ratio** 宽高比 | `2:1` (4096×2048, 7680×3840, 8192×4096) | 球面映射后天空/地面比例失衡 |
 | **Projection** 投影方式 | `equirectangular` 等距柱状投影 | 无法正确映射到球面，VR 预览严重畸变 |
-| **Edge Continuity** 边缘连续 | 图像左边缘 ≡ 图像右边缘（像素级一致） | 0°/360° 接缝处出现裂缝 |
-| **Spherical Distortion** 极点畸变 | 天顶/天底自然拉伸（数学特性，可接受） | 极点区域过度放大——这是等距柱状投影的固有特性，不是 bug |
+| **Edge Continuity** 边缘连续 | 图像左边缘 ≡ 图像右边缘（像素级连续） | 0°/360° 接缝处出现可见裂缝 |
+| **Spherical Distortion** 极点畸变 | 天顶/天底自然拉伸（数学特性，需明确告知模型） | 极点区域过度修正 → 反而产生新畸变 |
 
 ---
 
 ## 🧠 Why This Method Works — 为什么这套方法有效
 
-This repo's prompts work because they don't just "describe a scene" — they **constrain the output geometry**. Each keyword in the structured JSON serves a specific purpose:
+This repo's prompts work because they don't just "describe a scene" — they **constrain the output geometry**. Each keyword in the structured JSON serves a specific engineering purpose:
 
-本仓库的提示词有效，不是因为它"描述了一个场景"——而是它**约束了输出几何**。结构化 JSON 中的每个关键词都有明确用途：
-
-| 关键词 Keyword | 解决什么问题 Problem It Solves | 对 AI 行为的具体影响 What It Actually Does to the Model |
+| 关键词 Keyword | 解决什么问题 Problem It Solves | 对 AI 行为的具体影响 Mechanism |
 |:---|:---|:---|
-| `equirectangular` | **投影问题** — 默认透视投影无法用于 VR | Shifts the model from perspective rectilinear space to spherical mapping. Horizon becomes flat. Poles stretch naturally. Output becomes VR-compatible. |
-| `seamless` | **边界问题** — 左右边缘独立生成导致接缝 | Biases the model's attention toward edge-column consistency. Not pixel-perfect, but significantly reduces seam visibility. |
-| `360 degree panorama` | **覆盖范围问题** — 单画面构图导致环境碎片化 | Forces the model to generate a single continuous environment across the full horizontal span, rather than tiling multiple scenes. |
-| `2:1 aspect ratio` | **比例锁定** — 防止模型输出 16:9 或 1:1 | Locks the canvas to the only aspect ratio that correctly maps to a sphere in equirectangular projection. |
-| `正确的等距柱状畸变` (JSON 字段) | **畸变预期** — 防止模型"修正"极点拉伸 | Tells the model that pole-stretching is intentional and correct, not an artifact to be avoided. |
+| `equirectangular` | 投影问题 — 默认透视投影无法用于 VR | Shifts model from perspective rectilinear space to spherical mapping |
+| `seamless` | 边界问题 — 左右边缘独立生成导致接缝 | Biases attention toward edge-column consistency |
+| `360 degree panorama` | 覆盖范围 — 单画面构图导致环境碎片化 | Forces single continuous environment across full horizontal span |
+| `2:1 aspect ratio` | 比例锁定 — 防止模型输出 16:9 或 1:1 | Locks canvas to the only ratio that correctly maps to a sphere |
+| `正确的等距柱状畸变` | 畸变预期 — 防止模型"修正"极点拉伸 | Tells the model that pole-stretching is intentional, not an artifact |
 
-**The critical detail:** these constraints work not because they're magic words, but because they align with patterns the model has seen in its training data. The model has encountered equirectangular panoramas during training — it knows what they look like. The keywords just need to strongly enough activate that knowledge.
+**The critical detail:** these constraints work not because they're magic words, but because they align with patterns the model has seen in its training data. The keywords activate pre-existing knowledge of equirectangular panoramas.
 
-**关键细节：** 这些约束有效，不是因为它们是魔法词汇，而是因为它们与模型在训练数据中见过的模式对齐。模型在训练中见过等距柱状全景——它知道长什么样。关键词只需要足够强烈地激活这些知识即可。
-
----
-
-## 🔬 Comparison — 对比实验
-
-### ❌ Incorrect Generation — 错误生成
-
-**提示词（缺少结构约束）：**
-
-```text
-"Generate a beautiful 360 panorama of a cyberpunk city at night"
-```
-
-This prompt fails because it has `360 panorama` (scene scope) but lacks `equirectangular` (geometry) and `seamless` (edge continuity). Based on our Failure Breakdown analysis, the predictable results are:
-
-这个提示词失败了，因为它只有 `360 panorama`（场景范围），缺少 `equirectangular`（几何约束）和 `seamless`（边界约束）。根据我们的失败机制分析，可预测的结果是：
-
-- ❌ **Broken Seam** — 左右边缘地平线不匹配（缺少 `seamless` 边界约束）
-- ❌ **Distorted Horizon** — 地平线弧形弯曲（缺少 `equirectangular` 几何约束）
-- ❌ **Inconsistent Environment** — 场景风格可能突变（`360 panorama` 单独存在时约束力不足）
-- ❌ **Wrong Aspect Ratio** — 宽高比可能不是 2:1（未锁定）
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=220&text=Incorrect%20Generation%0ABroken%20Seam%20+%20Curved%20Horizon%20+%20Inconsistent%20Env%0A(placeholder)&fontSize=16&fontColor=ff6b6b" width="80%" alt="Incorrect generation result"/>
-<br/><sub>缺少结构约束的输出：看似全景，投影后暴露所有缺陷 · Missing structural constraints: looks panoramic, but all three failures manifest on sphere</sub>
-</div>
-
-### ✅ Correct 360 Generation — 正确生成
-
-**提示词（本仓库结构化 JSON，节选）：**
-
-```json
-{
-  "图像元数据": {
-    "类型": "360度等距柱状全景图",
-    "投影方式": "equirectangular · 完整球形等距柱状投影",
-    "宽高比": "2:1"
-  },
-  "场景构图": {
-    "视野范围": "水平360度，垂直180度",
-    "投影行为": "正确的等距柱状畸变，确保无缝球形拼接"
-  },
-  "约束条件": {
-    "必须保留": ["纯360度全景透视", "2:1宽高比", "equirectangular投影"],
-    "必须避免": ["拼接断裂", "非全景普通布局"]
-  }
-}
-```
-
-All three constraints are present: `equirectangular` (geometry ✓) + `seamless` (via 无缝球形拼接 ✓) + `360 panorama` (via 水平360度 ✓). Based on our testing, this combination produces:
-
-三个约束全部存在：`equirectangular`（几何 ✓）+ `seamless`（通过"无缝球形拼接" ✓）+ `360 panorama`（通过"水平360度" ✓）。根据我们的测试，这个组合产生：
-
-- ✅ **Continuous Edges** — 边缘连续，接缝几乎不可见（`seamless` 约束生效）
-- ✅ **Flat Horizon** — 地平线平直居中（`equirectangular` 几何约束生效）
-- ✅ **Consistent 360° Environment** — 全景环境统一连贯（`360 panorama` 场景约束生效）
-- ✅ **VR Skybox Ready** — 正确的 equirectangular image，可直接用于 VR（三项约束叠加）
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1b2e&height=220&text=Correct%20360%20Generation%0ASeamless%20+%20Flat%20Horizon%20+%20Consistent%20Environment%0A(placeholder)&fontSize=16&fontColor=4ECDC4" width="80%" alt="Correct generation result"/>
-<br/><sub>结构化约束的输出：三项约束同时生效，投影后无缝、连续、可直接用于 VR skybox · All three constraints active: seamless, flat horizon, consistent — ready for VR</sub>
-</div>
+**关键细节：** 这些约束有效，不是因为魔法，而是因为它们激活了模型训练数据中已有的等距柱状全景知识。
 
 ---
 
-## 🧨 Showcase — 展示级案例
+## 🧨 Showcase — AirPano 风格精准控制案例
 
 <div align="center">
 
 ### 🌃 Cyberpunk City Night — 赛博朋克城市夜景
 
-<img src="images/case073/output.png" width="100%" alt="Cyberpunk City Night 360 Panorama"/>
+<img src="images/case073/output.png" width="100%" alt="Cyberpunk City Night 360 Panorama — Equirectangular VR Skybox"/>
 
-<sub><i>Equirectangular 360° panorama · Volumetric neon lighting · Rain-soaked streets · Seamless equirectangular image — VR skybox ready</i></sub>
+<sub><i>Equirectangular 360° panorama · Volumetric neon lighting · 8K resolution · Seamless edge · VR skybox ready</i></sub>
 
 </div>
 
-**Why this is a correct 360° generation / 为什么这是一个正确的 360° 生成：**
+**为什么这是一个正确的 360° 生成 / Why this passes all three constraint checks:**
 
-This image passes all three constraint checks:
-这张图通过了三项约束检查：
-
-1. **Geometry ✓** — `equirectangular` constraint active. The horizon is a flat line at vertical center. Zenith and nadir show natural pole-stretching. Compatible with all VR headsets and 360° viewers.
-   - **几何 ✓** — `equirectangular` 约束生效。地平线是垂直中心处的平直线。天顶天底呈现自然的极点拉伸。兼容所有 VR 头显和 360° 查看器。
-2. **Edge Continuity ✓** — `seamless` constraint active. Left edge matches right edge. No visible fracture at 0°/360° when wrapped to sphere.
-   - **边缘连续 ✓** — `seamless` 约束生效。左边缘匹配右边缘。包裹成球面后 0°/360° 处无可见裂缝。
-3. **Scene Consistency ✓** — `360 panorama` constraint active. The neon cityscape is a single continuous environment. Rotating 180° reveals more city — not a different biome.
-   - **场景一致 ✓** — `360 panorama` 约束生效。霓虹城市是一个连续环境。旋转 180° 看到的是更多城市——而不是另一种地貌。
+1. **Geometry ✓** — `equirectangular` 约束生效。地平线是垂直中心处的平直线。天顶天底呈现自然的极点拉伸。兼容所有 VR 头显。
+2. **Edge Continuity ✓** — `seamless` 约束生效。左边缘匹配右边缘。包裹成球面后 0°/360° 处无可见裂缝。
+3. **Scene Consistency ✓** — `360 panorama` 约束生效。霓虹城市是一个连续环境。旋转 180° 看到的是更多城市——而不是另一种地貌。
 
 <details>
-<summary><b>📋 完整提示词 · Full Prompt</b></summary>
+<summary><b>📋 完整 JSON 提示词 · Full Prompt</b></summary>
 
 ```json
 {
   "图像元数据": {
     "类型": "360度等距柱状全景图",
     "投影方式": "equirectangular · 完整球形等距柱状投影",
-    "宽高比": "2:1"
+    "宽高比": "2:1",
+    "分辨率": "8K超高分辨率全景"
   },
   "场景构图": {
     "地点": "赛博朋克超级都市，深夜",
@@ -370,8 +272,8 @@ This image passes all three constraint checks:
     "投影行为": "正确的等距柱状畸变，确保无缝球形拼接"
   },
   "约束条件": {
-    "必须保留": ["equirectangular 360度全景透视", "2:1宽高比"],
-    "必须避免": ["白天光照", "拼接断裂"]
+    "必须保留": ["equirectangular 360度全景透视", "2:1宽高比", "seamless边缘连续"],
+    "必须避免": ["白天光照", "拼接断裂", "非全景普通布局"]
   }
 }
 ```
@@ -382,17 +284,14 @@ This image passes all three constraint checks:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- PROMPT FORMAT SPECIFICATION                                     -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 📐 Prompt Format — 结构化提示词规范
+## 📐 Structured Prompt Format — 结构化提示词规范
 
-本仓库提示词采用 **标准化 JSON 结构**，精准控制每一个视觉参数，确保 AI 输出专业级 360° 全景效果。
+本仓库提示词采用 **专业级 JSON 结构**，精准控制每一个视觉参数和相机设置，确保 AI 输出专业级 8K 全景效果。
 
-All prompts use a **standardized JSON schema** to precisely control every visual parameter for professional-grade equirectangular panoramic output.
+All prompts use a **professional JSON schema** — including camera parameters inspired by AirPano and professional 360° photography workflows — to precisely control equirectangular panoramic output.
 
 <details open>
-<summary><b>📋 JSON 提示词结构示例 · Schema Example</b></summary>
+<summary><b>📋 完整 JSON Schema 示例（含专业相机参数）· Full Schema with Camera Parameters</b></summary>
 
 ```json
 {
@@ -400,104 +299,169 @@ All prompts use a **standardized JSON schema** to precisely control every visual
     "类型": "360度等距柱状全景图",
     "投影方式": "equirectangular · 完整球形等距柱状投影",
     "宽高比": "2:1",
-    "分辨率": "8K超高分辨率全景"
+    "分辨率": "8K超高分辨率全景 (7680×3840)"
   },
   "相机参数": {
     "焦距": "等效 85mm 全画幅定焦镜头",
-    "光圈": "f/1.8 大光圈，虚化背景层次感",
-    "快门": "1/250s",
-    "ISO": "ISO 100 低噪点",
-    "白平衡": "自然日光 5500K"
+    "光圈": "f/1.8 大光圈，强调主体虚化与前景层次",
+    "快门速度": "1/250s · 冻结动态光效",
+    "ISO": "ISO 100 低噪点基准",
+    "白平衡": "自然日光 5500K / 蓝调时刻 4200K",
+    "胶片模拟": "Fujifilm ASTIA · 自然肤色与中性色彩再现",
+    "HDR": "高动态范围 · 保留亮部与暗部细节"
   },
   "场景构图": {
-    "地点": "场景地点描述",
-    "相机位置": "贴近地面 / 低空 / 高空",
+    "地点": "[ 场景描述 ]",
+    "相机位置": "贴近地面 / 低空 1.5m / 高空航拍视角",
     "视野范围": "水平360度，垂直180度",
     "投影行为": "正确的等距柱状畸变，确保无缝球形拼接"
   },
   "渲染风格": {
-    "光照": "黄金时刻柔和斜射光 / 蓝调时刻漫射光",
-    "调色": "自然写实，高动态范围",
-    "质感质量": {
-      "精度": "极高精度写实主义，细节丰富",
-      "拼接": "完美的360度无缝拼接，无接缝断裂"
-    }
+    "光照": "黄金时刻 (Golden Hour) 柔和斜射光 / 蓝调时刻漫射光",
+    "调色": "写实高端，高动态范围，色彩分级参考 AirPano",
+    "质感": "极高精度写实主义，8K 细节丰富",
+    "拼接质量": "完美的360度无缝拼接，无接缝断裂，无畸变断层"
   },
   "约束条件": {
-    "必须保留": ["纯360度全景透视", "2:1宽高比", "equirectangular投影"],
-    "必须避免": ["人物", "文字水印", "非全景普通布局", "拼接断裂"]
+    "必须保留": [
+      "equirectangular 等距柱状投影",
+      "2:1宽高比",
+      "seamless 无缝边缘",
+      "360 panorama 完整球形覆盖"
+    ],
+    "必须避免": [
+      "人物", "文字水印", "非全景普通布局",
+      "拼接裂缝", "地平线弯曲", "环境不连续"
+    ]
   },
-  "负面提示词": ["水印", "文字", "边框", "裁剪视图", "拼接裂缝", "过度处理"]
+  "负面提示词": [
+    "watermark", "text", "border", "cropped view",
+    "seam", "stitch line", "distorted horizon",
+    "overprocessed", "vignette", "lens flare"
+  ]
 }
 ```
 
 </details>
 
-### 🔑 核心关键参数 · Key Parameters
+### 🔑 核心关键参数表 · Key Parameters Reference
 
-| 参数 Parameter | 规范值 Standard Value | 作用 Purpose |
+| 参数 Parameter | 推荐值 Recommended Value | 用途 Purpose |
 |:---|:---|:---|
-| `宽高比` | **2:1** | 等距柱状投影标准比例 (equirectangular 2:1 ratio) |
-| `投影方式` | **equirectangular** | 确保 VR 球形映射正确 (correct spherical mapping for VR skybox) |
-| `视野范围` | **水平360° / 垂直180°** | 完整球形覆盖 (full sphere coverage) |
-| `焦距` | **85mm 等效焦距** | 自然透视，无畸变 (natural perspective, no distortion) |
-| `光圈` | **f/1.8 ~ f/8** | 控制景深层次 (depth of field control) |
-| `分辨率` | **8K / 超高分辨率** | 保证 VR 清晰度 (VR-grade sharpness) |
+| `宽高比` | **2:1** (7680×3840 / 4096×2048) | 等距柱状投影标准比例 |
+| `投影方式` | **equirectangular** | VR 球形映射正确性 |
+| `视野范围` | **水平360° / 垂直180°** | 完整球形覆盖 |
+| `焦距` | **85mm 等效全画幅** | 自然透视，无桶形/枕形畸变 |
+| `光圈` | **f/1.8 ~ f/8** | 控制景深层次感 |
+| `胶片模拟` | **Fujifilm ASTIA / Velvia** | 自然色彩再现，高端质感 |
+| `分辨率` | **8K / 超高分辨率** | VR 头显清晰度要求 |
+| `HDR` | **高动态范围** | 保留亮部暗部细节，适合全景光照 |
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- WORKFLOW SECTION                                                -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## 🔬 全景分辨率突破方案 · Panorama Resolution Enhancement Workflow
+## 🔬 分辨率突破工作流 · Panorama Resolution Enhancement Workflow
 
-> 仅凭 AI 单次生成往往无法达到 VR 级别的清晰度需求。本仓库推荐以下三阶段工作流，可将最终输出提升至 **16K~32K** 超分辨率全景。
+> 仅凭 AI 单次生成往往无法达到 VR 级别的清晰度需求（推荐 8K+）。以下三阶段工作流可将最终输出提升至 **16K~32K** 超分辨率全景。
 >
-> A single AI generation rarely meets VR-grade sharpness requirements. The following 3-stage workflow can push final output to **16K–32K** ultra-resolution panoramas.
+> A single AI generation rarely meets VR-grade sharpness (recommended 8K+). The following 3-stage workflow pushes output to **16K–32K** ultra-resolution.
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│  STAGE 1 · AI 基础图生成                                              │
-│  AI Base Image Generation                                            │
-│                                                                     │
-│  • 使用本仓库 JSON 提示词生成 2:1 基础全景图（建议 4K 起步）             │
-│  • Use repo JSON prompts → generate 2:1 base panorama (4K min)     │
-│  • 工具 Tools: GPT Image / DALL·E / Midjourney / Stable Diffusion   │
-└─────────────────────┬───────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  STAGE 1 · AI 基础图生成 · AI Base Image Generation               │
+│                                                                  │
+│  • 使用本仓库 JSON 提示词生成 2:1 基础全景图（建议 4K 起步）           │
+│  • Tools: GPT Image / DALL·E 3 / Midjourney v6.1 / SD XL        │
+└─────────────────────┬────────────────────────────────────────────┘
                       │
                       ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│  STAGE 2 · AI 切片重绘（Slicing & Redrawing）                         │
-│  AI Tile-based Upscaling & Inpainting                               │
-│                                                                     │
-│  • 将全景图切分为重叠切片（推荐 20% overlap）                            │
-│  • Slice panorama into overlapping tiles (20% overlap recommended)  │
-│  • 对每个切片执行 AI img2img 重绘 / 超分 (×4)                          │
-│  • Run AI img2img inpainting / ×4 upscaling on each tile            │
-│  • 工具 Tools: Stable Diffusion · ControlNet Tile · Real-ESRGAN     │
-└─────────────────────┬───────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  STAGE 2 · AI 切片重绘 · AI Tile-based Upscaling & Inpainting     │
+│                                                                  │
+│  • 将全景图切分为重叠切片（推荐 20% overlap）                          │
+│  • 对每个切片执行 AI img2img 重绘 / 超分 ×4                          │
+│  • Tools: Stable Diffusion + ControlNet Tile + Real-ESRGAN       │
+└─────────────────────┬────────────────────────────────────────────┘
                       │
                       ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│  STAGE 3 · PTGui 无缝缝合                                             │
-│  Seamless Stitching with PTGui                                      │
-│                                                                     │
-│  • 将所有重绘切片导入 PTGui / Hugin 进行球面拼接                         │
-│  • Import all inpainted tiles into PTGui / Hugin for spherical stitch│
-│  • 输出 16K~32K 等距柱状全景 · 可直接用于 VR 头显 / 全景播放器            │
-│  • Output 16K–32K equirectangular · Ready for VR headsets & viewers │
-│  • 工具 Tools: PTGui Pro · Hugin · Autopano                          │
-└─────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  STAGE 3 · PTGui 无缝缝合 · Seamless Stitching with PTGui         │
+│                                                                  │
+│  • 将所有重绘切片导入 PTGui / Hugin 进行球面拼接                       │
+│  • 输出 16K~32K equirectangular · 直接用于 VR 头显 / 全景播放器        │
+│  • Tools: PTGui Pro · Hugin · Autopano                           │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
-**推荐工具链 · Recommended Toolchain：**
-
-| 阶段 Stage | 推荐工具 Recommended Tools | 用途 Purpose |
+| 阶段 Stage | 推荐工具 Tools | 用途 Purpose |
 |:---|:---|:---|
-| AI 基础生成 | GPT Image, DALL·E 3, Midjourney v6 | 生成结构化全景基础图 |
-| 切片重绘 | SD + ControlNet Tile, Real-ESRGAN | 超分放大 + 细节重绘 |
-| 无缝拼接 | PTGui Pro, Hugin | 球面拼接 + 曝光融合 |
-| VR 预览 | Pannellum, Krpano, Marzipano | 360° 在线/本地预览 |
+| AI 基础生成 | GPT Image · DALL·E 3 · Midjourney v6.1 · Stable Diffusion | 生成结构化全景基础图 |
+| 切片重绘 | SD + ControlNet Tile · Real-ESRGAN | 超分放大 + 细节重绘 |
+| 无缝拼接 | PTGui Pro · Hugin | 球面拼接 + 曝光融合 |
+| VR 预览 | Pannellum · Krpano · Marzipano | 360° 在线/本地预览 |
+
+---
+
+## 🛠️ Troubleshooting — 全景图生成故障排除
+
+> 遇到问题了？以下是最常见的全景图生成故障及解决方案。
+>
+> Stuck? Here are the most common panorama generation failures and their fixes.
+
+| # | 故障症状 Symptom | 根因 Root Cause | 快速修复 Quick Fix |
+|:---:|:---|:---|:---|
+| 1 | **VR 中出现竖向裂缝** | 缺少 `seamless` 约束，左右边缘独立生成 | 在 JSON 中添加 `"seamless": true` + `"边缘连续"` 字段 |
+| 2 | **地平线在 VR 中弯曲** | 模型以透视投影生成，缺少 `equirectangular` | 确认 JSON 中 `"投影方式": "equirectangular"` 存在且明确 |
+| 3 | **转到某个方向场景突变** | 缺少 `360 panorama` 场景完整性约束 | 在 `约束条件` 中加入 `"360度连续环境"` |
+| 4 | **天顶/天底过度拉伸** | 等距柱状投影固有特性，但模型误判为错误并尝试"修正" | 在 JSON 中明确告知 `"极点拉伸是预期行为"` |
+| 5 | **图片宽高比不是 2:1** | AI 工具输出默认比例（16:9 等） | 在 JSON 中锁定 `"宽高比": "2:1"` 并在工具设置中强制输出尺寸 |
+| 6 | **色调/光照不均匀** | 模型在不同区域独立处理光照，缺少全局光照约束 | 在 JSON 中固定光照方向和色温，使用 `"单一全局光源"` 描述 |
+| 7 | **输出有文字/水印** | 负面提示词缺失 | 在 `"负面提示词"` 数组中添加 `"watermark", "text", "signature"` |
+
+<details>
+<summary><b>🐛 没有找到你的问题？提交 Issue</b></summary>
+
+如果以上故障排除方案无法解决你遇到的问题，欢迎通过 GitHub Issue 提交你的具体情况：
+
+If the above doesn't fix your issue, please submit a GitHub Issue with:
+
+1. **你使用的 AI 工具** (GPT Image / DALL·E / Midjourney / SD)
+2. **完整的 JSON 提示词** (脱敏后粘贴)
+3. **失败截图** (如可能)
+4. **描述具体故障** (接缝/畸变/环境不连续等)
+
+**[📮 提交 Issue · Submit Issue](https://github.com/huimeng8090-byte/Awesome-360-Panorama-Prompts/issues/new)**
+
+你的问题可能也是社区中其他人正在面临的问题——欢迎共建这个故障库。
+
+Your issue might be exactly what someone else in the community is facing — help us build this troubleshooting database.
+
+</details>
+
+---
+
+## 🔬 Comparison — 方法对比实验
+
+### ❌ 错误生成（缺少结构约束）
+
+```text
+"Generate a beautiful 360 panorama of a cyberpunk city at night"
+```
+
+**可预测的失败结果（基于失败机制分析）：**
+- ❌ Broken Seam — 左右边缘地平线不匹配（缺少 `seamless`）
+- ❌ Distorted Horizon — 地平线弧形弯曲（缺少 `equirectangular`）
+- ❌ Inconsistent Environment — 场景风格可能突变
+- ❌ Wrong Aspect Ratio — 宽高比可能不是 2:1
+
+### ✅ 正确生成（本仓库结构化 JSON）
+
+**三个约束全部激活：** `equirectangular` ✓ + `seamless` ✓ + `360 panorama` ✓
+
+**可预测的正确结果：**
+- ✅ Continuous Edges — 边缘连续，接缝几乎不可见
+- ✅ Flat Horizon — 地平线平直居中
+- ✅ Consistent 360° Environment — 全景环境统一连贯
+- ✅ VR Skybox Ready — 可直接用于 VR 头显和全景播放器
 
 ---
 
@@ -519,31 +483,31 @@ All prompts use a **standardized JSON schema** to precisely control every visual
 |:---:|:---:|:---:|
 | [**🌊 水域** <sup>(58)</sup>](#%F0%9F%8C%8A%20%E6%B0%B4%E5%9F%9F) | [**🏔️ 山川** <sup>(57)</sup>](#%F0%9F%8F%94%EF%B8%8F%20%E5%B1%B1%E5%B7%9D) | [**🎨 其他** <sup>(16)</sup>](#%F0%9F%8E%A8%20%E5%85%B6%E4%BB%96) |
 | [**❄️ 雪境** <sup>(7)</sup>](#%E2%9D%84%EF%B8%8F%20%E9%9B%AA%E5%A2%83) | [**🏙️ 城市** <sup>(7)</sup>](#%F0%9F%8F%99%EF%B8%8F%20%E5%9F%8E%E5%B8%82) | [**🌸 春景** <sup>(4)</sup>](#%F0%9F%8C%B8%20%E6%98%A5%E6%99%AF) |
-| [**🌲 森林** <sup>(4)</sup>](#%F0%9F%8C%B2%20%E6%A3%AE%E6%9E%97) | [📐 技术约束](#-technical-constraints--技术约束) | [🧠 为什么有效](#-why-this-method-works--为什么这套方法有效) |
+| [**🌲 森林** <sup>(4)</sup>](#%F0%9F%8C%B2%20%E6%A3%AE%E6%9E%97) | [📐 技术约束](#-technical-constraints--技术约束规范) | [🛠️ 故障排除](#️-troubleshooting--全景图生成故障排除) |
 
 </details>
 
 <details>
 <summary><b>📖 如何使用提示词？· How to Use These Prompts?</b></summary>
 
-> 💡 所有提示词均为 **JSON 格式**，可直接复制到 GPT Image / DALL·E / Midjourney 等 AI 绘图工具中使用。
->
-> All prompts are in **JSON format** and can be directly copied into GPT Image, DALL·E, Midjourney, or any compatible AI image tool.
+> 💡 所有提示词均为 **JSON 格式**，可直接复制到 GPT Image / DALL·E 3 / Midjourney v6.1 / Stable Diffusion 等 AI 绘图工具中使用。
 
 ```
-中文步骤：
+步骤：
 1. 浏览下方画廊，找到感兴趣的全景场景
 2. 点击 "📋 核心提示词" 展开查看核心参数
-3. 点击 "📄 下载完整 JSON" 获取原始提示词文件
+3. 根据需要调整相机参数（焦距、光圈、胶片模拟等）
 4. 将 JSON 内容粘贴到 AI 绘图工具生成你的 360° 全景作品
-5. 可选：通过"全景分辨率突破方案"工作流进一步提升分辨率
+5. 如遇接缝/畸变问题，参考 Troubleshooting 章节排查
+6. 可选：通过三阶段"分辨率突破工作流"将输出提升至 16K+
 
-EN Steps:
+Steps:
 1. Browse the gallery below and find a scene you like
 2. Click "📋 核心提示词" to expand the core prompt parameters
-3. Click "📄 下载完整 JSON" to download the raw JSON file
-4. Paste JSON content into your AI image tool to generate 360° panoramas
-5. Optional: use the Resolution Enhancement Workflow to upscale to 16K+
+3. Adjust camera parameters (focal length, aperture, film simulation) as needed
+4. Paste JSON content into your AI image tool
+5. If you encounter seams or distortion, check the Troubleshooting section
+6. Optional: use the 3-Stage Resolution Enhancement Workflow to upscale to 16K+
 ```
 
 </details>
@@ -9695,31 +9659,66 @@ We welcome PRs adding new panorama prompt cases! Requirements:
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- SEO FOOTER LINKS                                                -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
-## 🔗 相关资源 · Related Resources
 
-> 🎨 更多 AI 绘图工具、360° 全景摄影教程和提示词技巧，欢迎访问：
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SEO FOOTER                                                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+---
+
+## 📊 仓库概览 · Repository Stats
+
+<div align="center">
+
+| 指标 | 数值 |
+|:---:|:---:|
+| 全景提示词案例 | **132 cases** |
+| JSON 结构化提示词 | **132 files** |
+| 场景分类 | **7 categories** |
+| 支持的 AI 工具 | GPT Image · DALL·E 3 · Midjourney v6.1 · Stable Diffusion · AIGC |
+| 输出格式 | Equirectangular 2:1 · VR Skybox · 360 Panorama Generator |
+| 最高分辨率工作流 | 16K ~ 32K (3-Stage Pipeline) |
+
+</div>
+
+---
+
+## 🤝 贡献指南 · Contributing
+
+欢迎 PR 提交新的全景提示词案例！请确保：
+
+- 提示词采用本仓库标准 JSON 格式
+- 包含三项核心约束：`equirectangular` + `seamless` + `360 panorama`
+- 附上生成结果截图（如可能）
+
+---
+
+## 🔗 品牌与资源 · Brand & Resources
+
+> 🎨 更多 AI 绘图工具、360° 全景摄影教程和提示词技巧，欢迎访问**绘梦拾光**：
 >
-> More AI art tools, 360° photography tutorials, and prompt engineering tips:
+> More AI art tools, panoramic photography tutorials, AIGC techniques, and VR environment creation tips:
 >
 > **➡️ [绘梦拾光 — AI 创作工具与全景摄影资源站 (diysq.com)](https://www.diysq.com)**
 
 | 资源 | 链接 |
 |:---|:---|
-| 🌐 更多 AI 绘图提示词 · More AI Art Prompts | [diysq.com](https://www.diysq.com) |
+| 🌐 更多 AI 绘图提示词 · AI Art Prompts | [diysq.com](https://www.diysq.com) |
 | 📸 360° 全景摄影教程 · Panorama Photography Guide | [diysq.com](https://www.diysq.com) |
 | 🛠️ PTGui 无缝拼接教程 · PTGui Stitching Tutorial | [diysq.com](https://www.diysq.com) |
 | 🤖 AI 超分辨率工作流 · AI Upscaling Workflow | [diysq.com](https://www.diysq.com) |
+| 🎬 VR 全景内容创作 · VR Environment Creation | [diysq.com](https://www.diysq.com) |
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=140&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a14,30:0d1b3e,60:1a3a6e,100:2d6a9f&height=140&section=footer" width="100%" />
 
 <div align="center">
-<b>Made with ❤️ for the VR & AI Art community</b><br/>
+<b>Made with ❤️ for the VR & AIGC community</b><br/>
 by <a href="https://www.diysq.com"><b>绘梦拾光 (diysq.com)</b></a> ·
 <a href="https://github.com/huimeng8090-byte/Awesome-360-Panorama-Prompts/stargazers">⭐ Star this repo if it helped you!</a>
 <br/><br/>
-<sub>Keywords: AI 360 panorama · seamless panorama · equirectangular image · VR skybox · 2:1 ratio · GPT Image panorama · DALL-E panorama · Midjourney panorama · stable diffusion 360 · AI art prompts · panoramic photography · prompt engineering</sub>
+<sub>Keywords: 360 panorama generator · seamless panorama · equirectangular image · VR skybox · VR environment · AIGC · 2:1 ratio · GPT Image panorama · DALL·E 3 panorama · Midjourney v6.1 panorama · Stable Diffusion 360 panorama · AI art prompts · panoramic photography · prompt engineering · 8K panorama · AirPano style · AI equirectangular · VR content creation</sub>
 <br/><br/>
-<sub>数据来源于 <a href="https://www.diysq.com/archives/category/aitupian/360quanjing">360全景视觉</a> 专栏 · 仅供学习参考</sub>
+<sub>数据来源于 <a href="https://www.diysq.com/archives/category/aitupian/360quanjing">绘梦拾光 · 360全景视觉</a> 专栏 · 仅供学习参考</sub>
 </div>
