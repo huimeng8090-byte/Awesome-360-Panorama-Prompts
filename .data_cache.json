@@ -4448,5 +4448,45 @@
     "website_updated_at": "2026-08-07T22:52:32",
     "website_published_at": "2026-08-07T22:52:32",
     "synced_at": "2026-09-01T07:43:26Z"
+  },
+  "8395": {
+    "case_id": "case458",
+    "title": "暮色海岸灯塔",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260901150852875.png",
+    "website_updated_at": "2026-09-01T23:09:40",
+    "website_published_at": "2026-09-01T23:07:08",
+    "synced_at": "2026-09-01T15:13:04Z"
+  },
+  "8391": {
+    "case_id": "case459",
+    "title": "秋日石灰岩山谷",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260901150407462.png",
+    "website_updated_at": "2026-09-01T23:05:21",
+    "website_published_at": "2026-09-01T23:02:20",
+    "synced_at": "2026-09-01T15:13:11Z"
+  },
+  "8387": {
+    "case_id": "case460",
+    "title": "云岭秋收·金色稻田谷地",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260901145905855.png",
+    "website_updated_at": "2026-09-01T23:00:09",
+    "website_published_at": "2026-09-01T22:57:35",
+    "synced_at": "2026-09-01T15:13:19Z"
+  },
+  "8383": {
+    "case_id": "case461",
+    "title": "高山日出云海",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260901145330900.png",
+    "website_updated_at": "2026-09-01T22:54:27",
+    "website_published_at": "2026-09-01T22:51:30",
+    "synced_at": "2026-09-01T15:13:27Z"
   }
 }

@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 445 个提示词 / Total 445 prompts
+共 449 个提示词 / Total 449 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -449,3 +449,7 @@
 | case455 | 河畔的多彩小镇 | [查看](prompts/case455.json) | [预览](images/case455/output.jpg) |
 | case456 | 平静湖泊全景，倒映着雪山与多云天空 | [查看](prompts/case456.json) | [预览](images/case456/output.jpg) |
 | case457 | 雨林深处的失落古文明石殿遗迹全景 | [查看](prompts/case457.json) | [预览](images/case457/output.jpg) |
+| case458 | 暮色海岸灯塔 | [查看](prompts/case458.json) | [预览](images/case458/output.jpg) |
+| case459 | 秋日石灰岩山谷 | [查看](prompts/case459.json) | [预览](images/case459/output.jpg) |
+| case460 | 云岭秋收·金色稻田谷地 | [查看](prompts/case460.json) | [预览](images/case460/output.jpg) |
+| case461 | 高山日出云海 | [查看](prompts/case461.json) | [预览](images/case461/output.jpg) |
