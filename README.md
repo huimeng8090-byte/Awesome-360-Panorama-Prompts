@@ -2,7 +2,12 @@
 
 > 最大的开源 360° 全景图提示词库 · 从 [DIYSQ.com](https://www.diysq.com) 自动同步
 
-[![在线预览](https://img.shields.io/badge/🌐_在线预览-点击浏览全部提示词-2ea44f?style=for-the-badge)](https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/)
+<p align="center">
+  <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/">
+    <img src="https://img.shields.io/badge/🌐_在线预览-点击浏览全部提示词-2ea44f?style=for-the-badge" width="450">
+  </a>
+</p>
+
 ![GitHub](https://img.shields.io/github/license/huimeng8090-byte/Awesome-360-Panorama-Prompts)
 ![Prompts](https://img.shields.io/badge/提示词-445+-blue)
 ![Categories](https://img.shields.io/badge/分类-16-purple)
