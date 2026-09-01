@@ -33,7 +33,7 @@
 | ![case033](images/case033/output.jpg) | ![case299](images/case299/output.jpg) | ![case300](images/case300/output.jpg) |
 | ![case301](images/case301/output.jpg) | ![case302](images/case302/output.jpg) | ![case303](images/case303/output.jpg) |
 
-<p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 445 条</a></p>
+<p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 449 条</a></p>
 
 ## 📁 目录结构
 
