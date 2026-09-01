@@ -57,16 +57,24 @@
 
 ## 📊 分类统计
 
-| 分类 | 数量 | 分类 | 数量 |
-|---|---|---|---|
-| 360全景视觉 | 159 | 插画 | 14 |
-| GPT Image 2.0 | 87 | 花 | 10 |
-| 景区 | 75 | 游戏场景 | 7 |
-| 街头 | 25 | 科幻场景 | 7 |
-| 客厅 | 23 | 古建筑 | 6 |
-| 人物 | 15 | 动物 | 4 |
-| 建筑 | 4 | 瀑布 | 4 |
-| 酒店 | 3 | 海底世界 | 2 |
+<p align="center">
+<img src="https://img.shields.io/badge/360全景视觉-159-0969da?style=flat-square">
+<img src="https://img.shields.io/badge/GPT_Image_2.0-87-1a7f37?style=flat-square">
+<img src="https://img.shields.io/badge/景区-75-8250df?style=flat-square">
+<img src="https://img.shields.io/badge/街头-25-f778ba?style=flat-square">
+<img src="https://img.shields.io/badge/客厅-23-d2992c?style=flat-square">
+<img src="https://img.shields.io/badge/人物-15-0969da?style=flat-square">
+<img src="https://img.shields.io/badge/插画-14-1a7f37?style=flat-square">
+<img src="https://img.shields.io/badge/花-10-8250df?style=flat-square">
+<img src="https://img.shields.io/badge/游戏场景-7-f778ba?style=flat-square">
+<img src="https://img.shields.io/badge/科幻场景-7-d2992c?style=flat-square">
+<img src="https://img.shields.io/badge/古建筑-6-0969da?style=flat-square">
+<img src="https://img.shields.io/badge/动物-4-1a7f37?style=flat-square">
+<img src="https://img.shields.io/badge/建筑-4-8250df?style=flat-square">
+<img src="https://img.shields.io/badge/瀑布-4-f778ba?style=flat-square">
+<img src="https://img.shields.io/badge/酒店-3-d2992c?style=flat-square">
+<img src="https://img.shields.io/badge/海底世界-2-0969da?style=flat-square">
+</p>
 
 ## 🔄 自动同步机制
 
