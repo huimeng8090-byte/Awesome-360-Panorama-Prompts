@@ -75,6 +75,7 @@
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E9%85%92%E5%BA%97" target="_blank"><img src="https://img.shields.io/badge/酒店-3-d2992c?style=flat-square"></a>
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C" target="_blank"><img src="https://img.shields.io/badge/海底世界-2-0969da?style=flat-square"></a>
 </p>
+
 ## 🔄 自动同步机制
 
 GitHub Actions 每天北京时间 8:00 自动运行：
@@ -101,6 +102,29 @@ GitHub Actions 每天北京时间 8:00 自动运行：
   "负面约束": [...]
 }
 ```
+
+## 🌐 相关网站
+
+<p align="center">
+  <a href="https://www.diysq.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🏠_DIYsq官网-创意设计资源平台-0969da?style=for-the-badge" width="280">
+  </a>
+  <a href="https://www.diysq.com/ai360/" target="_blank">
+    <img src="https://img.shields.io/badge/🎨_AI360全景绘图站-在线生成360全景图-1a7f37?style=for-the-badge" width="320">
+  </a>
+</p>
+
+### 🏠 DIYsq 官网
+**https://www.diysq.com/**
+
+创意设计资源平台，提供丰富的设计素材、教程和工具，涵盖 AI 绘画、3D 建模、全景图制作等多个领域，是创作者的灵感源泉和工具箱。
+
+### 🎨 AI 360° 全景绘图站
+**https://www.diysq.com/ai360/**
+
+专业的 AI 360° 全景图在线生成平台，支持一键生成等距柱状投影全景图，可直接用于 VR 漫游、虚拟展厅、游戏场景等领域。无需复杂操作，输入描述即可生成无缝拼接的 360° 全景图。
+
+---
 
 ## 📄 License
 
