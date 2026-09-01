@@ -1,16 +1,16 @@
 # 🌍 Awesome 360° Panorama Prompts
 
-> 最大的开源 360° 全景图提示词库 · 从 [DIYSQ.com](https://www.diysq.com) 自动同步
+> 最大的开源 360° 全景图提示词库 · 从 <a href="https://www.diysq.com" target="_blank">DIYSQ.com</a> 自动同步
 
 <p align="center">
-  <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/">
+  <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_在线预览-点击浏览全部提示词-2ea44f?style=for-the-badge" width="450">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.diysq.com/"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da"></a>
-  <a href="https://www.diysq.com/ai360/"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37"></a>
+  <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da"></a>
+  <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37"></a>
   <img src="https://img.shields.io/badge/提示词-445+-8250df">
   <img src="https://img.shields.io/badge/分类-16-f778ba">
 </p>
@@ -33,7 +33,7 @@
 | ![case033](images/case033/output.jpg) | ![case299](images/case299/output.jpg) | ![case300](images/case300/output.jpg) |
 | ![case301](images/case301/output.jpg) | ![case302](images/case302/output.jpg) | ![case303](images/case303/output.jpg) |
 
-[→ 查看全部 445 条](https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/)
+<p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 445 条</a></p>
 
 ## 📁 目录结构
 
@@ -49,7 +49,7 @@
 
 ## 🚀 快速开始
 
-1. 访问 [在线演示页](https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/)
+1. 访问 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">在线演示页</a>
 2. 按分类浏览或搜索目标场景
 3. 点击「查看 Prompt」复制完整 JSON
 4. 粘贴到 GPT Image 等模型，调整场景变量生成全景图
