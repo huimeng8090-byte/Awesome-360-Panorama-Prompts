@@ -431,7 +431,7 @@ const urlSearch = urlParams.get('search');
 if(urlCat) document.getElementById('catFilter').value = urlCat;
 if(urlSearch) document.getElementById('search').value = urlSearch;
 if(urlCat || urlSearch) filterItems();
-else { renderGallery(DATA); renderList(DATA); }
+else {{ renderGallery(DATA); renderList(DATA); }}
 </script>
 </body>
 </html>"""

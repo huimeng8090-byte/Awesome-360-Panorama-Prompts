@@ -320,8 +320,14 @@ function closeModal() {
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
 initFilters();
 renderCatNav();
-renderGallery(DATA);
-renderList(DATA);
+// URL参数筛选
+const urlParams = new URLSearchParams(window.location.search);
+const urlCat = urlParams.get('category');
+const urlSearch = urlParams.get('search');
+if(urlCat) document.getElementById('catFilter').value = urlCat;
+if(urlSearch) document.getElementById('search').value = urlSearch;
+if(urlCat || urlSearch) filterItems();
+else { renderGallery(DATA); renderList(DATA); }
 </script>
 </body>
 </html>
