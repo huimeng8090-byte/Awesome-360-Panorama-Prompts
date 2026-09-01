@@ -75,7 +75,6 @@
 <img src="https://img.shields.io/badge/酒店-3-d2992c?style=flat-square">
 <img src="https://img.shields.io/badge/海底世界-2-0969da?style=flat-square">
 </p>
-
 ## 🔄 自动同步机制
 
 GitHub Actions 每天北京时间 8:00 自动运行：
