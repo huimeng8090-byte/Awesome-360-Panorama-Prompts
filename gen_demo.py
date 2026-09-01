@@ -189,20 +189,22 @@ body {{
 .case-tags span {{ padding:2px 8px; border-radius:4px; font-size:0.78em; font-weight:600; }}
 .tag-model {{ background:#ddf4ff; color:#0969da; }}
 .tag-cat {{ background:#fbefff; color:#8250df; }}
-.case-body {{ padding:16px 18px; display:flex; gap:18px; align-items:flex-start; }}
-.case-img {{ flex:0 0 42%; text-align:center; }}
-.case-img img {{ width:100%; border-radius:8px; border:1px solid #d0d7de; }}
+.case-body {{ padding:16px 18px; }}
+.case-img {{ text-align:center; margin-bottom:14px; }}
+.case-img img {{ max-width:100%; border-radius:8px; border:1px solid #d0d7de; }}
 .case-img .no-img {{ padding:40px; color:#8c959f; background:#f6f8fa; border-radius:8px; font-size:0.9em; }}
-.case-prompt {{ flex:1; min-width:0; }}
-.case-prompt .prompt-head {{ display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }}
-.case-prompt .prompt-head span {{ font-size:0.85em; color:#656d76; font-weight:600; }}
-.copy-btn {{ padding:4px 10px; border:1px solid #d0d7de; border-radius:5px; background:#fff; color:#0969da; cursor:pointer; font-size:0.8em; font-weight:600; }}
-.copy-btn:hover {{ background:#ddf4ff; }}
+.case-prompt-toggle {{
+  display:inline-block; padding:6px 14px; border:1px solid #d0d7de; border-radius:6px;
+  background:#fff; color:#0969da; cursor:pointer; font-size:0.88em; font-weight:600;
+}}
+.case-prompt-toggle:hover {{ background:#ddf4ff; }}
+.case-prompt {{ display:none; margin-top:12px; }}
+.case-prompt.show {{ display:block; }}
 .case-prompt pre {{
   background:#f6f8fa; border:1px solid #d0d7de; border-radius:8px;
-  padding:14px; overflow-x:auto; font-size:0.78em; line-height:1.5;
+  padding:14px; overflow-x:auto; font-size:0.82em; line-height:1.55;
   font-family:'Cascadia Code', Consolas, 'Courier New', monospace;
-  white-space:pre-wrap; word-break:break-word; max-height:320px; overflow-y:auto; margin:0;
+  white-space:pre-wrap; word-break:break-word; max-height:400px; overflow-y:auto;
 }}
 .case-prompt .tabs {{ display:flex; gap:4px; margin-bottom:8px; }}
 .case-prompt .tab {{ padding:4px 10px; border-radius:4px; font-size:0.8em; cursor:pointer; border:1px solid #d0d7de; background:#fff; }}
@@ -339,12 +341,9 @@ function renderGallery(items) {{
           <div class="case-img">
             ${{it.image ? `<img src="${{it.image}}" alt="${{it.title}}" loading="lazy">` : '<div class="no-img">暂无预览图</div>'}}
           </div>
-          <div class="case-prompt">
-            <div class="prompt-head">
-              <span>📝 Prompt JSON</span>
-              <button class="copy-btn" onclick="copyPrompt('${{it.id}}', this)">复制</button>
-            </div>
-            <pre id="pre-${{it.id}}">${{escapeHtml(it.prompt_json)}}</pre>
+          <button class="case-prompt-toggle" onclick="togglePrompt('${{it.id}}', this)">📝 查看 Prompt</button>
+          <div class="case-prompt" id="prompt-${{it.id}}">
+            <pre>${{escapeHtml(it.prompt_json)}}</pre>
           </div>
         </div>
       </div>`).join('')}}
@@ -366,12 +365,10 @@ function renderList(items) {{
   `).join('');
 }}
 
-function copyPrompt(id, btn) {{
-  const text = document.getElementById('pre-'+id).textContent;
-  navigator.clipboard.writeText(text).then(() => {{
-    btn.textContent = '已复制 ✓';
-    setTimeout(() => btn.textContent = '复制', 1500);
-  }});
+function togglePrompt(id, btn) {{
+  const el = document.getElementById('prompt-'+id);
+  el.classList.toggle('show');
+  btn.textContent = el.classList.contains('show') ? '收起 Prompt' : '📝 查看 Prompt';
 }}
 
 function escapeHtml(s) {{
