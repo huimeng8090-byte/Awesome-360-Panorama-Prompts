@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/分类-16-f778ba?style=flat-square">
 </p>
 
-本仓库收录 **445+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
+本仓库收录 **449+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
 
 ## ✨ 特性
 

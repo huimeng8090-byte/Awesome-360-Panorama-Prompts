@@ -64,7 +64,7 @@ new_readme = re.sub(
 
 # 更新描述文字里的数字
 new_readme = re.sub(
-    r'(本仓库收录\s*)\d+(\+\s*条)',
+    r'(本仓库收录\s*\**)\d+(\+\**\s*条)',
     rf'\g<1>{total}\g<2>',
     new_readme
 )
