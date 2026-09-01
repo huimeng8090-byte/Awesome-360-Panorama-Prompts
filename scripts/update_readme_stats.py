@@ -56,6 +56,42 @@ else:
 
 # 同时更新顶部的提示词总数徽章
 total = len(cache)
+
+# 更新预览缩略图（选择最新的6条，按case_id降序）
+all_items = []
+for wid, item in cache.items():
+    cid = item.get("case_id")
+    if cid:
+        all_items.append(cid)
+all_items.sort(reverse=True)
+latest_6 = all_items[:6]
+
+# 生成预览表格
+preview_rows = []
+for i in range(0, 6, 3):
+    row = latest_6[i:i+3]
+    cells = []
+    for cid in row:
+        cells.append(f"![{cid}](images/{cid}/output.jpg)")
+    while len(cells) < 3:
+        cells.append(" ")
+    preview_rows.append("| " + " | ".join(cells) + " |")
+
+preview_table = "|  |  |  |\n|---|---|---|\n" + "\n".join(preview_rows)
+
+# 替换预览部分
+preview_start = "## 🖼️ 预览"
+preview_end = "## 📁 目录结构"
+p_start_idx = new_readme.find(preview_start)
+p_end_idx = new_readme.find(preview_end)
+if p_start_idx != -1 and p_end_idx != -1:
+    before = new_readme[:p_start_idx + len(preview_start)]
+    after = new_readme[p_end_idx:]
+    # 保留"查看全部"链接
+    view_all_match = re.search(r'(<p align="center">.*?查看全部.*?</p>)', new_readme[p_start_idx:p_end_idx], re.DOTALL)
+    view_all = view_all_match.group(1) if view_all_match else ""
+    new_readme = before + "\n\n" + preview_table + "\n\n" + view_all + "\n\n" + after
+
 new_readme = re.sub(
     r'(<img src="https://img\.shields\.io/badge/提示词-)\d+(\+?-8250df\?style=flat-square">)',
     rf'\g<1>{total}\g<2>',
