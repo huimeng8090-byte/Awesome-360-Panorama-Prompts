@@ -57,22 +57,24 @@ else:
 # 同时更新顶部的提示词总数徽章
 total = len(cache)
 
-# 更新预览缩略图（选择最新的6条，按case_id降序）
+# 更新预览缩略图（选择最新的6条，只选有图片的，统一高度）
 all_items = []
 for wid, item in cache.items():
     cid = item.get("case_id")
     if cid:
-        all_items.append(cid)
+        img_path = REPO / "images" / cid / "output.jpg"
+        if img_path.exists():
+            all_items.append(cid)
 all_items.sort(reverse=True)
 latest_6 = all_items[:6]
 
-# 生成预览表格
+# 生成预览表格（统一高度200px）
 preview_rows = []
 for i in range(0, 6, 3):
     row = latest_6[i:i+3]
     cells = []
     for cid in row:
-        cells.append(f"![{cid}](images/{cid}/output.jpg)")
+        cells.append(f'<img src="images/{cid}/output.jpg" height="200" style="object-fit:cover;border-radius:6px;">')
     while len(cells) < 3:
         cells.append(" ")
     preview_rows.append("| " + " | ".join(cells) + " |")

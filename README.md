@@ -30,8 +30,8 @@
 
 |  |  |  |
 |---|---|---|
-| ![case461](images/case461/output.jpg) | ![case460](images/case460/output.jpg) | ![case459](images/case459/output.jpg) |
-| ![case458](images/case458/output.jpg) | ![case457](images/case457/output.jpg) | ![case456](images/case456/output.jpg) |
+| <img src="images/case461/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case460/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case459/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
+| <img src="images/case458/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case456/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case455/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
 
 <p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 449 条</a></p>
 
