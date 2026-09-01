@@ -9,8 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da"></a>
-  <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37"></a>
+  <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da?style=for-the-badge" width="200"></a>
+  <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37?style=for-the-badge" width="220"></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/提示词-445+-8250df">
   <img src="https://img.shields.io/badge/分类-16-f778ba">
 </p>
