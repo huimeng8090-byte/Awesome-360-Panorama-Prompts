@@ -8,9 +8,12 @@
   </a>
 </p>
 
-![GitHub](https://img.shields.io/github/license/huimeng8090-byte/Awesome-360-Panorama-Prompts)
-![Prompts](https://img.shields.io/badge/提示词-445+-blue)
-![Categories](https://img.shields.io/badge/分类-16-purple)
+<p align="center">
+  <a href="https://www.diysq.com/"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da"></a>
+  <a href="https://www.diysq.com/ai360/"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37"></a>
+  <img src="https://img.shields.io/badge/提示词-445+-8250df">
+  <img src="https://img.shields.io/badge/分类-16-f778ba">
+</p>
 
 本仓库收录 **445+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
 
