@@ -1,0 +1,21 @@
+{
+  "id": "case415",
+  "website_id": 2772,
+  "title": "撒哈拉线性沙丘日落360度航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2772",
+  "image": "images/case415/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"撒哈拉线性沙丘日落全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"摩洛哥梅尔祖加沙丘群\",\n    \"camera_position\": \"无人机位于最高沙脊线正上方\",\n    \"camera_height\": \"高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"极度干燥晴朗，金色日落\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"优美的S型沙脊线如刀刻般清晰，沙面呈现细腻的流沙质感\",\n      \"motion\": \"静止\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"起伏的黄金沙丘波浪，明暗分界线极其优美\",\n      \"details\": \"背光面呈深咖啡色，向光面呈明亮的橙黄色\"\n    },\n    \"background\": {\n      \"landscape\": \"远方是平坦的荒漠戈壁，地平线消失在暮色中\",\n      \"sky\": \"巨大的金色落日位于地平线上方，天空色彩纯净渐变\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"纯净、简约的自然地理艺术\",\n      \"atmosphere\": \"温暖、辽阔、极致纯净\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"极致侧光，勾勒出沙丘的流线型轮廓\",\n    \"color_grading\": \"高饱和度的黄金色调，纯净度极高\",\n    \"texture_quality\": {\n      \"description\": \"超高精细沙粒纹理\",\n      \"stitching\": \"无缝拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"完美的S型沙脊线\", \"落日圆轮\", \"360投影\"],\n    \"avoid\": [\"脚印\", \"骆驼\", \"植被\", \"垃圾\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"footprints\", \"camels\", \"tents\", \"plants\"]\n}"
+  },
+  "website_published_at": "2026-03-02T12:31:10",
+  "website_updated_at": "2026-03-02T13:17:34",
+  "synced_at": "2026-09-01T05:44:35Z"
+}

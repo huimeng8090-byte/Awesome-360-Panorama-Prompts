@@ -1,0 +1,21 @@
+{
+  "id": "case430",
+  "website_id": 2502,
+  "title": "泰姬陵360航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2502",
+  "image": "images/case430/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"10. {\n  \"title\": \"印度泰姬陵全景航拍\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"印度阿格拉泰姬陵\",\n    \"camera_position\": \"高空无人机航拍视角\",\n    \"camera_height\": \"高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"晴朗，空气通透\",\n    \"depth_of_field\": \"无限景深（整个全景清晰）\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"泰姬陵主体白色大理石建筑，穹顶、拱门与雕花细节清晰可见，两侧对称的宣礼塔笔直矗立\",\n      \"motion\": \"飞鸟在空中飞行形成轻微动态模糊\"\n    },\n    \"midground_subjects\": {\n      \"structures\": \"两侧对称的红砂岩附属建筑，拱门与穹顶结构完整\",\n      \"plaza\": \"纯白色大理石广场，对称的几何步道与花园清晰可见\",\n      \"garden\": \"前景的莫卧儿式花园，绿植、水池与步道呈现完美的中轴对称布局\"\n    },\n    \"background\": {\n      \"landscape\": \"亚穆纳河与阿格拉城市远景在建筑后方延伸，与地平线相接\",\n      \"sky\": \"澄澈的浅蓝色天空，带有拉丝状的白色云絮，整体通透干净\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"从高空俯瞰泰姬陵主体、对称建筑群与花园\",\n      \"atmosphere\": \"庄严、典雅、充满古典美学的世界文化遗产环境\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"自然日光，光线柔和，均匀呈现大理石建筑的质感\",\n    \"color_grading\": \"真实自然色彩，以纯白、赭红、浅绿、浅蓝为主\",\n    \"texture_quality\": {\n      \"description\": \"超写实航拍摄影风格\",\n      \"artifacts\": \"轻微自然锐化，无人工痕迹\",\n      \"stitching\": \"无缝360度全景拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\n      \"纯360°全景透视\",\n      \"高空航拍视角\",\n      \"泰姬陵主体建筑为核心主体\",\n      \"无任何UI或界面元素\",\n      \"高度写实\"\n    ],\n    \"avoid\": [\n      \"现代密集建筑\",\n      \"人物\",\n      \"电影感灯光\",\n      \"奇幻风格\",\n      \"插画或绘画感\",\n      \"单帧构图\"\n    ]\n  },\n  \"negative_prompt\": [\n    \"ui\",\n    \"hud\",\n    \"text overlay\",\n    \"watermark\",\n    \"buildings\",\n    \"bridges\",\n    \"people\",\n    \"fantasy art\",\n    \"illustration\",\n    \"cinematic lighting\",\n    \"hdr\",\n    \"overprocessed\",\n    \"frame\",\n    \"border\",\n    \"cropped view\",\n    \"broken panorama seams\"\n  ]\n}"
+  },
+  "website_published_at": "2026-02-28T21:56:38",
+  "website_updated_at": "2026-03-01T11:04:13",
+  "synced_at": "2026-09-01T05:45:36Z"
+}

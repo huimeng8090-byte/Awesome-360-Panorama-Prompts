@@ -1,0 +1,21 @@
+{
+  "id": "case455",
+  "website_id": 1054,
+  "title": "河畔的多彩小镇",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1054",
+  "image": "images/case455/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Create a panoramic view of a picturesque town by a turquoise river, with colorful buildings on both riverbanks, lush green hills in the background, a bright blue sky with scattered white clouds, and sunlight creating a glittering path on the water. 中文：绘制一幅青绿色河流旁的如画小镇全景，河岸两侧有色彩斑斓的建筑，背景是葱郁小山，晴朗蓝天飘着零散白云，阳光在水面形成闪烁的光带。"
+  },
+  "website_published_at": "2025-10-04T16:06:33",
+  "website_updated_at": "2026-03-01T11:06:50",
+  "synced_at": "2026-09-01T07:40:38Z"
+}

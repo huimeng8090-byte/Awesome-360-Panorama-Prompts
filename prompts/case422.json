@@ -1,0 +1,21 @@
+{
+  "id": "case422",
+  "website_id": 2473,
+  "title": "堪察加火山喷发雪景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2473",
+  "image": "images/case422/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"1. {\n  \"title\": \"堪察加火山喷发雪景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"俄罗斯堪察加半岛火山群\",\n    \"camera_position\": \"高空无人机航拍视角\",\n    \"camera_height\": \"高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"晴朗，日出/日落时分，空气通透\",\n    \"depth_of_field\": \"无限景深（整个全景清晰）\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"正在喷发的火山口，橙红色岩浆翻涌，火山灰与蒸汽向上升腾\",\n      \"motion\": \"岩浆流动、火山灰飘散形成自然动态模糊\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"积雪覆盖的火山山体，黑色火山岩与白雪形成强烈对比\",\n      \"plume\": \"巨型火山灰云团在火山口上方形成，被阳光染成暖粉色\",\n      \"mountains\": \"远处多座积雪火山沿地平线排列\"\n    },\n    \"background\": {\n      \"landscape\": \"火山群向远方延伸，与地平线无缝衔接\",\n      \"sky\": \"澄澈的深蓝色天空，日出/日落的太阳在右侧地平线散发暖光\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"从高空俯瞰喷发火山、积雪山体与火山灰云\",\n      \"atmosphere\": \"壮丽、震撼、充满原始地质力量的火山环境\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"自然日出/日落暖光，冷暖色调对比强烈\",\n    \"color_grading\": \"真实自然色彩，以橙红、雪白、深蓝为主\",\n    \"texture_quality\": {\n      \"description\": \"超写实航拍摄影风格\",\n      \"artifacts\": \"轻微自然锐化，无人工痕迹\",\n      \"stitching\": \"无缝360度全景拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\n      \"纯360°全景透视\",\n      \"高空航拍视角\",\n      \"火山喷发与雪景为核心主体\",\n      \"无任何UI或界面元素\",\n      \"高度写实\"\n    ],\n    \"avoid\": [\n      \"城市或人工建筑\",\n      \"人物\",\n      \"电影感灯光\",\n      \"奇幻风格\",\n      \"插画或绘画感\",\n      \"单帧构图\"\n    ]\n  },\n  \"negative_prompt\": [\n    \"ui\",\n    \"hud\",\n    \"text overlay\",\n    \"watermark\",\n    \"buildings\",\n    \"bridges\",\n    \"people\",\n    \"fantasy art\",\n    \"illustration\",\n    \"cinematic lighting\",\n    \"hdr\",\n    \"overprocessed\",\n    \"frame\",\n    \"border\",\n    \"cropped view\",\n    \"broken panorama seams\"\n  ]\n}"
+  },
+  "website_published_at": "2026-02-28T21:31:31",
+  "website_updated_at": "2026-03-01T11:06:44",
+  "synced_at": "2026-09-01T05:45:05Z"
+}

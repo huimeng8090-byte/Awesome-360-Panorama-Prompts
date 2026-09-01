@@ -1,0 +1,21 @@
+{
+  "id": "case404",
+  "website_id": 2855,
+  "title": "沙海幻境：纳米布沙漠红色沙丘与罕见平流云海",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2855",
+  "image": "images/case404/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高清\"\n  },\n  \"scene_composition\": {\n    \"location\": \"纳米比亚，纳米布-诺克卢福国家公园\",\n    \"camera_position\": \"无人机跨越云层与沙丘交界处\",\n    \"camera_height\": \"中高空视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"沙丘脊线如曲线般在画面中穿梭\",\n    \"weather\": \"独特的平流雾景观，上方晴空万里\",\n    \"depth_of_field\": \"全清晰\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"极其陡峭且锋利的红色沙丘边缘，阴影面呈深紫色\", \"motion\": \"云层带有丝滑的流动感\" },\n    \"midground_subjects\": { \"terrain\": \"被白色浓雾填满的沙漠谷地，呈现出“云海漫岛”的视觉感\", \"river\": \"无\", \"mist\": \"厚重、洁白且平整的低空云团\" },\n    \"background\": { \"landscape\": \"红色的沙丘如浪潮般向远方起伏，直至消失在云海尽头\", \"sky\": \"深蓝色的高空，阳光明媚，无杂云\" },\n    \"environment\": { \"ground_hemisphere\": \"极简主义色彩对比\", \"atmosphere\": \"奇幻、超现实、极致优雅\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"斜侧阳光，将沙丘一分为二，明暗对比强烈\",\n    \"color_grading\": \"鲜艳的铁锈红与纯粹的白色、深蓝色\",\n    \"texture_quality\": { \"description\": \"细腻的沙粒纹理与丝滑云雾的质感对比\", \"artifacts\": \"无缝360拼接\", \"stitching\": \"完美\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"红沙与白云的对比\", \"锋利的沙脊线\", \"360°沉浸视角\" ],\n    \"avoid\": [ \"足迹\", \"灌木\", \"杂乱的云彩\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"footprints\", \"bushes\", \"gray clouds\", \"messy horizon\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T12:42:56",
+  "website_updated_at": "2026-03-03T12:47:48",
+  "synced_at": "2026-09-01T05:43:47Z"
+}

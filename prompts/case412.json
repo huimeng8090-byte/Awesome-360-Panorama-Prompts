@@ -1,0 +1,21 @@
+{
+  "id": "case412",
+  "website_id": 2808,
+  "title": "生命律动：蒙古大草原上的普氏野马群自由奔袭",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2808",
+  "image": "images/case412/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"辽阔的蒙古大草原\",\n    \"camera_position\": \"无人机中低空航拍\",\n    \"camera_height\": \"低空视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"自然地平线延展\",\n    \"weather\": \"晴朗，伴有拉伸的卷云\",\n    \"depth_of_field\": \"全景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"一群普氏野马在绿色的草原上自由奔跑与站立\", \"motion\": \"野马带有轻微的动态感\" },\n    \"midground_subjects\": { \"terrain\": \"一望无际的、平缓起伏的绿色草地\", \"river\": \"远方隐约可见的蓝色地表水体\", \"mist\": \"无\" },\n    \"background\": { \"landscape\": \"地平线极低，草原与天空在远方交汇成一线\", \"sky\": \"巨大的、呈现弧形畸变的湛蓝天空，伴有稀疏白云\" },\n    \"environment\": { \"ground_hemisphere\": \"纯净、广阔的草原植被\", \"atmosphere\": \"宁静、原始、充满生命力\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"明亮的自然日光，阴影柔和地投射在草地上\",\n    \"color_grading\": \"高饱和度的鲜绿色与天空蓝\",\n    \"texture_quality\": { \"description\": \"国家地理风格野生动物摄影\", \"artifacts\": \"无人工痕迹\", \"stitching\": \"无缝拼接\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"野马群主体\", \"地平线居中\", \"纯粹草原景观\", \"360°全景\" ],\n    \"avoid\": [ \"人类建筑\", \"围栏\", \"道路\", \"过度锐化\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"buildings\", \"fence\", \"people\", \"cars\", \"distorted horses\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T11:07:24",
+  "website_updated_at": "2026-03-03T11:11:38",
+  "synced_at": "2026-09-01T05:44:21Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "case447",
+  "website_id": 1010,
+  "title": "青绿色河流分隔的如画小镇航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1010",
+  "image": "images/case447/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Aerial panoramic view of a picturesque town split by a turquoise river, with colorful buildings, lush green mountains, bright blue sky with wispy clouds, and sunlight on the water. 中文 ：青绿色河流分隔的如画小镇航拍全景，有彩色建筑、葱郁青山，飘着丝丝白云的明亮蓝天，阳光洒在水面。"
+  },
+  "website_published_at": "2025-10-03T22:54:52",
+  "website_updated_at": "2026-03-01T11:07:43",
+  "synced_at": "2026-09-01T07:40:00Z"
+}

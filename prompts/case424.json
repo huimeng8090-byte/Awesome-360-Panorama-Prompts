@@ -1,0 +1,21 @@
+{
+  "id": "case424",
+  "website_id": 2479,
+  "title": "埃及吉萨金字塔群沙漠航拍",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2479",
+  "image": "images/case424/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"3. {\n  \"title\": \"埃及吉萨金字塔群沙漠航拍\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"埃及吉萨金字塔群\",\n    \"camera_position\": \"高空无人机航拍视角\",\n    \"camera_height\": \"高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"晴朗，空气通透\",\n    \"depth_of_field\": \"无限景深（整个全景清晰）\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"胡夫金字塔与哈夫拉金字塔，砂岩纹理与风化痕迹清晰可见\",\n      \"motion\": \"无明显动态，场景静谧\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"金黄色的撒哈拉沙漠，沙面平整，有轻微的车辙痕迹\",\n      \"structures\": \"金字塔附属神庙与小型金字塔遗址沿沙漠分布\",\n      \"city\": \"远处开罗城市建筑群的轮廓清晰可见\"\n    },\n    \"background\": {\n      \"landscape\": \"沙漠向远方无限延伸，与城市天际线相接\",\n      \"sky\": \"澄澈的浅蓝色天空，点缀着少量轻薄的白色云絮\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"从高空俯瞰金字塔群、沙漠与远处城市\",\n      \"atmosphere\": \"古老、神秘、充满历史厚重感的沙漠遗址环境\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"自然正午阳光，阴影清晰锐利\",\n    \"color_grading\": \"真实自然色彩，以土黄、浅蓝、赭石为主\",\n    \"texture_quality\": {\n      \"description\": \"超写实航拍摄影风格\",\n      \"artifacts\": \"轻微自然锐化，无人工痕迹\",\n      \"stitching\": \"无缝360度全景拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\n      \"纯360°全景透视\",\n      \"高空航拍视角\",\n      \"吉萨金字塔群为核心主体\",\n      \"无任何UI或界面元素\",\n      \"高度写实\"\n    ],\n    \"avoid\": [\n      \"现代密集建筑\",\n      \"人物\",\n      \"电影感灯光\",\n      \"奇幻风格\",\n      \"插画或绘画感\",\n      \"单帧构图\"\n    ]\n  },\n  \"negative_prompt\": [\n    \"ui\",\n    \"hud\",\n    \"text overlay\",\n    \"watermark\",\n    \"buildings\",\n    \"bridges\",\n    \"people\",\n    \"fantasy art\",\n    \"illustration\",\n    \"cinematic lighting\",\n    \"hdr\",\n    \"overprocessed\",\n    \"frame\",\n    \"border\",\n    \"cropped view\",\n    \"broken panorama seams\"\n  ]\n}"
+  },
+  "website_published_at": "2026-02-28T21:36:46",
+  "website_updated_at": "2026-03-01T11:06:21",
+  "synced_at": "2026-09-01T05:45:12Z"
+}

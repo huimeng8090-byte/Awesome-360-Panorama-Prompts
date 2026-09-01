@@ -1,0 +1,21 @@
+{
+  "id": "case433",
+  "website_id": 186,
+  "title": "自然风光雪山森林湖泊倒影商业照片",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/186",
+  "image": "images/case433/output.jpg",
+  "prompt": {
+    "_raw_prompt": "Ultra-high definition photograph in National Geographic style, masterful composition and light, capturing snow-capped mountains and forests with autumnal greens and golds reflected in a calm lake under a bright blue sky with clouds, in the style of Ansel Adams."
+  },
+  "website_published_at": "2025-10-02T13:10:21",
+  "website_updated_at": "2026-03-01T11:09:36",
+  "synced_at": "2026-09-01T07:38:50Z"
+}

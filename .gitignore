@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 同步脚本临时文件
+sync_errors.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+{
+  "id": "case449",
+  "website_id": 1038,
+  "title": "雪山湖泊的镜像之美",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1038",
+  "image": "images/case449/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Produce a panoramic view of a calm lake with deep turquoise water, perfectly reflecting snow-capped mountains, dense evergreen forests, and a partly cloudy sky. Highlight the symmetry of the reflection and the serene, crisp atmosphere of a mountain lake. 中文：制作一幅平静湖泊的全景，深青绿色的湖水完美倒映着雪山、茂密的常绿森林和多云的天空。突出倒影的对称性以及高山湖泊宁静、清透的氛围。"
+  },
+  "website_published_at": "2025-10-04T15:38:26",
+  "website_updated_at": "2026-03-01T11:07:30",
+  "synced_at": "2026-09-01T07:40:08Z"
+}

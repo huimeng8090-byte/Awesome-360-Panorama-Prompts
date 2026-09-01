@@ -1,0 +1,21 @@
+{
+  "id": "case443",
+  "website_id": 1000,
+  "title": "宁静湖泊全景，倒映着雪山与多云蓝天",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1000",
+  "image": "images/case443/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Panoramic serene lake reflecting snow-capped mountains and partly cloudy blue sky, surrounded by dense evergreen forests. 中文 ：宁静湖泊全景，倒映着雪山与多云蓝天，被茂密常绿森林环绕。"
+  },
+  "website_published_at": "2025-10-03T22:43:45",
+  "website_updated_at": "2026-03-01T11:08:32",
+  "synced_at": "2026-09-01T07:39:40Z"
+}

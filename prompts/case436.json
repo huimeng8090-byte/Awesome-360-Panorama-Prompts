@@ -1,0 +1,21 @@
+{
+  "id": "case436",
+  "website_id": 198,
+  "title": "自然风光雪山湖泊秋色照片",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/198",
+  "image": "images/case436/output.jpg",
+  "prompt": {
+    "_raw_prompt": "Ultra-high definition photograph in National Geographic style, masterful composition and light, showcasing a turquoise lake in autumn with snow-capped mountains and golden-hued grasslands reflected, bright clear sky, in the style of Ansel Adams."
+  },
+  "website_published_at": "2025-10-02T13:19:44",
+  "website_updated_at": "2026-03-01T11:09:17",
+  "synced_at": "2026-09-01T07:39:04Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "case410",
+  "website_id": 2820,
+  "title": "加勒比之光：清澈如镜的青绿色离岛与珊瑚礁",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2820",
+  "image": "images/case410/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"热带加勒比海群岛上空\",\n    \"camera_position\": \"高空无人机视角\",\n    \"camera_height\": \"极高空全景\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"海面呈球形延展，岛屿点缀其中\",\n    \"weather\": \"艳阳高照，微风\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"清澈透亮的青绿色浅滩和珊瑚礁纹理\", \"motion\": \"平静水面\" },\n    \"midground_subjects\": { \"terrain\": \"几个被茂密绿色植被覆盖的小岛和白沙滩\", \"river\": \"无\", \"mist\": \"无\" },\n    \"background\": { \"landscape\": \"深蓝色的远洋延伸至360度地平线，远处有点点帆船\", \"sky\": \"清澈的浅蓝色天空，分布着朵朵白云\" },\n    \"environment\": { \"ground_hemisphere\": \"半透明的海水和水底地形\", \"atmosphere\": \"纯净、度假感、清新\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"明亮、垂直的自然阳光，直射海底\",\n    \"color_grading\": \"清爽的青绿色、天蓝色与白色的组合\",\n    \"texture_quality\": { \"description\": \"超清热带海洋摄影\", \"artifacts\": \"无拼接痕迹\", \"stitching\": \"完美360全景\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"极清澈的海水颜色\", \"岛屿环状分布\", \"360度海平线\", \"珊瑚礁细节\" ],\n    \"avoid\": [ \"城市建筑\", \"垃圾\", \"暗淡的色彩\", \"阴天\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"cities\", \"dirty water\", \"dark colors\", \"stormy sky\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T11:19:09",
+  "website_updated_at": "2026-03-03T11:21:27",
+  "synced_at": "2026-09-01T05:44:12Z"
+}

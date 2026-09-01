@@ -1,0 +1,21 @@
+{
+  "id": "case435",
+  "website_id": 195,
+  "title": "秋季山林湖泊自然风光照片",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/195",
+  "image": "images/case435/output.jpg",
+  "prompt": {
+    "_raw_prompt": "Ultra-high definition photograph in National Geographic style, masterful composition and light, depicting a lone mountain in autumn reflected in a lake with reeds and a stone bridge, trees with autumnal hues, clear sky, in the style of Ansel Adams."
+  },
+  "website_published_at": "2025-10-02T13:16:58",
+  "website_updated_at": "2026-03-01T11:09:23",
+  "synced_at": "2026-09-01T07:39:00Z"
+}

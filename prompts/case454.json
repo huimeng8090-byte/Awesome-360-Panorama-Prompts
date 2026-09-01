@@ -1,0 +1,21 @@
+{
+  "id": "case454",
+  "website_id": 1052,
+  "title": "高山草甸的野花与虹光",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1052",
+  "image": "images/case454/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Create a panoramic mountain meadow covered in yellow and white wildflowers, with rugged peaks (some dusted with snow) in the background, a dramatic sky with dark storm clouds and a faint rainbow, capturing the contrast between the vibrant flora and the moody sky. 中文：绘制一幅覆盖黄白色野花的高山草甸全景，背景是崎岖的山峰（部分有积雪），天空布满戏剧性的乌云并带有一道微弱的彩虹，捕捉鲜艳植物与 Moody 天空的对比。"
+  },
+  "website_published_at": "2025-10-04T16:04:57",
+  "website_updated_at": "2026-03-01T11:06:57",
+  "synced_at": "2026-09-01T07:40:33Z"
+}

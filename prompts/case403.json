@@ -1,0 +1,21 @@
+{
+  "id": "case403",
+  "website_id": 2866,
+  "title": "永恒对称：印度泰姬陵与亚穆纳河的圣洁清晨",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2866",
+  "image": "images/case403/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率\"\n  },\n  \"scene_composition\": {\n    \"location\": \"印度阿格拉，泰姬陵（Taj Mahal）正上方\",\n    \"camera_position\": \"无人机天底俯视兼顾全景\",\n    \"camera_height\": \"中高空航拍\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"极其规整的轴线对称地貌\",\n    \"weather\": \"日出时分，带有轻微的薄雾\",\n    \"depth_of_field\": \"全景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"泰姬陵白色大理石圆顶及其精美纹饰，对称的几何花园网格\", \"motion\": \"完全静态\" },\n    \"midground_subjects\": { \"terrain\": \"规整的莫卧儿花园与长条形水池\", \"river\": \"背后的亚穆纳河，水面平滑如镜\", \"mist\": \"河面上蒸腾的轻柔晨雾\" },\n    \"background\": { \"landscape\": \"远处阿格拉城市的晨间剪影，森林与雾气交织\", \"sky\": \"粉橙色渐变的晨曦天空，色彩温和\" },\n    \"environment\": { \"ground_hemisphere\": \"建筑几何与自然河流的和谐统一\", \"atmosphere\": \"圣洁、庄严、宁静、典雅\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"柔和的侧逆光，为大理石边缘带来圣洁的光辉\",\n    \"color_grading\": \"暖白色与清新的植物绿，辅以淡粉色的天空调性\",\n    \"texture_quality\": { \"description\": \"写实建筑航拍\", \"artifacts\": \"无缝全景\", \"stitching\": \"完美拼接\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"完美的对称构图\", \"白色圆顶细节\", \"亚穆纳河背景\", \"360°全景透视\" ],\n    \"avoid\": [ \"大量的游客\", \"脚手架\", \"人造电杆\", \"杂乱的树影\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"scaffolding\", \"crowd\", \"pollution\", \"dirty river\", \"low detail\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T12:53:47",
+  "website_updated_at": "2026-03-03T12:55:49",
+  "synced_at": "2026-09-01T05:43:42Z"
+}

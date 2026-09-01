@@ -1,0 +1,21 @@
+{
+  "id": "case439",
+  "website_id": 982,
+  "title": "约书亚树国家公园的日落盛景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/982",
+  "image": "images/case439/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Panoramic view of Joshua Tree National Park at sunset, with Joshua trees scattered across the desert, warm golden light, colorful clouds, and distant mountains under a dramatic sky. &nbsp; 中文 ：约书亚树国家公园日落全景，约书亚树散布在沙漠中，温暖的金色光线、多彩的云朵，远处山脉映衬在富有戏剧感的天空下。"
+  },
+  "website_published_at": "2025-10-03T16:47:45",
+  "website_updated_at": "2026-03-01T11:08:59",
+  "synced_at": "2026-09-01T07:39:18Z"
+}

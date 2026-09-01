@@ -1,0 +1,21 @@
+{
+  "id": "case437",
+  "website_id": 201,
+  "title": "自然风光山水森林湖泊倒影照片",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/201",
+  "image": "images/case437/output.jpg",
+  "prompt": {
+    "_raw_prompt": "Ultra-high definition photograph in National Geographic style, masterful composition and light, capturing a mountain lake in autumn with lush greenery (showing early autumnal tones) and clouds reflected in calm water under a vivid blue sky, in the style of Ansel Adams."
+  },
+  "website_published_at": "2025-10-02T13:22:43",
+  "website_updated_at": "2026-03-01T11:09:11",
+  "synced_at": "2026-09-01T07:39:09Z"
+}

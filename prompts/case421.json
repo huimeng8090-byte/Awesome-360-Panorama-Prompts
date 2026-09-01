@@ -1,0 +1,21 @@
+{
+  "id": "case421",
+  "website_id": 2729,
+  "title": "撒哈拉U型沙丘盆地360度航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2729",
+  "image": "images/case421/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"撒哈拉核心区U型沙丘盆地全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"阿尔及利亚撒哈拉核心区\",\n    \"camera_position\": \"无人机位于巨大沙丘盆地正上方\",\n    \"camera_height\": \"中高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"日落前夕，空气通透\",\n    \"depth_of_field\": \"无限景深（整个全景清晰）\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"底部宽大的U型沙丘盆地，深色阴影勾勒出沙丘的陡峭边缘，沙纹细腻\",\n      \"motion\": \"静止\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"金黄色的连绵沙丘与深褐色的岩石基底交错分布\",\n      \"details\": \"沙脊线笔直清晰，迎风坡与背风坡明暗对比极致\"\n    },\n    \"background\": {\n      \"landscape\": \"地平线在远方微微弯曲，无尽沙漠向天边延伸\",\n      \"sky\": \"夕阳位于视觉中心，天空呈现淡蓝色至明亮的金黄色过渡\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"荒凉宏大的沙漠腹地俯视图\",\n      \"atmosphere\": \"静谧、苍凉、宏伟\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"低角度夕阳斜射，长阴影增强地貌立体感\",\n    \"color_grading\": \"暖橙色调与深色阴影形成强烈对比\",\n    \"texture_quality\": {\n      \"description\": \"写实风光摄影风格\",\n      \"artifacts\": \"无人工痕迹\",\n      \"stitching\": \"无缝360度全景拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"纯360°全景透视\", \"沙丘阴影对比\", \"高度写实\"],\n    \"avoid\": [\"植被\", \"水源\", \"人工建筑\", \"人物\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"people\", \"buildings\", \"vegetation\", \"distorted horizon\"]\n}"
+  },
+  "website_published_at": "2026-03-02T11:33:11",
+  "website_updated_at": "2026-03-02T11:39:13",
+  "synced_at": "2026-09-01T05:45:01Z"
+}

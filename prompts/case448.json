@@ -1,0 +1,21 @@
+{
+  "id": "case448",
+  "website_id": 1033,
+  "title": "约书亚树沙漠的日落颂歌",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1033",
+  "image": "images/case448/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Create a panoramic desert scene at sunset, with towering Joshua trees in the foreground, sandy terrain dotted with sparse shrubs, a sky filled with soft orange and purple-hued clouds, and the sun casting warm golden light over the landscape. Capture the serene yet dramatic atmosphere of the desert at dusk. 中文：绘制一幅日落时的沙漠全景，前景是高大的约书亚树，沙质地面散布着稀疏灌木，天空布满柔和橙紫色调的云朵，太阳将温暖的金色光线洒在大地上。捕捉黄昏时沙漠宁静却富有戏剧性的氛围。"
+  },
+  "website_published_at": "2025-10-04T15:35:32",
+  "website_updated_at": "2026-03-01T11:07:37",
+  "synced_at": "2026-09-01T07:40:04Z"
+}

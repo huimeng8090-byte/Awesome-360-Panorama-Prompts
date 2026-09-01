@@ -1,0 +1,21 @@
+{
+  "id": "case413",
+  "website_id": 2750,
+  "title": "张掖七彩丹霞地貌360度航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2750",
+  "image": "images/case413/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"张掖七彩丹霞地质奇观全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"中国甘肃张掖丹霞地质公园\",\n    \"camera_position\": \"无人机悬停于彩丘带正上方\",\n    \"camera_height\": \"中高空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"多云转晴，柔和散射光\",\n    \"depth_of_field\": \"整个场景清晰\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"色彩斑斓的岩层丘陵，红、黄、橙、白条纹交替，质感如丝绸\",\n      \"motion\": \"无\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"波浪状起伏的彩丘群，地表几乎无植被，展现纯粹矿物色\",\n      \"details\": \"岩层褶皱细节极其丰富，阴影随山势起伏\"\n    },\n    \"background\": {\n      \"landscape\": \"连绵不绝的红色砂岩山脉向远方延伸\",\n      \"sky\": \"浅蓝色天空，云影投射在山峦上\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"宛如上帝调色盘的自然地质奇迹\",\n      \"atmosphere\": \"惊艳、超写实、色彩浓郁\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"柔和散射光，避免强光反射以保留色彩细节\",\n    \"color_grading\": \"自然高对比度色彩，强调红色与橙色调\",\n    \"texture_quality\": {\n      \"description\": \"极高精度岩土纹理\",\n      \"stitching\": \"无缝360度全景\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"彩色条纹岩层\", \"丹霞地貌特征\", \"无UI\"],\n    \"avoid\": [\"旅游栈道\", \"游客\", \"围栏\", \"树木\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"tourists\", \"stairs\", \"fence\", \"trees\", \"buildings\"]\n}"
+  },
+  "website_published_at": "2026-03-02T12:15:11",
+  "website_updated_at": "2026-03-02T13:19:45",
+  "synced_at": "2026-09-01T05:44:25Z"
+}

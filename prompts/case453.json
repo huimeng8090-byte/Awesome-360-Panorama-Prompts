@@ -1,0 +1,21 @@
+{
+  "id": "case453",
+  "website_id": 1050,
+  "title": "青川环绕的山间小镇",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1050",
+  "image": "images/case453/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Create an aerial panoramic view of a charming town split by a bright turquoise river, with colorful European-style buildings lining the riverbanks, lush green mountains in the background, a clear blue sky with a few fluffy clouds, and sunlight sparkling on the water. 中文：绘制一幅被明亮青绿色河流分隔的迷人小镇航拍全景，河岸排列着色彩斑斓的欧式建筑，背景是葱郁青山，晴朗蓝天飘着几朵蓬松白云，阳光在水面闪烁。"
+  },
+  "website_published_at": "2025-10-04T15:59:22",
+  "website_updated_at": "2026-03-01T11:07:02",
+  "synced_at": "2026-09-01T07:40:29Z"
+}

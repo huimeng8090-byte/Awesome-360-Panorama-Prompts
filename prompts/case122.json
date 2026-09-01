@@ -1,0 +1,171 @@
+{
+  "id": "case122",
+  "website_id": 7734,
+  "title": "金色森林瀑布秘境全景VR沉浸空间探索AI绘画提示词",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "瀑布",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/7734",
+  "image": "images/case122/output.jpg",
+  "prompt": {
+    "图像全景规范": {
+      "图片类型": "360度等距长方全景图（Equirectangular Projection）",
+      "用途": "VR全景漫游 / 虚拟空间生成",
+      "画幅比例": "2:1",
+      "投影方式": "完整球形等距柱状投影",
+      "分辨率": "8K超高清"
+    },
+    "场景信息": {
+      "场景类型": "自然景观",
+      "主题": "森林深处的层叠瀑布与碧蓝潭水",
+      "地点": "泰国国家公园（例如：Erawan Waterfall）",
+      "时间": "午后或黄昏（Golden Hour）",
+      "天气": "晴朗",
+      "季节": "夏季或早秋",
+      "环境氛围": "宁静、神圣、清爽、自然、神秘",
+      "空间结构": "一个被茂密热带森林环绕的360度闭环峡谷空间，中心是碧蓝色的潭水，前方是瀑布。"
+    },
+    "相机与视角": {
+      "观察点": "空间中心原点，位于潭水表面上方约1.5米处",
+      "视角": "水平360度完整环绕，垂直180度完整球形覆盖",
+      "摄影高度": "低角度，水面高度，增强空间感",
+      "空间层次": "前景（潭水和岸边岩石/树根）、中景（瀑布和两侧岩壁/大树）、远景（天顶树冠和森林延伸）自然过渡",
+      "透视": "符合球形全景透视规律，左右边缘无拉伸断裂",
+      "景深": "全景深锁定，远近皆清晰"
+    },
+    "物体列表": [
+      {
+        "名称": "多级瀑布",
+        "位置": "前方（0-60度）",
+        "比例": "巨大、壮观，主导前方视野",
+        "材质": "流动的、湿润的水体",
+        "状态": "动态流动，静态定格"
+      },
+      {
+        "名称": "碧蓝潭水",
+        "位置": "全方位（0-360度），底部",
+        "比例": "占据大部分下方和中景视野",
+        "材质": "清澈、透明、光滑，呈现碧蓝色/青绿色",
+        "状态": "静止，有微小波纹"
+      },
+      {
+        "名称": "湿润岩石和树根",
+        "位置": "前景（0-90度，270-360度）",
+        "比例": "较大，提供纹理感",
+        "材质": "湿润、粗糙的石灰岩，古老树皮",
+        "状态": "静态"
+      },
+      {
+        "名称": "大树干（ image_0.png 左侧同款）",
+        "位置": "左侧前景（270-300度）",
+        "比例": "巨大，延伸至天顶",
+        "材质": "粗糙、古老的树皮纹理",
+        "状态": "静态"
+      },
+      {
+        "名称": "热带森林树冠",
+        "位置": "全方位（0-360度），顶部",
+        "比例": "完整天穹",
+        "材质": "茂密、柔韧、翠绿的树叶",
+        "状态": "静态"
+      }
+    ],
+    "空间布局": {
+      "前方区域": "完整的瀑布流，潭水（碧蓝色），瀑布两侧的岩壁，以及前景的湿润岩石。",
+      "左右区域": "左侧是图片中左侧的大树干和岩石，继续延伸成更多的树木和岩石地形。右侧是图片中右侧的树木和岩石，继续延伸成更多的树木。所有区域都保持森林的茂密感。",
+      "顶部区域": "天顶完全被茂密的森林树冠覆盖，形成一个绿色的穹顶。强烈的金色/黄色阳光（如 image_0.png 所示）从顶部穿过树叶缝隙形成光束和耀眼光斑（Lens Flare），天顶中心也是被树叶覆盖，保持连续性。",
+      "底部区域": "碧蓝色的潭水覆盖整个地底，水下可见清晰的岩石和沙砾，底部中心也是水，保持连续闭合。",
+      "空间关系": "真实空间尺度，瀑布位于峡谷深处，潭水居中，周围森林和岩壁无缝连接，无悬浮感。"
+    },
+    "材质与纹理": {
+      "整体材质": "真实PBR物理材质，包括：",
+      "纹理": "自然随机纹理，避免重复贴图，全方位统一",
+      "细节": [
+        "湿润岩石的毛孔、裂纹和苔藓",
+        "粗糙、古老树皮的纹理",
+        "清澈水下的岩石和沙砾",
+        "柔软、翠绿的树叶纹理",
+        "水面光滑的反射",
+        "瀑布流动的水体质感"
+      ],
+      "表面状态": "保留自然磨损、微小瑕疵和物理细节，岩石表面湿润有光泽",
+      "接触关系": "物体与地面/水面产生真实环境遮蔽阴影，瀑布下方有水花飞溅效果"
+    },
+    "摄影参数": {
+      "摄影风格": "专业大画幅360全景摄影",
+      "镜头": "专用球形全景摄影镜头，无畸变",
+      "曝光": "全局均衡曝光，平衡强光（顶部）和阴影（岩石）",
+      "动态范围": "HDR高动态范围，捕捉所有细节",
+      "ISO": "低感光（ISO 100-200），纯净画质",
+      "快门": "静态锁定，无运动模糊",
+      "白平衡": "统一自然白平衡，偏暖金色（金色阳光影响）"
+    },
+    "光照系统": {
+      "光源": "顶部穿过树冠的强金色阳光（逆光方向）",
+      "照明逻辑": "符合真实物理光照，光线从顶部散射并穿过树冠",
+      "环境光": "真实漫反射与光线反弹，来自水面和岩石",
+      "阴影": "柔和、自然的阴影（例如，大树干下方，岩石后面）",
+      "反射": "环境实时反射，水面清晰反射周围森林和瀑布",
+      "色温": "统一稳定的暖金色色温"
+    },
+    "色彩空间": {
+      "主色调": "碧蓝（水）、翠绿（叶）、金色（光）",
+      "辅助色": [
+        "褐（岩石/树皮）",
+        "苔藓绿",
+        "水面反射的暖金色"
+      ],
+      "整体调性": "360度空间色彩统一，无区域风格断层",
+      "饱和度": "自然真实"
+    },
+    "生成精度": {
+      "细节": "极高，毛孔级细节",
+      "纹理": "高频真实细节",
+      "光影": true,
+      "材质真实": true,
+      "环境真实": true,
+      "摄影真实感": true
+    },
+    "连续性与一致性": {
+      "水平视角": "360度完整覆盖",
+      "垂直视角": "180度完整覆盖",
+      "左右边缘": "无缝闭合（0=360度）",
+      "顶部": "无极点拉伸，天顶（0=360度垂直）树冠闭合良好",
+      "底部": "无极点断裂，地底（0=360度垂直）潭水闭合良好",
+      "空间闭环": true,
+      "VR支持": true
+    },
+    "生成准则": {
+      "保持空间结构": true,
+      "保持主体比例": true,
+      "保持光照一致": true,
+      "保持材质一致": true,
+      "保持360连续": true
+    },
+    "禁止生成": [
+      "拼接缝",
+      "空间断裂",
+      "透视冲突",
+      "物体漂浮",
+      "重复纹理",
+      "塑料质感",
+      "低分辨率",
+      "噪点",
+      "水印",
+      "文字",
+      "Logo",
+      "边框",
+      "裁剪视角",
+      "任何可见的拼接痕迹"
+    ],
+    "最终提示词": "360VR panorama, equirectangular, 2:1, 8K, realistic, PBR materials, a complete immersive view inside a hidden rainforest canyon. In the foreground and center, a deep turquoise blue pool extends in all directions, showing clear underwater details like rocks and sand at the nadir (bottom). Facing front, a multi-tiered, cascading waterfall with clear water flows down a moss-covered limestone rock face. Surrounding the viewer on all sides (0-360 degrees) are ancient, gnarled tree trunks (similar to image_0.png) and dense, lush tropical forest vegetation. Overhead, the forest canopy creates a complete ceiling, through which strong, warm, golden shafts of sunlight pierce (like image_0.png), creating a magnificent lens flare effect and warm golden light across the entire scene. The pool edge continues all around behind the viewer, with more trees and rocks creating a tranquil, enclosed space. All elements are sharply detailed, seamlessly connected, with no stitching errors or stretching, ensuring a continuous space. HDR, natural color, professional big-format photography style, no seam."
+  },
+  "website_published_at": "2026-07-18T22:18:23",
+  "website_updated_at": "2026-07-18T22:21:25",
+  "synced_at": "2026-09-01T05:21:38Z"
+}

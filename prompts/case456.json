@@ -1,0 +1,21 @@
+{
+  "id": "case456",
+  "website_id": 1006,
+  "title": "平静湖泊全景，倒映着雪山与多云天空",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1006",
+  "image": "images/case456/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Panoramic calm lake reflecting snow-capped mountains and cloudy sky, surrounded by dense coniferous forests 中文 ：平静湖泊全景，倒映着雪山与多云天空，被茂密针叶林环绕。"
+  },
+  "website_published_at": "2025-10-03T22:49:29",
+  "website_updated_at": "2026-03-01T11:05:13",
+  "synced_at": "2026-09-01T07:40:42Z"
+}

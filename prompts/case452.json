@@ -1,0 +1,21 @@
+{
+  "id": "case452",
+  "website_id": 1048,
+  "title": "秋日山谷的彩林与蓝湖",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1048",
+  "image": "images/case452/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Produce a panoramic autumn landscape centered on a lake, surrounded by mountainsides ablaze with red, orange, and golden fall foliage, snow-capped peaks in the distance under a cloudy sky, capturing the rich, vibrant hues of autumn in a mountain valley. 中文：制作一幅以湖泊为中心的秋季全景，被山坡上红、橙、金色的秋日 foliage 环绕，远处雪山在多云天空下耸立，捕捉山谷中秋季浓郁、鲜艳的色彩。"
+  },
+  "website_published_at": "2025-10-04T15:57:54",
+  "website_updated_at": "2026-03-01T11:07:09",
+  "synced_at": "2026-09-01T07:40:24Z"
+}

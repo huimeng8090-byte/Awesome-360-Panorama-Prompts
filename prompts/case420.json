@@ -1,0 +1,21 @@
+{
+  "id": "case420",
+  "website_id": 2736,
+  "title": "拉普兰极地雪树森林日落360度全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2736",
+  "image": "images/case420/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"拉普兰极地雪树森林日落全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"芬兰拉普兰极地森林\",\n    \"camera_position\": \"无人机悬停于雪坡林带上方\",\n    \"camera_height\": \"低空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"极地清澈寒冷，日落余晖\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"被厚重积雪包裹的云杉林，呈现奇特的白色圆锥状‘雪怪’造型\",\n      \"motion\": \"静止\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"起伏的雪原山丘，树木密集，雪地反射着淡淡的紫红色余晖\",\n      \"details\": \"雪面质感蓬松松软，无人类足迹\"\n    },\n    \"background\": {\n      \"landscape\": \"无边无际的北极圈雪原向远方延伸\",\n      \"sky\": \"低垂的金紫色夕阳，渐变色天空，带有丝状薄云\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"被白雪完全覆盖的极地生态系统\",\n      \"atmosphere\": \"纯净、宁静、童话般的极寒氛围\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"极地暖色侧光，照亮树木一侧，另一侧呈现冰蓝色阴影\",\n    \"color_grading\": \"粉紫色、冰蓝色与金色的梦幻交织\",\n    \"texture_quality\": {\n      \"description\": \"超写实极地摄影\",\n      \"stitching\": \"无缝360度全景拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"360°视角\", \"雪树细节\", \"高度写实\"],\n    \"avoid\": [\"融化的雪\", \"裸露的绿色叶片\", \"足迹\", \"建筑\"]\n  },\n  \"negative_prompt\": [\"ui\", \"text\", \"watermark\", \"green grass\", \"human cabins\", \"dirt\"]\n}"
+  },
+  "website_published_at": "2026-03-02T11:40:30",
+  "website_updated_at": "2026-03-02T11:49:29",
+  "synced_at": "2026-09-01T05:44:57Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "case416",
+  "website_id": 2767,
+  "title": "南极洲冰山与极地海域360度航拍全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2767",
+  "image": "images/case416/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"南极洲冰山与极地海域全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"南极半岛近海浮冰区\",\n    \"camera_position\": \"无人机在巨大浮冰群上方航拍\",\n    \"camera_height\": \"中低空航拍视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"多云，极地漫反射光\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"形态各异的巨型冰山漂浮，水下部分透出迷人的荧光蓝色\",\n      \"motion\": \"海水微弱的波纹感\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"深蓝黑色的寒冷海面，散落着细碎的浮冰快\",\n      \"mountains\": \"背景是覆盖着永久冰川的黑色火山岩岛屿，云雾缭绕其间\"\n    },\n    \"background\": {\n      \"landscape\": \"无尽的极地海洋与冰雪大陆延伸\",\n      \"sky\": \"厚重的灰色云层，边缘透出微弱的冷光\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"地球南极冰封世界航拍\",\n      \"atmosphere\": \"冷冽、孤寂、史诗感\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"极地柔和散射光，强调冰山的体积与通透度\",\n    \"color_grading\": \"极致冷色调，纯白、灰蓝、深蓝、荧光蓝\",\n    \"texture_quality\": {\n      \"description\": \"超写实冰雪与海水质感\",\n      \"stitching\": \"无缝拼接\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"冰山荧光蓝\", \"黑色岩石对比\", \"360全景\"],\n    \"avoid\": [\"考察船\", \"现代设施\", \"鲜艳暖色\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"ship\", \"bright red\", \"warm yellow\", \"people\"]\n}"
+  },
+  "website_published_at": "2026-03-02T12:27:15",
+  "website_updated_at": "2026-03-02T12:50:20",
+  "synced_at": "2026-09-01T05:44:39Z"
+}

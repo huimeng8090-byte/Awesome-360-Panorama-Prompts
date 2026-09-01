@@ -1,0 +1,179 @@
+{
+  "id": "case100",
+  "website_id": 7899,
+  "title": "雪域苍穹下的高山秘境全景之旅AI绘画提示词",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/7899",
+  "image": "images/case100/output.jpg",
+  "prompt": {
+    "图片元数据": {
+      "图片类型": "360度等距长方全景图（Equirectangular Projection）",
+      "用途": "VR全景漫游 / 虚拟空间生成",
+      "画幅比例": "2:1",
+      "投影方式": "完整球形等距柱状投影",
+      "分辨率": "8K超高清"
+    },
+    "场景信息": {
+      "场景类型": "高山草甸与雪山群",
+      "主题": "雄伟的高山景观与全景视野",
+      "地点": "未确定的高山地区（例如：阿尔卑斯山脉或类似的高海拔山区）",
+      "时间": "正午，晴朗",
+      "天气": "晴朗，无云或少云",
+      "季节": "春末夏初（结合了雪和绿色植被）",
+      "环境氛围": "宏大、宁静、开阔、自然",
+      "空间结构": "360度闭环真实空间，围绕中心点均匀展开"
+    },
+    "摄影与视角": {
+      "观察点": "空间中心原点，位于高山草甸上的一处平坦区域",
+      "视角": "水平360度环绕视角，捕捉所有方向",
+      "摄影高度": "人眼高度 (约 1.6 米)",
+      "空间层次": "前景（草甸、岩石、雪堆）、中景（突出的尖塔状山峰、圆顶山峰）、远景（远处的雪山脉和山谷）自然过渡",
+      "透视": "符合球形全景透视规律",
+      "景深": "全景深锁定，远近清晰"
+    },
+    "核心元素": [
+      {
+        "名称": "突出的尖塔状岩石山峰",
+        "位置": "前方中景 (约 0°)",
+        "比例": "符合真实世界尺度，雄伟",
+        "材质": "粗糙的岩石、石灰岩",
+        "状态": "静态"
+      },
+      {
+        "名称": "圆顶状岩石巨岩山峰",
+        "位置": "右侧中景 (约 +90°)",
+        "比例": "符合真实世界尺度，庞大",
+        "材质": "粗糙的岩石、石灰岩",
+        "状态": "静态"
+      },
+      {
+        "名称": "远处的雪山脉",
+        "位置": "左侧远景 (-90° 至 0°)",
+        "比例": "符合真实世界尺度，遥远",
+        "材质": "积雪、岩石",
+        "状态": "静态"
+      },
+      {
+        "名称": "高山草甸与雪堆",
+        "位置": "底部前景 (约 -90° to -180°)",
+        "比例": "符合真实世界尺度",
+        "材质": "绿色高山草、灌木、岩石、积雪",
+        "状态": "静态"
+      },
+      {
+        "名称": "太阳与天空",
+        "位置": "顶部区域偏前 (约 +45° to +90°)",
+        "比例": "符合真实世界尺度",
+        "材质": "恒星 (太阳)，大气",
+        "状态": "静态"
+      }
+    ],
+    "空间布局": {
+      "前方区域": [
+        "突出的尖塔状山峰",
+        "中景草甸和雪",
+        "左侧雪山脉"
+      ],
+      "左右区域": [
+        "左侧：远处的雪山群",
+        "右侧：圆顶状巨岩山峰",
+        "远景山谷连接两者"
+      ],
+      "顶部区域": "天顶连续，无拉伸断裂",
+      "底部区域": "地面或地貌自然闭合",
+      "空间关系": "真实空间尺度，无悬浮感"
+    },
+    "材质与纹理": {
+      "整体材质": "真实PBR物理材质",
+      "纹理": "自然随机纹理，避免重复贴图",
+      "细节": [
+        "真实木纹 (无)",
+        "真实石材纹理 (岩石山峰)",
+        "真实布料纤维 (无)",
+        "真实金属反射 (无)",
+        "真实玻璃折射 (无)",
+        "真实雪纹理",
+        "真实草和植物纹理",
+        "真实土壤和岩石纹理"
+      ],
+      "表面状态": "保留自然磨损、微小瑕疵和物理细节",
+      "接触关系": "物体与地面产生真实环境遮蔽阴影"
+    },
+    "摄影风格": {
+      "摄影风格": "专业大画幅360全景摄影",
+      "镜头": "球形全景摄影镜头",
+      "曝光": "全局均衡曝光",
+      "动态范围": "HDR高动态范围",
+      "ISO": "低感光纯净画质",
+      "快门": "静态锁定，无运动模糊",
+      "白平衡": "统一自然白平衡"
+    },
+    "光照与照明": {
+      "光源": "单一，明亮，正午太阳 (位于天顶偏前方位置，即 0° 至 +45° 之间，天顶下方的 45° 左右)",
+      "照明逻辑": "符合真实物理光照",
+      "环境光": "真实漫反射与光线反弹",
+      "阴影": "柔和自然阴影",
+      "反射": "环境实时反射",
+      "色温": "统一稳定"
+    },
+    "色彩方案": {
+      "主色调": "天蓝色、草绿色、岩石灰、雪白色",
+      "辅助色": [
+        "山谷中的深蓝色和绿色",
+        "岩石的棕色细节"
+      ],
+      "整体调性": "360度空间色彩统一，无区域风格断层",
+      "饱和度": "自然真实"
+    },
+    "渲染要求": {
+      "细节": "极高",
+      "纹理": "高频真实细节",
+      "光影": true,
+      "材质真实": true,
+      "环境真实": true,
+      "摄影真实感": true
+    },
+    "VR/360支持": {
+      "水平视角": "360度完整覆盖",
+      "垂直视角": "180度完整覆盖",
+      "左右边缘": "无缝闭合",
+      "顶部": "无极点拉伸",
+      "底部": "无极点断裂",
+      "空间闭环": true,
+      "VR支持": true
+    },
+    "全局约束": {
+      "保持空间结构": true,
+      "保持主体比例": true,
+      "保持光照一致": true,
+      "保持材质一致": true,
+      "保持360连续": true
+    },
+    "禁止生成": [
+      "拼接缝",
+      "空间断裂",
+      "透视冲突",
+      "物体漂浮",
+      "重复纹理",
+      "塑料质感",
+      "低分辨率",
+      "噪点",
+      "水印",
+      "文字",
+      "Logo",
+      "边框",
+      "裁剪视角"
+    ],
+    "提示词": "360-degree high-definition equirectangular panorama of a majestic Alpine mountain landscape on a clear midday. The view is centered on a prominent, rugged rocky spire peak. Below, slopes covered in green alpine meadows and scattered snow patches. To the left, an extensive range of far-off, snow-covered mountain peaks. Foreground consists of detailed green grasses, rocks, and snowdrifts, seamless and converging at the nadir (-90°). To the right, a massive, rounded rockolith peak stands dominant, surrounded by grassy slopes. The zenith (+90°) is a continuous, deep blue sky with a bright, clear sun (with slight lens flare) positioned in the upper center-top part, casting light forward and around, accompanied by a few scattered white cumulus clouds. Clear focus throughout, high dynamic range. Textures are PBR with realistic stone, snow, and alpine vegetation. No stitching lines, seamless horizontal loop, natural nadir and zenith points. Authentic mountain atmosphere, majestic and peaceful. 8k ultra-high definition, photorealistic."
+  },
+  "website_published_at": "2026-07-21T13:03:46",
+  "website_updated_at": "2026-07-21T13:08:23",
+  "synced_at": "2026-09-01T05:20:05Z"
+}

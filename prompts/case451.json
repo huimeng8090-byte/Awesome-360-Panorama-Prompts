@@ -1,0 +1,21 @@
+{
+  "id": "case451",
+  "website_id": 1046,
+  "title": "日出时分的约书亚树沙漠",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1046",
+  "image": "images/case451/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文：Generate a panoramic desert scene at sunrise, with prominent Joshua trees casting long shadows on the sandy ground, a sky with a gradient of purple and orange as the sun rises, sparse desert vegetation, and distant rock formations. Emphasize the warm, golden morning light. 中文：生成一幅日出时的沙漠全景，显眼的约书亚树在沙地上投下长长阴影，天空随太阳升起呈现紫橙渐变，沙漠植被稀疏，远处有岩层。强调温暖的金色晨光。"
+  },
+  "website_published_at": "2025-10-04T15:56:03",
+  "website_updated_at": "2026-03-01T11:07:16",
+  "synced_at": "2026-09-01T07:40:19Z"
+}

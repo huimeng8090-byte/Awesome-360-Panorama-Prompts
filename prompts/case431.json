@@ -1,0 +1,21 @@
+{
+  "id": "case431",
+  "website_id": 172,
+  "title": "自然风景户外山林草地商业照片",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/172",
+  "image": "images/case431/output.jpg",
+  "prompt": {
+    "_raw_prompt": "This mountain landscape photo is captured with a Sony camera. Leveraging its excellent image quality, it fits the National Geographic style. From a nature &#8211; exploring perspective, it presents, in high definition, the scene of sunlight 穿透 ing branches and leaves, the winding mountain path, and the distinct layers of meadows and forests. It captures the changes of light and shadow and the details of landforms, conveying the awe and recording of the outdoor nature, fully revealing the beauty of the mountain wilderness ecology."
+  },
+  "website_published_at": "2025-10-02T12:44:22",
+  "website_updated_at": "2026-03-01T11:09:55",
+  "synced_at": "2026-09-01T07:38:41Z"
+}

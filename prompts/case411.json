@@ -1,0 +1,21 @@
+{
+  "id": "case411",
+  "website_id": 2815,
+  "title": "云巔神迹：巴西里约救世基督像与壮丽云海",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2815",
+  "image": "images/case411/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"巴西里约热内卢科科瓦多山顶\",\n    \"camera_position\": \"无人机悬停于基督像侧前方\",\n    \"camera_height\": \"山顶高度航拍\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"宏大的山海空间感\",\n    \"weather\": \"云雾缭绕，充满氛围感的落日\",\n    \"depth_of_field\": \"全景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"巨大的救世基督像矗立在云雾之上，手臂张开\", \"motion\": \"动态云流\" },\n    \"midground_subjects\": { \"terrain\": \"陡峭的山峰没入厚重的云海中\", \"river\": \"远方可见海湾反射的夕阳金光\", \"mist\": \"厚重的橙色与紫色雾气缠绕山腰\" },\n    \"background\": { \"landscape\": \"远处隐约可见里约的城市灯火与海湾轮廓\", \"sky\": \"充满戏剧性的落霞，色彩从深蓝渐变到鲜橙\" },\n    \"environment\": { \"ground_hemisphere\": \"神秘的山巅景象\", \"atmosphere\": \"神圣、庄严、诗意\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"逆光夕阳，为基督像勾勒金边，云海在光照下发亮\",\n    \"color_grading\": \"暖紫色调，极具电影感和史诗感\",\n    \"texture_quality\": { \"description\": \"极致氛围感航拍摄影\", \"artifacts\": \"无缝全景\", \"stitching\": \"无缝360\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"基督像主体\", \"云雾缭绕效果\", \"夕阳海湾背景\", \"360°空间感\" ],\n    \"avoid\": [ \"游客\", \"栏杆\", \"日间强光\", \"单薄的云层\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"people\", \"railing\", \"daylight\", \"overly bright\", \"flat clouds\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T11:13:32",
+  "website_updated_at": "2026-03-03T11:19:20",
+  "synced_at": "2026-09-01T05:44:16Z"
+}

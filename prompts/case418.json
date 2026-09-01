@@ -1,0 +1,21 @@
+{
+  "id": "case418",
+  "website_id": 2755,
+  "title": "上海陆家嘴摩天大楼夜景360度全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2755",
+  "image": "images/case418/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"上海陆家嘴CBD巅峰夜景全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"中国上海浦东陆家嘴核心区\",\n    \"camera_position\": \"无人机位于上海中心大厦旁侧高空\",\n    \"camera_height\": \"极高层摩天大楼视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"清澈夜空，能见度极佳\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"上海中心、环球金融中心、金茂大厦近距离环绕，金属与玻璃质感强烈\",\n      \"motion\": \"地面街道车流形成细长光轨\"\n    },\n    \"midground_subjects\": {\n      \"cityscape\": \"密集的写字楼群灯火辉煌，东方明珠塔在不远处闪烁\",\n      \"river\": \"深蓝色的黄浦江倒映着两岸斑斓霓虹\"\n    },\n    \"background\": {\n      \"landscape\": \"浦西外滩历史建筑群与无尽的城市远景灯火\",\n      \"sky\": \"深蓝调夜空，地平线有轻微城市光晕\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"繁华、现代的世界级大都市核心区航拍\",\n      \"atmosphere\": \"科幻感、繁华、极速\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"复杂城市人工照明，霓虹与LED灯光交织\",\n    \"color_grading\": \"现代都市冷蓝调，点缀暖色灯光\",\n    \"texture_quality\": {\n      \"description\": \"高动态范围夜景摄影\",\n      \"stitching\": \"无缝360度全景\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"陆家嘴三大地标\", \"黄浦江弯曲视角\", \"夜景氛围\"],\n    \"avoid\": [\"白昼场景\", \"模糊噪点\", \"人物\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"daylight\", \"blurry\", \"noise\", \"fog\"]\n}"
+  },
+  "website_published_at": "2026-03-02T12:17:54",
+  "website_updated_at": "2026-03-02T12:22:37",
+  "synced_at": "2026-09-01T05:44:48Z"
+}

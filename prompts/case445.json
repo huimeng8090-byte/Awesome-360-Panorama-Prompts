@@ -1,0 +1,21 @@
+{
+  "id": "case445",
+  "website_id": 1004,
+  "title": "日落全景，温暖的金紫色天空",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1004",
+  "image": "images/case445/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Panoramic view of Joshua Tree National Park at sunrise/sunset, with tall Joshua trees, warm golden-purple sky, desert terrain, and distant mountains. 中文 ：约书亚树国家公园日出 / 日落全景，有高大的约书亚树，温暖的金紫色天空，沙漠地形与远处山脉。"
+  },
+  "website_published_at": "2025-10-03T22:47:49",
+  "website_updated_at": "2026-03-01T11:08:15",
+  "synced_at": "2026-09-01T07:39:50Z"
+}

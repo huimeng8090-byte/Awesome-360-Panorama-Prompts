@@ -1,0 +1,21 @@
+{
+  "id": "case457",
+  "website_id": 8061,
+  "title": "雨林深处的失落古文明石殿遗迹全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "游戏场景",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8061",
+  "image": "",
+  "prompt": {
+    "_raw_prompt": "一幅超高清360度等距柱状全景图，展现热带密林深处的古老石砌遗迹。阳光穿透茂密树冠洒落在风化石柱、雕刻底座与残破台阶之上，藤蔓、蕨类与岩壁交织环绕，营造出神秘、原始、充满历史感的远古文明探索空间。"
+  },
+  "website_published_at": "2026-08-07T22:52:32",
+  "website_updated_at": "2026-08-07T22:52:32",
+  "synced_at": "2026-09-01T07:43:26Z"
+}

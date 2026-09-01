@@ -1,0 +1,21 @@
+{
+  "id": "case406",
+  "website_id": 2842,
+  "title": "永恒丰碑：吉萨大金字塔群与撒哈拉沙漠的落日余晖",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2842",
+  "image": "images/case406/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"8K超高分辨率\"\n  },\n  \"scene_composition\": {\n    \"location\": \"埃及吉萨大金字塔群正上方\",\n    \"camera_position\": \"高空无人机视角\",\n    \"camera_height\": \"中高空全景\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"金字塔呈三角几何分布，地平线极其宽广\",\n    \"weather\": \"晴朗，伴有极轻微的沙尘形成的丁达尔效应\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": { \"primary_view\": \"三座巨大的石质金字塔，石块纹理清晰，侧面阴影深邃\", \"motion\": \"完全静态\" },\n    \"midground_subjects\": { \"terrain\": \"波浪状的金色沙丘，散布着考古遗迹的断壁残垣\", \"river\": \"远方模糊的尼罗河绿洲带\", \"mist\": \"低空轻微的热浪升腾感\" },\n    \"background\": { \"landscape\": \"开罗城市的建筑轮廓在地平线上若隐若现\", \"sky\": \"湛蓝到浅金色的日落渐变天空，带有稀疏的条状云\" },\n    \"environment\": { \"ground_hemisphere\": \"古老文明与永恒荒漠的交织\", \"atmosphere\": \"庄严、宏大、神秘\" }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"低角度金色夕阳，侧光强调了金字塔的几何刻面\",\n    \"color_grading\": \"暖黄色、古铜色与天空深蓝色的高对比调性\",\n    \"texture_quality\": { \"description\": \"超写实国家地理级别航拍\", \"artifacts\": \"无缝360拼接\", \"stitching\": \"完美无痕\" }\n  },\n  \"constraints\": {\n    \"must_keep\": [ \"三座主要金字塔的完整布局\", \"明显的长阴影\", \"360度全景透视\", \"沙漠与天空的比例\" ],\n    \"avoid\": [ \"过度拥挤的游客\", \"现代电塔\", \"模糊的石块纹理\" ]\n  },\n  \"negative_prompt\": [ \"ui\", \"text\", \"watermark\", \"modern cars\", \"tourists\", \"blurry pyramids\", \"broken horizon\" ]\n}"
+  },
+  "website_published_at": "2026-03-03T11:46:29",
+  "website_updated_at": "2026-03-03T11:49:44",
+  "synced_at": "2026-09-01T05:43:56Z"
+}

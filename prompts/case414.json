@@ -1,0 +1,21 @@
+{
+  "id": "case414",
+  "website_id": 2785,
+  "title": "阿杰尔高原岩林与沙丘360度全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/2785",
+  "image": "images/case414/output.jpg",
+  "prompt": {
+    "_raw_prompt": "\"{\n  \"title\": \"阿尔及利亚阿杰尔高原地质全景\",\n  \"image_meta\": {\n    \"type\": \"360度等距柱状全景图\",\n    \"projection\": \"完整球形等距柱状投影\",\n    \"aspect_ratio\": \"2:1\",\n    \"resolution\": \"超高分辨率全景\"\n  },\n  \"scene_composition\": {\n    \"location\": \"阿尔及利亚阿杰尔高原\",\n    \"camera_position\": \"无人机位于巨大风蚀岩群上方\",\n    \"camera_height\": \"高空俯瞰视角\",\n    \"field_of_view\": \"360° 水平，180° 垂直\",\n    \"projection_behavior\": \"正确的等距柱状畸变\",\n    \"weather\": \"晴朗干燥，空气通透\",\n    \"depth_of_field\": \"无限景深\"\n  },\n  \"visual_elements\": {\n    \"foreground\": {\n      \"primary_view\": \"大片橙黄色沙丘与形态奇特的黑色风蚀砂岩立柱交错，阴影深邃\",\n      \"motion\": \"静止\"\n    },\n    \"midground_subjects\": {\n      \"terrain\": \"‘石林’景观散布在沙海中，展现亿万年风化痕迹\",\n      \"details\": \"岩石表面的蜂窝状孔洞与沙面涟漪清晰可见\"\n    },\n    \"background\": {\n      \"landscape\": \"广阔的高原平台向地平线无限延伸，地质结构奇崛\",\n      \"sky\": \"浅蓝色天空，少量拉伸状白云\"\n    },\n    \"environment\": {\n      \"ground_hemisphere\": \"原始、古老、带有异星气息的荒漠岩林\",\n      \"atmosphere\": \"神秘、古老、地质美学\"\n    }\n  },\n  \"rendering_style\": {\n    \"lighting\": \"午后侧光，产生极具立体感的长阴影\",\n    \"color_grading\": \"强烈的橙沙与黑岩对比，自然饱和度\",\n    \"texture_quality\": {\n      \"description\": \"超高细节地质航拍\",\n      \"stitching\": \"无缝360度全景\"\n    }\n  },\n  \"constraints\": {\n    \"must_keep\": [\"黑色岩山与沙丘结合\", \"360全景透视\", \"高度写实\"],\n    \"avoid\": [\"植被\", \"现代建筑\", \"车辆\", \"人物\"]\n  },\n  \"negative_prompt\": [\"ui\", \"watermark\", \"greenery\", \"cars\", \"buildings\", \"tent\"]\n}"
+  },
+  "website_published_at": "2026-03-02T12:41:44",
+  "website_updated_at": "2026-03-02T13:18:57",
+  "synced_at": "2026-09-01T05:44:30Z"
+}

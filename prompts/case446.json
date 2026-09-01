@@ -1,0 +1,21 @@
+{
+  "id": "case446",
+  "website_id": 1008,
+  "title": "秋季山谷湖泊全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "360全景视觉",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/1008",
+  "image": "images/case446/output.jpg",
+  "prompt": {
+    "_raw_prompt": "英文 ：Panoramic autumn valley lake surrounded by vibrant fall foliage in orange, red, and yellow, with snow-capped mountains under a partly cloudy sky. 中文 ：秋季山谷湖泊全景，被橙、红、黄色的 vibrant 秋叶环绕，雪山映衬在多云天空下。"
+  },
+  "website_published_at": "2025-10-03T22:51:56",
+  "website_updated_at": "2026-03-01T11:07:49",
+  "synced_at": "2026-09-01T07:39:55Z"
+}

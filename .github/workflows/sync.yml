@@ -1,0 +1,52 @@
+name: Sync from DIYSQ
+
+# 从 diysq.com 自动同步 360 全景图到本仓库
+# 触发方式：
+#   1. 定时：每天一次（北京时间每天早上 8:00）
+#   2. 手动：Actions 页面点击 Run workflow
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0:00 = 北京时间 8:00
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: '强制全量重新同步（忽略缓存）'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # 允许 git push
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run sync script
+        run: |
+          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
+            python scripts/sync.py --full
+          else
+            python scripts/sync.py
+          fi
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(sync): 自动同步 DIYSQ 全景图'
+          file_pattern: 'prompts/ images/ .data_cache.json PROMPTS_LIST.md README.md'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
