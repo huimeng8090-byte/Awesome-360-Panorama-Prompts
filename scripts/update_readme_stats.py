@@ -62,6 +62,13 @@ new_readme = re.sub(
     new_readme
 )
 
+# 更新描述文字里的数字
+new_readme = re.sub(
+    r'(本仓库收录\s*)\d+(\+\s*条)',
+    rf'\g<1>{total}\g<2>',
+    new_readme
+)
+
 readme_path.write_text(new_readme, encoding="utf-8")
 print(f"README 统计已更新: 共 {total} 条, {len(cats)} 个分类")
 for cat, count in cats:
