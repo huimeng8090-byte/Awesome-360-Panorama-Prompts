@@ -1,6 +1,7 @@
 """自动更新 README.md 中的分类统计徽章"""
 import json
 import re
+import urllib.parse
 from pathlib import Path
 from collections import defaultdict
 
@@ -19,12 +20,14 @@ cats = sorted(by_cat.items(), key=lambda x: x[1], reverse=True)
 # 颜色循环
 colors = ["0969da", "1a7f37", "8250df", "f778ba", "d2992c"]
 
-# 生成徽章 HTML
+# 生成徽章 HTML（带跳转链接）
 badges = []
 for i, (cat, count) in enumerate(cats):
     color = colors[i % len(colors)]
     cat_escaped = cat.replace(" ", "_")
-    badges.append(f'<img src="https://img.shields.io/badge/{cat_escaped}-{count}-{color}?style=flat-square">')
+    cat_url = urllib.parse.quote(cat)
+    link = f"https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category={cat_url}"
+    badges.append(f'<a href="{link}" target="_blank"><img src="https://img.shields.io/badge/{cat_escaped}-{count}-{color}?style=flat-square"></a>')
 
 badges_html = '<p align="center">\n' + "\n".join(badges) + "\n</p>"
 
