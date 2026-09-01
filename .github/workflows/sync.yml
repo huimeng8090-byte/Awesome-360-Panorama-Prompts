@@ -46,10 +46,15 @@ jobs:
       - name: Update README stats
         run: python scripts/update_readme_stats.py
 
+      - name: Regenerate demo page
+        run: |
+          python gen_demo.py
+          cp demo.html index.html
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(sync): 自动同步 DIYSQ 全景图'
-          file_pattern: 'prompts/ images/ .data_cache.json PROMPTS_LIST.md README.md'
+          file_pattern: 'prompts/ images/ .data_cache.json PROMPTS_LIST.md README.md demo.html index.html'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'

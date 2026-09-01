@@ -75,6 +75,7 @@
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E9%85%92%E5%BA%97" target="_blank"><img src="https://img.shields.io/badge/酒店-3-d2992c?style=flat-square"></a>
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E6%B5%B7%E5%BA%95%E4%B8%96%E7%95%8C" target="_blank"><img src="https://img.shields.io/badge/海底世界-2-0969da?style=flat-square"></a>
 </p>
+
 ## 🔄 自动同步机制
 
 GitHub Actions 每天北京时间 8:00 自动运行：

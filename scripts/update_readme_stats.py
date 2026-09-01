@@ -35,10 +35,24 @@ badges_html = '<p align="center">\n' + "\n".join(badges) + "\n</p>"
 readme_path = REPO / "README.md"
 readme = readme_path.read_text(encoding="utf-8")
 
-# 替换分类统计部分（从 ## 📊 分类统计 到下一个 ## 之前）
-pattern = r'(## 📊 分类统计\n\n).*?(\n## )'
-replacement = r'\1' + badges_html + r'\2'
-new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+# 用更可靠的方式替换分类统计部分
+# 找到 ## 📊 分类统计 和 下一个 ## 标题之间的内容
+start_marker = "## 📊 分类统计"
+end_marker = "## 🔄 自动同步机制"
+
+start_idx = readme.find(start_marker)
+end_idx = readme.find(end_marker)
+
+if start_idx != -1 and end_idx != -1:
+    # 保留开头标记，替换中间内容，保留结尾标记
+    before = readme[:start_idx + len(start_marker)]
+    after = readme[end_idx:]
+    new_readme = before + "\n\n" + badges_html + "\n\n" + after
+else:
+    print("警告：未找到分类统计部分，正则替换")
+    pattern = r'(## 📊 分类统计\n\n).*?(\n## )'
+    replacement = r'\1' + badges_html + r'\2'
+    new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
 # 同时更新顶部的提示词总数徽章
 total = len(cache)
