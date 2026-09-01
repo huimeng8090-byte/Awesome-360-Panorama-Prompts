@@ -4,18 +4,15 @@
 
 <p align="center">
   <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_在线预览-点击浏览全部提示词-2ea44f?style=for-the-badge" width="450">
+    <img src="https://img.shields.io/badge/🌐_点击在线浏览全部提示词-2ea44f?style=for-the-badge" width="400">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/🌐_官网-diysq.com-0969da?style=for-the-badge" width="200"></a>
-  <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/🎨_绘图站-AI360全景-1a7f37?style=for-the-badge" width="220"></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/提示词-445+-8250df">
-  <img src="https://img.shields.io/badge/分类-16-f778ba">
+  <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/官网-diysq.com-0969da?style=flat-square"></a>
+  <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/绘图站-AI360全景-1a7f37?style=flat-square"></a>
+  <img src="https://img.shields.io/badge/提示词-445+-8250df?style=flat-square">
+  <img src="https://img.shields.io/badge/分类-16-f778ba?style=flat-square">
 </p>
 
 本仓库收录 **445+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
