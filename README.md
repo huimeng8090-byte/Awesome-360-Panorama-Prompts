@@ -4,6 +4,10 @@
 
 [![在线预览](https://img.shields.io/badge/🌐_在线预览-点击浏览全部提示词-2ea44f?style=for-the-badge)](https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/)
 
+## 🖼️ 预览
+
+![演示页预览](assets/preview.png)
+
 本仓库收录 445+ 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
 
 ## ✨ 特性
