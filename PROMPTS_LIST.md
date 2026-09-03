@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 449 个提示词 / Total 449 prompts
+共 453 个提示词 / Total 453 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -453,3 +453,7 @@
 | case459 | 秋日石灰岩山谷 | [查看](prompts/case459.json) | [预览](images/case459/output.jpg) |
 | case460 | 云岭秋收·金色稻田谷地 | [查看](prompts/case460.json) | [预览](images/case460/output.jpg) |
 | case461 | 高山日出云海 | [查看](prompts/case461.json) | [预览](images/case461/output.jpg) |
+| case462 | 《暮色赤壁·瀑布深潭》——AI绘画360全景图 | [查看](prompts/case462.json) | [预览](images/case462/output.jpg) |
+| case463 | 云幕之下的双瀑山谷 | [查看](prompts/case463.json) | [预览](images/case463/output.jpg) |
+| case464 | 红岩峡谷·瀑布碧潭秘境 | [查看](prompts/case464.json) | [预览](images/case464/output.jpg) |
+| case465 | 暮色水帘秘境 | [查看](prompts/case465.json) | [预览](images/case465/output.jpg) |

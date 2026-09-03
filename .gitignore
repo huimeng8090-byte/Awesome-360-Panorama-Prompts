@@ -13,3 +13,7 @@ Thumbs.db
 # 编辑器
 .vscode/
 .idea/
+
+check_new.py
+ss_*.png
+screenshot*.png

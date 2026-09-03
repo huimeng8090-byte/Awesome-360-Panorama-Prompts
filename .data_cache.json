@@ -4488,5 +4488,45 @@
     "website_updated_at": "2026-09-01T22:54:27",
     "website_published_at": "2026-09-01T22:51:30",
     "synced_at": "2026-09-01T15:13:27Z"
+  },
+  "8411": {
+    "case_id": "case462",
+    "title": "《暮色赤壁·瀑布深潭》——AI绘画360全景图",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260903134624356.png",
+    "website_updated_at": "2026-09-03T21:48:48",
+    "website_published_at": "2026-09-02T23:13:39",
+    "synced_at": "2026-09-03T14:05:15Z"
+  },
+  "8407": {
+    "case_id": "case463",
+    "title": "云幕之下的双瀑山谷",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260902150824437.png",
+    "website_updated_at": "2026-09-02T23:09:38",
+    "website_published_at": "2026-09-02T23:09:21",
+    "synced_at": "2026-09-03T14:05:19Z"
+  },
+  "8403": {
+    "case_id": "case464",
+    "title": "红岩峡谷·瀑布碧潭秘境",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260902150346932.png",
+    "website_updated_at": "2026-09-02T23:04:49",
+    "website_published_at": "2026-09-02T23:01:55",
+    "synced_at": "2026-09-03T14:05:23Z"
+  },
+  "8399": {
+    "case_id": "case465",
+    "title": "暮色水帘秘境",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260902145829687.png",
+    "website_updated_at": "2026-09-02T22:59:20",
+    "website_published_at": "2026-09-02T22:56:36",
+    "synced_at": "2026-09-03T14:05:27Z"
   }
 }
