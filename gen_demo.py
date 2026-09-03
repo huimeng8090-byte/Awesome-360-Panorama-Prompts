@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from collections import defaultdict
 
-REPO = Path(r"D:\开发\全景图库")
+REPO = Path(__file__).resolve().parent
 cache = json.load(open(REPO / ".data_cache.json", "r", encoding="utf-8"))
 
 items = []
