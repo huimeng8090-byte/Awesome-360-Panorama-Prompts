@@ -4528,5 +4528,15 @@
     "website_updated_at": "2026-09-02T22:59:20",
     "website_published_at": "2026-09-02T22:56:36",
     "synced_at": "2026-09-03T14:05:27Z"
+  },
+  "8416": {
+    "case_id": "case466",
+    "title": "幽谷飞瀑：神圣翠潭全景",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260903150640587.jpg",
+    "website_updated_at": "2026-09-03T23:07:22",
+    "website_published_at": "2026-09-03T23:03:07",
+    "synced_at": "2026-09-04T03:08:18Z"
   }
 }

@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 453 个提示词 / Total 453 prompts
+共 454 个提示词 / Total 454 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -457,3 +457,4 @@
 | case463 | 云幕之下的双瀑山谷 | [查看](prompts/case463.json) | [预览](images/case463/output.jpg) |
 | case464 | 红岩峡谷·瀑布碧潭秘境 | [查看](prompts/case464.json) | [预览](images/case464/output.jpg) |
 | case465 | 暮色水帘秘境 | [查看](prompts/case465.json) | [预览](images/case465/output.jpg) |
+| case466 | 幽谷飞瀑：神圣翠潭全景 | [查看](prompts/case466.json) | [预览](images/case466/output.jpg) |
