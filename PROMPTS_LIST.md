@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 454 个提示词 / Total 454 prompts
+共 459 个提示词 / Total 459 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -458,3 +458,8 @@
 | case464 | 红岩峡谷·瀑布碧潭秘境 | [查看](prompts/case464.json) | [预览](images/case464/output.jpg) |
 | case465 | 暮色水帘秘境 | [查看](prompts/case465.json) | [预览](images/case465/output.jpg) |
 | case466 | 幽谷飞瀑：神圣翠潭全景 | [查看](prompts/case466.json) | [预览](images/case466/output.jpg) |
+| case467 | 沙漠巨石玻璃住宅 | [查看](prompts/case467.json) | [预览](images/case467/output.jpg) |
+| case468 | 现代都市暖光酒店卧室 | [查看](prompts/case468.json) | [预览](images/case468/output.jpg) |
+| case469 | 暖夜雅境｜现代酒店客房 AI 360全景图 | [查看](prompts/case469.json) | [预览](images/case469/output.jpg) |
+| case470 | 现代暖调酒店卧室 | [查看](prompts/case470.json) | [预览](images/case470/output.jpg) |
+| case471 | 现代奢华酒店卧室 | [查看](prompts/case471.json) | [预览](images/case471/output.jpg) |

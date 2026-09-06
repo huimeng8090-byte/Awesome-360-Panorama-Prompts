@@ -4538,5 +4538,55 @@
     "website_updated_at": "2026-09-03T23:07:22",
     "website_published_at": "2026-09-03T23:03:07",
     "synced_at": "2026-09-04T03:08:18Z"
+  },
+  "8436": {
+    "case_id": "case467",
+    "title": "沙漠巨石玻璃住宅",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260905142104752.png",
+    "website_updated_at": "2026-09-05T22:21:56",
+    "website_published_at": "2026-09-05T22:19:14",
+    "synced_at": "2026-09-06T03:10:25Z"
+  },
+  "8432": {
+    "case_id": "case468",
+    "title": "现代都市暖光酒店卧室",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260905141601527.png",
+    "website_updated_at": "2026-09-05T22:16:48",
+    "website_published_at": "2026-09-05T22:14:30",
+    "synced_at": "2026-09-06T03:10:31Z"
+  },
+  "8428": {
+    "case_id": "case469",
+    "title": "暖夜雅境｜现代酒店客房 AI 360全景图",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260905141114557.png",
+    "website_updated_at": "2026-09-05T22:12:08",
+    "website_published_at": "2026-09-05T22:09:55",
+    "synced_at": "2026-09-06T03:10:37Z"
+  },
+  "8424": {
+    "case_id": "case470",
+    "title": "现代暖调酒店卧室",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260905140708422.png",
+    "website_updated_at": "2026-09-05T22:08:00",
+    "website_published_at": "2026-09-05T22:05:25",
+    "synced_at": "2026-09-06T03:10:44Z"
+  },
+  "8420": {
+    "case_id": "case471",
+    "title": "现代奢华酒店卧室",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260905140200260.png",
+    "website_updated_at": "2026-09-05T22:03:57",
+    "website_published_at": "2026-09-05T21:57:53",
+    "synced_at": "2026-09-06T03:10:50Z"
   }
 }
