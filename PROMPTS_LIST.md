@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 459 个提示词 / Total 459 prompts
+共 460 个提示词 / Total 460 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -463,3 +463,4 @@
 | case469 | 暖夜雅境｜现代酒店客房 AI 360全景图 | [查看](prompts/case469.json) | [预览](images/case469/output.jpg) |
 | case470 | 现代暖调酒店卧室 | [查看](prompts/case470.json) | [预览](images/case470/output.jpg) |
 | case471 | 现代奢华酒店卧室 | [查看](prompts/case471.json) | [预览](images/case471/output.jpg) |
+| case472 | 现代城市静谧客房 | [查看](prompts/case472.json) | [预览](images/case472/output.jpg) |

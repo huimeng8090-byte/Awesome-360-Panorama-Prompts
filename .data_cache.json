@@ -4588,5 +4588,15 @@
     "website_updated_at": "2026-09-05T22:03:57",
     "website_published_at": "2026-09-05T21:57:53",
     "synced_at": "2026-09-06T03:10:50Z"
+  },
+  "8440": {
+    "case_id": "case472",
+    "title": "现代城市静谧客房",
+    "model": "GPT Image",
+    "category": "酒店",
+    "image_url": "https://youpai.diysq.com/2026/09/20260906151200704.png",
+    "website_updated_at": "2026-09-06T23:12:46",
+    "website_published_at": "2026-09-06T23:09:49",
+    "synced_at": "2026-09-07T03:08:32Z"
   }
 }
