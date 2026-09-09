@@ -4598,5 +4598,35 @@
     "website_updated_at": "2026-09-06T23:12:46",
     "website_published_at": "2026-09-06T23:09:49",
     "synced_at": "2026-09-07T03:08:32Z"
+  },
+  "8459": {
+    "case_id": "case473",
+    "title": "高寒雪山与金草荒漠 360全景视觉纹理",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": null,
+    "website_updated_at": "2026-09-08T21:53:37",
+    "website_published_at": "2026-09-08T21:53:37",
+    "synced_at": "2026-09-09T03:20:21Z"
+  },
+  "8455": {
+    "case_id": "case474",
+    "title": "高山金辉映雪谷",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260908133546753.png",
+    "website_updated_at": "2026-09-08T21:36:51",
+    "website_published_at": "2026-09-08T21:34:02",
+    "synced_at": "2026-09-09T03:20:28Z"
+  },
+  "8450": {
+    "case_id": "case475",
+    "title": "高山峡谷鎏金日落·360沉浸式森林全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260908133057684.png",
+    "website_updated_at": "2026-09-08T21:31:49",
+    "website_published_at": "2026-09-08T21:28:45",
+    "synced_at": "2026-09-09T03:20:34Z"
   }
 }

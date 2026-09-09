@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 460 个提示词 / Total 460 prompts
+共 463 个提示词 / Total 463 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -464,3 +464,6 @@
 | case470 | 现代暖调酒店卧室 | [查看](prompts/case470.json) | [预览](images/case470/output.jpg) |
 | case471 | 现代奢华酒店卧室 | [查看](prompts/case471.json) | [预览](images/case471/output.jpg) |
 | case472 | 现代城市静谧客房 | [查看](prompts/case472.json) | [预览](images/case472/output.jpg) |
+| case473 | 高寒雪山与金草荒漠 360全景视觉纹理 | [查看](prompts/case473.json) | [预览](images/case473/output.jpg) |
+| case474 | 高山金辉映雪谷 | [查看](prompts/case474.json) | [预览](images/case474/output.jpg) |
+| case475 | 高山峡谷鎏金日落·360沉浸式森林全景 | [查看](prompts/case475.json) | [预览](images/case475/output.jpg) |

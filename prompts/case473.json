@@ -1,0 +1,21 @@
+{
+  "id": "case473",
+  "website_id": 8459,
+  "title": "高寒雪山与金草荒漠 360全景视觉纹理",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8459",
+  "image": "",
+  "prompt": {
+    "_raw_prompt": "本提示词针对 2:1 标准 Equirectangular 360°全景渲染设计，严格锁定平视视角与三维球形空间。画面完美重现高寒高原上金黄干草与巨型覆雪山脉的宏大接壤，具备真实的冷暖光影交织与细腻的地理材质，可直接用于生成沉浸式三维环境纹理。"
+  },
+  "website_published_at": "2026-09-08T21:53:37",
+  "website_updated_at": "2026-09-08T21:53:37",
+  "synced_at": "2026-09-09T03:20:21Z"
+}
