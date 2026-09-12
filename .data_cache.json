@@ -4604,10 +4604,10 @@
     "title": "高寒雪山与金草荒漠 360全景视觉纹理",
     "model": "GPT Image",
     "category": "景区",
-    "image_url": null,
-    "website_updated_at": "2026-09-08T21:53:37",
+    "image_url": "https://youpai.diysq.com/2026/09/20260909143656308.png",
+    "website_updated_at": "2026-09-09T22:37:50",
     "website_published_at": "2026-09-08T21:53:37",
-    "synced_at": "2026-09-09T03:20:21Z"
+    "synced_at": "2026-09-12T03:22:19Z"
   },
   "8455": {
     "case_id": "case474",
@@ -4628,5 +4628,65 @@
     "website_updated_at": "2026-09-08T21:31:49",
     "website_published_at": "2026-09-08T21:28:45",
     "synced_at": "2026-09-09T03:20:34Z"
+  },
+  "8485": {
+    "case_id": "case476",
+    "title": "水下珊瑚秘境 提示词简介",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260911144839553.png",
+    "website_updated_at": "2026-09-11T22:50:17",
+    "website_published_at": "2026-09-11T22:47:12",
+    "synced_at": "2026-09-12T03:21:34Z"
+  },
+  "8481": {
+    "case_id": "case477",
+    "title": "海底珊瑚礁·蓝色梦境",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260911144440459.png",
+    "website_updated_at": "2026-09-11T22:45:49",
+    "website_published_at": "2026-09-11T22:42:59",
+    "synced_at": "2026-09-12T03:21:45Z"
+  },
+  "8477": {
+    "case_id": "case478",
+    "title": "海底珊瑚秘境 AI绘画360全景图提示词",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260911144008441.png",
+    "website_updated_at": "2026-09-11T22:41:09",
+    "website_published_at": "2026-09-11T22:37:55",
+    "synced_at": "2026-09-12T03:21:52Z"
+  },
+  "8472": {
+    "case_id": "case479",
+    "title": "海底珊瑚秘境",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260911143511731.png",
+    "website_updated_at": "2026-09-11T22:36:17",
+    "website_published_at": "2026-09-11T22:29:41",
+    "synced_at": "2026-09-12T03:21:59Z"
+  },
+  "8468": {
+    "case_id": "case480",
+    "title": "雪山日落·高原群峰全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260910155630191.png",
+    "website_updated_at": "2026-09-10T23:57:14",
+    "website_published_at": "2026-09-10T23:54:35",
+    "synced_at": "2026-09-12T03:22:05Z"
+  },
+  "8464": {
+    "case_id": "case481",
+    "title": "极地月影·冰湖孤舟",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260910154225361.png",
+    "website_updated_at": "2026-09-10T23:45:46",
+    "website_published_at": "2026-09-10T23:40:56",
+    "synced_at": "2026-09-12T03:22:11Z"
   }
 }

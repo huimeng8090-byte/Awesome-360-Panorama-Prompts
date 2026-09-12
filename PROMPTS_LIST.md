@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 463 个提示词 / Total 463 prompts
+共 469 个提示词 / Total 469 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -467,3 +467,9 @@
 | case473 | 高寒雪山与金草荒漠 360全景视觉纹理 | [查看](prompts/case473.json) | [预览](images/case473/output.jpg) |
 | case474 | 高山金辉映雪谷 | [查看](prompts/case474.json) | [预览](images/case474/output.jpg) |
 | case475 | 高山峡谷鎏金日落·360沉浸式森林全景 | [查看](prompts/case475.json) | [预览](images/case475/output.jpg) |
+| case476 | 水下珊瑚秘境 提示词简介 | [查看](prompts/case476.json) | [预览](images/case476/output.jpg) |
+| case477 | 海底珊瑚礁·蓝色梦境 | [查看](prompts/case477.json) | [预览](images/case477/output.jpg) |
+| case478 | 海底珊瑚秘境 AI绘画360全景图提示词 | [查看](prompts/case478.json) | [预览](images/case478/output.jpg) |
+| case479 | 海底珊瑚秘境 | [查看](prompts/case479.json) | [预览](images/case479/output.jpg) |
+| case480 | 雪山日落·高原群峰全景 | [查看](prompts/case480.json) | [预览](images/case480/output.jpg) |
+| case481 | 极地月影·冰湖孤舟 | [查看](prompts/case481.json) | [预览](images/case481/output.jpg) |
