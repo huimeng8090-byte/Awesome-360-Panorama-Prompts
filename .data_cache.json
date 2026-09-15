@@ -4688,5 +4688,55 @@
     "website_updated_at": "2026-09-10T23:45:46",
     "website_published_at": "2026-09-10T23:40:56",
     "synced_at": "2026-09-12T03:22:11Z"
+  },
+  "8505": {
+    "case_id": "case482",
+    "title": "晨雾金秋 · 雪山云海360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260914154121510.png",
+    "website_updated_at": "2026-09-14T23:42:18",
+    "website_published_at": "2026-09-14T23:33:00",
+    "synced_at": "2026-09-15T03:37:54Z"
+  },
+  "8501": {
+    "case_id": "case483",
+    "title": "暮色潮声｜礁石海岸落日360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260914152920138.png",
+    "website_updated_at": "2026-09-14T23:31:07",
+    "website_published_at": "2026-09-14T23:28:37",
+    "synced_at": "2026-09-15T03:38:00Z"
+  },
+  "8497": {
+    "case_id": "case484",
+    "title": "海蚀拱门 · 蓝海孤岛 360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260914152409861.png",
+    "website_updated_at": "2026-09-14T23:25:04",
+    "website_published_at": "2026-09-14T23:22:13",
+    "synced_at": "2026-09-15T03:38:06Z"
+  },
+  "8493": {
+    "case_id": "case485",
+    "title": "橙金沙丘 · 白色盐沼盆地360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260914151828753.png",
+    "website_updated_at": "2026-09-14T23:19:38",
+    "website_published_at": "2026-09-14T23:16:49",
+    "synced_at": "2026-09-15T03:38:12Z"
+  },
+  "8489": {
+    "case_id": "case486",
+    "title": "苍穹之下·高处环视峡谷群峰360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260914151153171.png",
+    "website_updated_at": "2026-09-14T23:12:37",
+    "website_published_at": "2026-09-14T23:10:16",
+    "synced_at": "2026-09-15T03:38:18Z"
   }
 }

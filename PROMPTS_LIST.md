@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 469 个提示词 / Total 469 prompts
+共 474 个提示词 / Total 474 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -473,3 +473,8 @@
 | case479 | 海底珊瑚秘境 | [查看](prompts/case479.json) | [预览](images/case479/output.jpg) |
 | case480 | 雪山日落·高原群峰全景 | [查看](prompts/case480.json) | [预览](images/case480/output.jpg) |
 | case481 | 极地月影·冰湖孤舟 | [查看](prompts/case481.json) | [预览](images/case481/output.jpg) |
+| case482 | 晨雾金秋 · 雪山云海360全景 | [查看](prompts/case482.json) | [预览](images/case482/output.jpg) |
+| case483 | 暮色潮声｜礁石海岸落日360全景 | [查看](prompts/case483.json) | [预览](images/case483/output.jpg) |
+| case484 | 海蚀拱门 · 蓝海孤岛 360全景 | [查看](prompts/case484.json) | [预览](images/case484/output.jpg) |
+| case485 | 橙金沙丘 · 白色盐沼盆地360全景 | [查看](prompts/case485.json) | [预览](images/case485/output.jpg) |
+| case486 | 苍穹之下·高处环视峡谷群峰360全景 | [查看](prompts/case486.json) | [预览](images/case486/output.jpg) |
