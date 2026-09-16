@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 474 个提示词 / Total 474 prompts
+共 479 个提示词 / Total 479 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -478,3 +478,8 @@
 | case484 | 海蚀拱门 · 蓝海孤岛 360全景 | [查看](prompts/case484.json) | [预览](images/case484/output.jpg) |
 | case485 | 橙金沙丘 · 白色盐沼盆地360全景 | [查看](prompts/case485.json) | [预览](images/case485/output.jpg) |
 | case486 | 苍穹之下·高处环视峡谷群峰360全景 | [查看](prompts/case486.json) | [预览](images/case486/output.jpg) |
+| case487 | GPT Image 20提示词｜橙红流线建筑中庭360全景 | [查看](prompts/case487.json) | [预览](images/case487/output.jpg) |
+| case488 | 暮光城市天际线·360城市高楼全景 | [查看](prompts/case488.json) | [预览](images/case488/output.jpg) |
+| case489 | 现代曲面建筑城市长廊360全景 | [查看](prompts/case489.json) | [预览](images/case489/output.jpg) |
+| case490 | 白睡莲池塘·沉浸式 360 全景 | [查看](prompts/case490.json) | [预览](images/case490/output.jpg) |
+| case491 | 日落巨石群｜高山荒原360全景 | [查看](prompts/case491.json) | [预览](images/case491/output.jpg) |

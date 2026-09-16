@@ -4738,5 +4738,55 @@
     "website_updated_at": "2026-09-14T23:12:37",
     "website_published_at": "2026-09-14T23:10:16",
     "synced_at": "2026-09-15T03:38:18Z"
+  },
+  "8546": {
+    "case_id": "case487",
+    "title": "GPT Image 20提示词｜橙红流线建筑中庭360全景",
+    "model": "GPT Image",
+    "category": "建筑",
+    "image_url": "https://youpai.diysq.com/2026/09/20260915155831374.png",
+    "website_updated_at": "2026-09-16T00:00:19",
+    "website_published_at": "2026-09-15T23:56:47",
+    "synced_at": "2026-09-16T03:34:22Z"
+  },
+  "8542": {
+    "case_id": "case488",
+    "title": "暮光城市天际线·360城市高楼全景",
+    "model": "GPT Image",
+    "category": "建筑",
+    "image_url": "https://youpai.diysq.com/2026/09/20260915155255641.png",
+    "website_updated_at": "2026-09-15T23:54:34",
+    "website_published_at": "2026-09-15T23:51:32",
+    "synced_at": "2026-09-16T03:34:28Z"
+  },
+  "8538": {
+    "case_id": "case489",
+    "title": "现代曲面建筑城市长廊360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260915154745616.png",
+    "website_updated_at": "2026-09-15T23:48:57",
+    "website_published_at": "2026-09-15T23:45:08",
+    "synced_at": "2026-09-16T03:34:35Z"
+  },
+  "8534": {
+    "case_id": "case490",
+    "title": "白睡莲池塘·沉浸式 360 全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260915153931726.png",
+    "website_updated_at": "2026-09-15T23:43:04",
+    "website_published_at": "2026-09-15T23:38:23",
+    "synced_at": "2026-09-16T03:34:41Z"
+  },
+  "8530": {
+    "case_id": "case491",
+    "title": "日落巨石群｜高山荒原360全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260915153421598.png",
+    "website_updated_at": "2026-09-15T23:35:28",
+    "website_published_at": "2026-09-15T23:32:41",
+    "synced_at": "2026-09-16T03:34:48Z"
   }
 }
