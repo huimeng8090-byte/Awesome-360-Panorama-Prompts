@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 479 个提示词 / Total 479 prompts
+共 481 个提示词 / Total 481 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -483,3 +483,5 @@
 | case489 | 现代曲面建筑城市长廊360全景 | [查看](prompts/case489.json) | [预览](images/case489/output.jpg) |
 | case490 | 白睡莲池塘·沉浸式 360 全景 | [查看](prompts/case490.json) | [预览](images/case490/output.jpg) |
 | case491 | 日落巨石群｜高山荒原360全景 | [查看](prompts/case491.json) | [预览](images/case491/output.jpg) |
+| case492 | 冰封星环 · 外星雪原科幻基地 | [查看](prompts/case492.json) | [预览](images/case492/output.jpg) |
+| case493 | 巨型飞碟降临荒野 · 黑白科幻全景空间 | [查看](prompts/case493.json) | [预览](images/case493/output.jpg) |

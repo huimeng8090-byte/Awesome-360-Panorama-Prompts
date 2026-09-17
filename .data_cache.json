@@ -4788,5 +4788,25 @@
     "website_updated_at": "2026-09-15T23:35:28",
     "website_published_at": "2026-09-15T23:32:41",
     "synced_at": "2026-09-16T03:34:48Z"
+  },
+  "8571": {
+    "case_id": "case492",
+    "title": "冰封星环 · 外星雪原科幻基地",
+    "model": "GPT Image",
+    "category": "科幻场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260916151803148.png",
+    "website_updated_at": "2026-09-16T23:18:58",
+    "website_published_at": "2026-09-16T23:16:36",
+    "synced_at": "2026-09-17T03:40:25Z"
+  },
+  "8567": {
+    "case_id": "case493",
+    "title": "巨型飞碟降临荒野 · 黑白科幻全景空间",
+    "model": "GPT Image",
+    "category": "科幻场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260916151338948.png",
+    "website_updated_at": "2026-09-16T23:14:37",
+    "website_published_at": "2026-09-16T23:12:07",
+    "synced_at": "2026-09-17T03:40:31Z"
   }
 }
