@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 481 个提示词 / Total 481 prompts
+共 484 个提示词 / Total 484 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -485,3 +485,6 @@
 | case491 | 日落巨石群｜高山荒原360全景 | [查看](prompts/case491.json) | [预览](images/case491/output.jpg) |
 | case492 | 冰封星环 · 外星雪原科幻基地 | [查看](prompts/case492.json) | [预览](images/case492/output.jpg) |
 | case493 | 巨型飞碟降临荒野 · 黑白科幻全景空间 | [查看](prompts/case493.json) | [预览](images/case493/output.jpg) |
+| case494 | 翡翠峡谷千瀑奇境 | [查看](prompts/case494.json) | [预览](images/case494/output.jpg) |
+| case495 | 热带雨林峡谷高悬瀑布 | [查看](prompts/case495.json) | [预览](images/case495/output.jpg) |
+| case496 | 翠谷飞瀑·碧潭秘境 | [查看](prompts/case496.json) | [预览](images/case496/output.jpg) |

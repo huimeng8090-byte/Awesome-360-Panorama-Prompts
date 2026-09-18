@@ -4805,8 +4805,38 @@
     "model": "GPT Image",
     "category": "科幻场景",
     "image_url": "https://youpai.diysq.com/2026/09/20260916151338948.png",
-    "website_updated_at": "2026-09-16T23:14:37",
+    "website_updated_at": "2026-09-17T23:23:50",
     "website_published_at": "2026-09-16T23:12:07",
-    "synced_at": "2026-09-17T03:40:31Z"
+    "synced_at": "2026-09-18T03:26:03Z"
+  },
+  "8592": {
+    "case_id": "case494",
+    "title": "翡翠峡谷千瀑奇境",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260917153928835.png",
+    "website_updated_at": "2026-09-17T23:40:18",
+    "website_published_at": "2026-09-17T23:38:07",
+    "synced_at": "2026-09-18T03:25:40Z"
+  },
+  "8588": {
+    "case_id": "case495",
+    "title": "热带雨林峡谷高悬瀑布",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260917153421471.png",
+    "website_updated_at": "2026-09-17T23:35:20",
+    "website_published_at": "2026-09-17T23:32:54",
+    "synced_at": "2026-09-18T03:25:47Z"
+  },
+  "8584": {
+    "case_id": "case496",
+    "title": "翠谷飞瀑·碧潭秘境",
+    "model": "GPT Image",
+    "category": "瀑布",
+    "image_url": "https://youpai.diysq.com/2026/09/20260917153007726.png",
+    "website_updated_at": "2026-09-17T23:31:07",
+    "website_published_at": "2026-09-17T23:27:25",
+    "synced_at": "2026-09-18T03:25:55Z"
   }
 }
