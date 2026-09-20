@@ -4838,5 +4838,45 @@
     "website_updated_at": "2026-09-17T23:31:07",
     "website_published_at": "2026-09-17T23:27:25",
     "synced_at": "2026-09-18T03:25:55Z"
+  },
+  "8608": {
+    "case_id": "case497",
+    "title": "热带珊瑚礁水下360全景世界",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260919155727392.png",
+    "website_updated_at": "2026-09-19T23:58:24",
+    "website_published_at": "2026-09-19T23:56:23",
+    "synced_at": "2026-09-20T03:39:05Z"
+  },
+  "8604": {
+    "case_id": "case498",
+    "title": "阳光穿透浅海珊瑚礁360全景",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260919155254121.png",
+    "website_updated_at": "2026-09-19T23:53:48",
+    "website_published_at": "2026-09-19T23:50:44",
+    "synced_at": "2026-09-20T03:39:12Z"
+  },
+  "8600": {
+    "case_id": "case499",
+    "title": "水下珊瑚礁360沉浸式全景",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260919154753406.png",
+    "website_updated_at": "2026-09-19T23:48:57",
+    "website_published_at": "2026-09-19T23:46:47",
+    "synced_at": "2026-09-20T03:39:20Z"
+  },
+  "8596": {
+    "case_id": "case500",
+    "title": "浅海珊瑚礁360全景世界",
+    "model": "GPT Image",
+    "category": "海底世界",
+    "image_url": "https://youpai.diysq.com/2026/09/20260919154431137.png",
+    "website_updated_at": "2026-09-19T23:45:26",
+    "website_published_at": "2026-09-19T23:42:51",
+    "synced_at": "2026-09-20T03:39:28Z"
   }
 }

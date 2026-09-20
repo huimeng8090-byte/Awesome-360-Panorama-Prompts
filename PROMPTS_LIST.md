@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 484 个提示词 / Total 484 prompts
+共 488 个提示词 / Total 488 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -488,3 +488,7 @@
 | case494 | 翡翠峡谷千瀑奇境 | [查看](prompts/case494.json) | [预览](images/case494/output.jpg) |
 | case495 | 热带雨林峡谷高悬瀑布 | [查看](prompts/case495.json) | [预览](images/case495/output.jpg) |
 | case496 | 翠谷飞瀑·碧潭秘境 | [查看](prompts/case496.json) | [预览](images/case496/output.jpg) |
+| case497 | 热带珊瑚礁水下360全景世界 | [查看](prompts/case497.json) | [预览](images/case497/output.jpg) |
+| case498 | 阳光穿透浅海珊瑚礁360全景 | [查看](prompts/case498.json) | [预览](images/case498/output.jpg) |
+| case499 | 水下珊瑚礁360沉浸式全景 | [查看](prompts/case499.json) | [预览](images/case499/output.jpg) |
+| case500 | 浅海珊瑚礁360全景世界 | [查看](prompts/case500.json) | [预览](images/case500/output.jpg) |
