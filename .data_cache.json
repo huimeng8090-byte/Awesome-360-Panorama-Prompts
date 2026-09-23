@@ -4878,5 +4878,65 @@
     "website_updated_at": "2026-09-19T23:45:26",
     "website_published_at": "2026-09-19T23:42:51",
     "synced_at": "2026-09-20T03:39:28Z"
+  },
+  "8645": {
+    "case_id": "case501",
+    "title": "秋日秘境·针叶林深处蜿蜒小径360全景",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922150118255.png",
+    "website_updated_at": "2026-09-22T23:03:43",
+    "website_published_at": "2026-09-22T23:01:55",
+    "synced_at": "2026-09-23T03:33:31Z"
+  },
+  "8642": {
+    "case_id": "case502",
+    "title": "晨雾森林里的金色小径｜沉浸式360全景自然秘境",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922145458595.png",
+    "website_updated_at": "2026-09-22T22:55:59",
+    "website_published_at": "2026-09-22T22:55:59",
+    "synced_at": "2026-09-23T03:33:38Z"
+  },
+  "8636": {
+    "case_id": "case503",
+    "title": "云雾秘境 · 高海拔针叶森林360全景世界",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922142537920.png",
+    "website_updated_at": "2026-09-22T22:32:46",
+    "website_published_at": "2026-09-22T22:26:12",
+    "synced_at": "2026-09-23T03:33:45Z"
+  },
+  "8631": {
+    "case_id": "case504",
+    "title": "晨雾森林 · 穿透树冠的金色耶稣光360全景",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922142029619.png",
+    "website_updated_at": "2026-09-22T22:21:47",
+    "website_published_at": "2026-09-22T22:21:06",
+    "synced_at": "2026-09-23T03:33:53Z"
+  },
+  "8626": {
+    "case_id": "case505",
+    "title": "深秋森林蜿蜒公路",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922135644153.png",
+    "website_updated_at": "2026-09-22T22:00:02",
+    "website_published_at": "2026-09-22T21:57:20",
+    "synced_at": "2026-09-23T03:34:01Z"
+  },
+  "8621": {
+    "case_id": "case506",
+    "title": "高山云海镜湖",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260922134903907.png",
+    "website_updated_at": "2026-09-22T21:53:40",
+    "website_published_at": "2026-09-22T21:47:46",
+    "synced_at": "2026-09-23T03:34:09Z"
   }
 }

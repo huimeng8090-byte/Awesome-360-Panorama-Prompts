@@ -1,0 +1,21 @@
+{
+  "id": "case506",
+  "website_id": 8621,
+  "title": "高山云海镜湖",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8621",
+  "image": "images/case506/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以高山针叶林环抱的清澈湖泊为核心，构建真实三维球形360°全景自然空间。湖水如镜，完整映射天空云层、群山与森林，左右两侧形成连续山谷与湖岸结构。半晴半云的天气带来强烈明暗变化，阳光穿透云层洒落林间与湖面，营造壮阔、通透、宁静而富有层次的高山湖泊景观。"
+  },
+  "website_published_at": "2026-09-22T21:47:46",
+  "website_updated_at": "2026-09-22T21:53:40",
+  "synced_at": "2026-09-23T03:34:09Z"
+}

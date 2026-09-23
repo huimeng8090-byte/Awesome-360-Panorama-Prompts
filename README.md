@@ -11,11 +11,11 @@
 <p align="center">
   <a href="https://www.diysq.com/" target="_blank"><img src="https://img.shields.io/badge/官网-diysq.com-0969da?style=flat-square"></a>
   <a href="https://www.diysq.com/ai360/" target="_blank"><img src="https://img.shields.io/badge/绘图站-AI360全景-1a7f37?style=flat-square"></a>
-  <img src="https://img.shields.io/badge/提示词-488+-8250df?style=flat-square">
+  <img src="https://img.shields.io/badge/提示词-494+-8250df?style=flat-square">
   <img src="https://img.shields.io/badge/分类-16-f778ba?style=flat-square">
 </p>
 
-本仓库收录 **488+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
+本仓库收录 **494+** 条 360° 全景图提示词，每条包含完整的结构化 JSON，可直接用于 GPT Image 等模型生成无缝拼接的等距柱状投影（Equirectangular）全景图。
 
 ## ✨ 特性
 
@@ -30,10 +30,10 @@
 
 |  |  |  |
 |---|---|---|
-| <img src="images/case500/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case499/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case498/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
-| <img src="images/case497/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case496/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case495/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
+| <img src="images/case506/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case505/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case504/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
+| <img src="images/case503/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case502/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> | <img src="images/case501/output.jpg" height="200" style="object-fit:cover;border-radius:6px;"> |
 
-<p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 488 条</a></p>
+<p align="center"><a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/" target="_blank">→ 查看全部 494 条</a></p>
 
 ## 📁 目录结构
 
@@ -73,7 +73,8 @@
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E6%B8%B8%E6%88%8F%E5%9C%BA%E6%99%AF" target="_blank"><img src="https://img.shields.io/badge/游戏场景-7-8250df?style=flat-square"></a>
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E5%BB%BA%E7%AD%91" target="_blank"><img src="https://img.shields.io/badge/建筑-6-f778ba?style=flat-square"></a>
 <a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E5%8F%A4%E5%BB%BA%E7%AD%91" target="_blank"><img src="https://img.shields.io/badge/古建筑-6-d2992c?style=flat-square"></a>
-<a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E5%8A%A8%E7%89%A9" target="_blank"><img src="https://img.shields.io/badge/动物-4-0969da?style=flat-square"></a>
+<a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E6%A0%91%E6%9E%97" target="_blank"><img src="https://img.shields.io/badge/树林-6-0969da?style=flat-square"></a>
+<a href="https://huimeng8090-byte.github.io/Awesome-360-Panorama-Prompts/?category=%E5%8A%A8%E7%89%A9" target="_blank"><img src="https://img.shields.io/badge/动物-4-1a7f37?style=flat-square"></a>
 </p>
 
 ## 🔄 自动同步机制

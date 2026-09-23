@@ -1,0 +1,21 @@
+{
+  "id": "case501",
+  "website_id": 8645,
+  "title": "秋日秘境·针叶林深处蜿蜒小径360全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8645",
+  "image": "images/case501/output.jpg",
+  "prompt": {
+    "_raw_prompt": "沉浸式秋季针叶森林360度全景场景，展现深秋林间蜿蜒泥土小路、高耸落叶松树干与斑驳阳光交织的自然空间。采用标准2:1等距柱状投影，构建连续真实球形环境，让观者仿佛置身森林深处，感受静谧、幽深且充满生命力的秋日森林氛围。"
+  },
+  "website_published_at": "2026-09-22T23:01:55",
+  "website_updated_at": "2026-09-22T23:03:43",
+  "synced_at": "2026-09-23T03:33:31Z"
+}

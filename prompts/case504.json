@@ -1,0 +1,21 @@
+{
+  "id": "case504",
+  "website_id": 8631,
+  "title": "晨雾森林 · 穿透树冠的金色耶稣光360全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8631",
+  "image": "images/case504/output.jpg",
+  "prompt": {
+    "_raw_prompt": "一片被晨雾笼罩的原始森林全景空间，阳光穿过高耸树冠形成壮观的廷达尔光束。湿润空气、透光绿叶、粗糙树干与苔藓地面共同构成沉浸式自然环境，呈现真实三维球形空间中的森林秘境。"
+  },
+  "website_published_at": "2026-09-22T22:21:06",
+  "website_updated_at": "2026-09-22T22:21:47",
+  "synced_at": "2026-09-23T03:33:53Z"
+}

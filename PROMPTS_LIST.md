@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 488 个提示词 / Total 488 prompts
+共 494 个提示词 / Total 494 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -492,3 +492,9 @@
 | case498 | 阳光穿透浅海珊瑚礁360全景 | [查看](prompts/case498.json) | [预览](images/case498/output.jpg) |
 | case499 | 水下珊瑚礁360沉浸式全景 | [查看](prompts/case499.json) | [预览](images/case499/output.jpg) |
 | case500 | 浅海珊瑚礁360全景世界 | [查看](prompts/case500.json) | [预览](images/case500/output.jpg) |
+| case501 | 秋日秘境·针叶林深处蜿蜒小径360全景 | [查看](prompts/case501.json) | [预览](images/case501/output.jpg) |
+| case502 | 晨雾森林里的金色小径｜沉浸式360全景自然秘境 | [查看](prompts/case502.json) | [预览](images/case502/output.jpg) |
+| case503 | 云雾秘境 · 高海拔针叶森林360全景世界 | [查看](prompts/case503.json) | [预览](images/case503/output.jpg) |
+| case504 | 晨雾森林 · 穿透树冠的金色耶稣光360全景 | [查看](prompts/case504.json) | [预览](images/case504/output.jpg) |
+| case505 | 深秋森林蜿蜒公路 | [查看](prompts/case505.json) | [预览](images/case505/output.jpg) |
+| case506 | 高山云海镜湖 | [查看](prompts/case506.json) | [预览](images/case506/output.jpg) |

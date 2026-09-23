@@ -1,0 +1,21 @@
+{
+  "id": "case502",
+  "website_id": 8642,
+  "title": "晨雾森林里的金色小径｜沉浸式360全景自然秘境",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8642",
+  "image": "images/case502/output.jpg",
+  "prompt": {
+    "_raw_prompt": "一幅基于真实三维空间构建的360度森林全景场景，清晨阳光穿透高大树冠，形成梦幻般的耶稣光。林间泥土小径向远方延伸，薄雾、苔藓、落叶与古树共同营造出安静而充满生命力的自然秘境，呈现沉浸式森林漫游体验。"
+  },
+  "website_published_at": "2026-09-22T22:55:59",
+  "website_updated_at": "2026-09-22T22:55:59",
+  "synced_at": "2026-09-23T03:33:38Z"
+}
