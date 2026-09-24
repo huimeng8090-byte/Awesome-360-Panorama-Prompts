@@ -1,0 +1,21 @@
+{
+  "id": "case507",
+  "website_id": 8687,
+  "title": "秋雾金林·蜿蜒山路",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8687",
+  "image": "images/case507/output.jpg",
+  "prompt": {
+    "_raw_prompt": "深秋清晨，一条蜿蜒的灰色乡村公路穿行于金黄与深褐交织的林间，薄雾弥漫在远方树林，低角度晨光穿透枝叶洒落路面。整幅画面采用真实360度球形空间构建，让道路、树木、落叶与天空形成连续自然的环绕环境，呈现宁静、温暖而富有空间纵深的秋日森林全景。"
+  },
+  "website_published_at": "2026-09-23T22:49:40",
+  "website_updated_at": "2026-09-23T23:36:49",
+  "synced_at": "2026-09-24T03:23:17Z"
+}

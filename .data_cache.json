@@ -4938,5 +4938,55 @@
     "website_updated_at": "2026-09-22T21:53:40",
     "website_published_at": "2026-09-22T21:47:46",
     "synced_at": "2026-09-23T03:34:09Z"
+  },
+  "8687": {
+    "case_id": "case507",
+    "title": "秋雾金林·蜿蜒山路",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260923153559583.png",
+    "website_updated_at": "2026-09-23T23:36:49",
+    "website_published_at": "2026-09-23T22:49:40",
+    "synced_at": "2026-09-24T03:23:17Z"
+  },
+  "8684": {
+    "case_id": "case508",
+    "title": "《晨光苔原 · 林间白蘑菇》",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260923144304243.png",
+    "website_updated_at": "2026-09-23T22:43:31",
+    "website_published_at": "2026-09-23T22:43:31",
+    "synced_at": "2026-09-24T03:23:25Z"
+  },
+  "8681": {
+    "case_id": "case509",
+    "title": "群山怀抱的翡翠湖境",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260923143152383.png",
+    "website_updated_at": "2026-09-23T22:32:37",
+    "website_published_at": "2026-09-23T22:32:37",
+    "synced_at": "2026-09-24T03:23:32Z"
+  },
+  "8678": {
+    "case_id": "case510",
+    "title": "金秋林间 · 晨雾光影双轨全景",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260923142327254.png",
+    "website_updated_at": "2026-09-23T22:27:13",
+    "website_published_at": "2026-09-23T22:24:00",
+    "synced_at": "2026-09-24T03:23:38Z"
+  },
+  "8675": {
+    "case_id": "case511",
+    "title": "《晨雾深林·秋日光影秘境》360全景提示词",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260923141117220.png",
+    "website_updated_at": "2026-09-23T22:11:51",
+    "website_published_at": "2026-09-23T22:11:51",
+    "synced_at": "2026-09-24T03:23:46Z"
   }
 }

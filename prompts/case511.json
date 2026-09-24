@@ -1,0 +1,21 @@
+{
+  "id": "case511",
+  "website_id": 8675,
+  "title": "《晨雾深林·秋日光影秘境》360全景提示词",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8675",
+  "image": "images/case511/output.jpg",
+  "prompt": {
+    "_raw_prompt": "一处被晨雾笼罩的秋季森林全景空间，金色阳光穿透高耸树冠，形成梦幻般的丁达尔光束。林间泥土小路铺满金黄落叶，冷暖光影交织，营造出宁静、神秘而充满生命力的自然秘境。通过真实三维球形空间构建，呈现沉浸式360度森林探索体验。"
+  },
+  "website_published_at": "2026-09-23T22:11:51",
+  "website_updated_at": "2026-09-23T22:11:51",
+  "synced_at": "2026-09-24T03:23:46Z"
+}

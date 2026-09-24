@@ -1,0 +1,21 @@
+{
+  "id": "case509",
+  "website_id": 8681,
+  "title": "群山怀抱的翡翠湖境",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8681",
+  "image": "images/case509/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以高山湖泊为核心，构建一处连绵群山、茂密针叶林与清澈湖水共同组成的沉浸式自然空间。画面采用标准360度全景空间逻辑，湖泊位于中心，森林与岩石形成环抱式前景，远处雪峰层层展开，晴朗天空覆盖柔和云层，并融入夏末暖色复古胶片质感，呈现开阔、真实且具有空间纵深的高山景观。"
+  },
+  "website_published_at": "2026-09-23T22:32:37",
+  "website_updated_at": "2026-09-23T22:32:37",
+  "synced_at": "2026-09-24T03:23:32Z"
+}

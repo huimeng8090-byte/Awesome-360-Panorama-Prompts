@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 494 个提示词 / Total 494 prompts
+共 499 个提示词 / Total 499 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -498,3 +498,8 @@
 | case504 | 晨雾森林 · 穿透树冠的金色耶稣光360全景 | [查看](prompts/case504.json) | [预览](images/case504/output.jpg) |
 | case505 | 深秋森林蜿蜒公路 | [查看](prompts/case505.json) | [预览](images/case505/output.jpg) |
 | case506 | 高山云海镜湖 | [查看](prompts/case506.json) | [预览](images/case506/output.jpg) |
+| case507 | 秋雾金林·蜿蜒山路 | [查看](prompts/case507.json) | [预览](images/case507/output.jpg) |
+| case508 | 《晨光苔原 · 林间白蘑菇》 | [查看](prompts/case508.json) | [预览](images/case508/output.jpg) |
+| case509 | 群山怀抱的翡翠湖境 | [查看](prompts/case509.json) | [预览](images/case509/output.jpg) |
+| case510 | 金秋林间 · 晨雾光影双轨全景 | [查看](prompts/case510.json) | [预览](images/case510/output.jpg) |
+| case511 | 《晨雾深林·秋日光影秘境》360全景提示词 | [查看](prompts/case511.json) | [预览](images/case511/output.jpg) |

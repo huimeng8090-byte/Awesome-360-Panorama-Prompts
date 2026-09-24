@@ -1,0 +1,21 @@
+{
+  "id": "case510",
+  "website_id": 8678,
+  "title": "金秋林间 · 晨雾光影双轨全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8678",
+  "image": "images/case510/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以金秋森林深处为核心场景，构建连续完整的360°球形全景空间。一条双轨泥土小径穿过高耸林木，向远方金色晨光延伸。树冠由金黄与翠绿叶片交织形成天然拱廊，薄雾弥漫林间，阳光穿过树隙形成层次丰富的光束，红褐落叶、青苔与草地共同铺陈出真实细腻的秋日森林氛围。"
+  },
+  "website_published_at": "2026-09-23T22:24:00",
+  "website_updated_at": "2026-09-23T22:27:13",
+  "synced_at": "2026-09-24T03:23:38Z"
+}
