@@ -1,0 +1,21 @@
+{
+  "id": "case512",
+  "website_id": 8748,
+  "title": "密林深处 · 雾隐林间小径",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8748",
+  "image": "images/case512/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以深绿针叶森林为主体，构建一个阴天漫射光下的真实三维球形全景空间。狭长林间小道向密林深处延伸，高大树干环绕四周，湿润泥土、苔藓、杂草与枯枝铺满地面，薄雾在远处林隙间自然弥散。整体采用冷色低饱和色调，营造幽静、湿冷而具有空间纵深感的森林环境。 ✦"
+  },
+  "website_published_at": "2026-09-25T00:00:30",
+  "website_updated_at": "2026-09-25T00:01:45",
+  "synced_at": "2026-09-25T03:41:16Z"
+}

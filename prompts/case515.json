@@ -1,0 +1,21 @@
+{
+  "id": "case515",
+  "website_id": 8731,
+  "title": "晨雾林径",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8731",
+  "image": "images/case515/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以深邃的秋冬森林小径为主体，构建真实连续的360°球形全景空间。高大古树与无叶枝桠交织成天然拱廊，湿润泥土小路向远方延伸，尽头被晨雾与金色晨光照亮。整体以冷蓝森林暗部衬托暖黄色光源，营造宁静、神秘且具有沉浸感的清晨森林氛围。"
+  },
+  "website_published_at": "2026-09-24T22:18:57",
+  "website_updated_at": "2026-09-24T22:23:24",
+  "synced_at": "2026-09-25T03:41:53Z"
+}

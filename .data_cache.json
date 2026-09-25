@@ -4988,5 +4988,45 @@
     "website_updated_at": "2026-09-23T22:11:51",
     "website_published_at": "2026-09-23T22:11:51",
     "synced_at": "2026-09-24T03:23:46Z"
+  },
+  "8748": {
+    "case_id": "case512",
+    "title": "密林深处 · 雾隐林间小径",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260924155955423.png",
+    "website_updated_at": "2026-09-25T00:01:45",
+    "website_published_at": "2026-09-25T00:00:30",
+    "synced_at": "2026-09-25T03:41:16Z"
+  },
+  "8741": {
+    "case_id": "case513",
+    "title": "暖阳穿林 · 秋日松林秘境",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260924154804278.png",
+    "website_updated_at": "2026-09-24T23:51:03",
+    "website_published_at": "2026-09-24T23:49:29",
+    "synced_at": "2026-09-25T03:41:39Z"
+  },
+  "8737": {
+    "case_id": "case514",
+    "title": "翡翠湖心 · 晨雾森林秘境",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260924145536871.png",
+    "website_updated_at": "2026-09-24T22:56:21",
+    "website_published_at": "2026-09-24T22:54:36",
+    "synced_at": "2026-09-25T03:41:45Z"
+  },
+  "8731": {
+    "case_id": "case515",
+    "title": "晨雾林径",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260924141700328.png",
+    "website_updated_at": "2026-09-24T22:23:24",
+    "website_published_at": "2026-09-24T22:18:57",
+    "synced_at": "2026-09-25T03:41:53Z"
   }
 }

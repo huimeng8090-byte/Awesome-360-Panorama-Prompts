@@ -1,0 +1,21 @@
+{
+  "id": "case513",
+  "website_id": 8741,
+  "title": "暖阳穿林 · 秋日松林秘境",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8741",
+  "image": "images/case513/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以高大挺拔的针叶松树林为主体，构建一处被清晨或黄昏暖阳照亮的自然林间空间。蜿蜒小径向森林深处延伸，阳光穿过交错树冠形成细腻光束与斑驳光影，薄雾漂浮于林间，搭配蕨类、杂草、落叶与粗糙树皮，共同营造宁静、真实且富有纵深感的秋末森林全景环境。"
+  },
+  "website_published_at": "2026-09-24T23:49:29",
+  "website_updated_at": "2026-09-24T23:51:03",
+  "synced_at": "2026-09-25T03:41:39Z"
+}
