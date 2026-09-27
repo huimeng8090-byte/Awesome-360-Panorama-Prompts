@@ -5028,5 +5028,25 @@
     "website_updated_at": "2026-09-24T22:23:24",
     "website_published_at": "2026-09-24T22:18:57",
     "synced_at": "2026-09-25T03:41:53Z"
+  },
+  "8755": {
+    "case_id": "case516",
+    "title": "高山湖泊云杉森林360全景",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260926145409701.png",
+    "website_updated_at": "2026-09-26T22:56:34",
+    "website_published_at": "2026-09-26T22:55:12",
+    "synced_at": "2026-09-27T03:56:03Z"
+  },
+  "8751": {
+    "case_id": "case517",
+    "title": "金秋森林弯道360全景图",
+    "model": "GPT Image",
+    "category": "树林",
+    "image_url": "https://youpai.diysq.com/2026/09/20260926144808144.png",
+    "website_updated_at": "2026-09-26T22:50:40",
+    "website_published_at": "2026-09-26T22:45:59",
+    "synced_at": "2026-09-27T03:56:11Z"
   }
 }

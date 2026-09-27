@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 503 个提示词 / Total 503 prompts
+共 505 个提示词 / Total 505 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -507,3 +507,5 @@
 | case513 | 暖阳穿林 · 秋日松林秘境 | [查看](prompts/case513.json) | [预览](images/case513/output.jpg) |
 | case514 | 翡翠湖心 · 晨雾森林秘境 | [查看](prompts/case514.json) | [预览](images/case514/output.jpg) |
 | case515 | 晨雾林径 | [查看](prompts/case515.json) | [预览](images/case515/output.jpg) |
+| case516 | 高山湖泊云杉森林360全景 | [查看](prompts/case516.json) | [预览](images/case516/output.jpg) |
+| case517 | 金秋森林弯道360全景图 | [查看](prompts/case517.json) | [预览](images/case517/output.jpg) |

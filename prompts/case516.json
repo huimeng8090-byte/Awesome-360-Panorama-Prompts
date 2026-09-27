@@ -1,0 +1,21 @@
+{
+  "id": "case516",
+  "website_id": 8755,
+  "title": "高山湖泊云杉森林360全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "树林",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8755",
+  "image": "images/case516/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以高山湖泊为核心，构建真实三维球形空间中的夏季森林全景。平静湖面环绕于茂密云杉林之间，远方高耸岩石山脉延伸至天际，左侧泥土小径与右侧灌木形成自然前景。漫射日光穿透多云天空，呈现清澈、宁静且具有真实空间纵深的高山自然环境。"
+  },
+  "website_published_at": "2026-09-26T22:55:12",
+  "website_updated_at": "2026-09-26T22:56:34",
+  "synced_at": "2026-09-27T03:56:03Z"
+}
