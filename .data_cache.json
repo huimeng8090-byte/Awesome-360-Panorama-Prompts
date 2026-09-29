@@ -5048,5 +5048,45 @@
     "website_updated_at": "2026-09-26T22:50:40",
     "website_published_at": "2026-09-26T22:45:59",
     "synced_at": "2026-09-27T03:56:11Z"
+  },
+  "8774": {
+    "case_id": "case518",
+    "title": "热带荒岛秘境 360 全景空间生成提示词",
+    "model": "GPT Image",
+    "category": "游戏场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260928155015838.png",
+    "website_updated_at": "2026-09-28T23:50:54",
+    "website_published_at": "2026-09-28T23:50:54",
+    "synced_at": "2026-09-29T04:31:24Z"
+  },
+  "8771": {
+    "case_id": "case519",
+    "title": "雾夜绝响：维多利亚古宅 360 悬疑全景",
+    "model": "GPT Image",
+    "category": "游戏场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260928154227882.png",
+    "website_updated_at": "2026-09-28T23:45:30",
+    "website_published_at": "2026-09-28T23:43:06",
+    "synced_at": "2026-09-29T04:31:32Z"
+  },
+  "8767": {
+    "case_id": "case520",
+    "title": "迷雾庄园：废弃大门",
+    "model": "GPT Image",
+    "category": "游戏场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260928153124503.png",
+    "website_updated_at": "2026-09-28T23:32:59",
+    "website_published_at": "2026-09-28T23:30:29",
+    "synced_at": "2026-09-29T04:31:39Z"
+  },
+  "8764": {
+    "case_id": "case521",
+    "title": "热带海湾三桅帆船360全景",
+    "model": "GPT Image",
+    "category": "游戏场景",
+    "image_url": "https://youpai.diysq.com/2026/09/20260928152119918.png",
+    "website_updated_at": "2026-09-28T23:22:22",
+    "website_published_at": "2026-09-28T23:22:22",
+    "synced_at": "2026-09-29T04:31:47Z"
   }
 }

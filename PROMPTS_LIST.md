@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 505 个提示词 / Total 505 prompts
+共 509 个提示词 / Total 509 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -509,3 +509,7 @@
 | case515 | 晨雾林径 | [查看](prompts/case515.json) | [预览](images/case515/output.jpg) |
 | case516 | 高山湖泊云杉森林360全景 | [查看](prompts/case516.json) | [预览](images/case516/output.jpg) |
 | case517 | 金秋森林弯道360全景图 | [查看](prompts/case517.json) | [预览](images/case517/output.jpg) |
+| case518 | 热带荒岛秘境 360 全景空间生成提示词 | [查看](prompts/case518.json) | [预览](images/case518/output.jpg) |
+| case519 | 雾夜绝响：维多利亚古宅 360 悬疑全景 | [查看](prompts/case519.json) | [预览](images/case519/output.jpg) |
+| case520 | 迷雾庄园：废弃大门 | [查看](prompts/case520.json) | [预览](images/case520/output.jpg) |
+| case521 | 热带海湾三桅帆船360全景 | [查看](prompts/case521.json) | [预览](images/case521/output.jpg) |

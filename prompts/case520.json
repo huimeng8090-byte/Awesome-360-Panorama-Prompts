@@ -1,0 +1,21 @@
+{
+  "id": "case520",
+  "website_id": 8767,
+  "title": "迷雾庄园：废弃大门",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "游戏场景",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8767",
+  "image": "images/case520/output.jpg",
+  "prompt": {
+    "_raw_prompt": "以深秋浓雾中的废弃庄园为核心场景，构建一处潮湿、阴冷而充满悬疑感的旧时代空间。斑驳砖石门柱、锈蚀铁艺大门、废弃老汽车与远处若隐若现的古老建筑共同形成视觉中心，冷蓝灰雾气贯穿整个环境，微弱暖黄灯光成为唯一温度，营造沉浸式电影场景般的荒废氛围。"
+  },
+  "website_published_at": "2026-09-28T23:30:29",
+  "website_updated_at": "2026-09-28T23:32:59",
+  "synced_at": "2026-09-29T04:31:39Z"
+}

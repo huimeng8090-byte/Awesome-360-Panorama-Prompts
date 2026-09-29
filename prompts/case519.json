@@ -1,0 +1,21 @@
+{
+  "id": "case519",
+  "website_id": 8771,
+  "title": "雾夜绝响：维多利亚古宅 360 悬疑全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "游戏场景",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8771",
+  "image": "images/case519/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成 2:1 比例的 360° 等距柱状全景图设计 。通过精准的球面拓扑与无缝闭环逻辑，构建出带有浓烈悬疑氛围的维多利亚复古长廊 。画面融合了壁灯暖光与室外雾气冷调，呈现高精度的老旧木质与红砖材质细节，完美锁定天顶与地底极点，无缝适配 VR 场景与 AI 全景生成 。"
+  },
+  "website_published_at": "2026-09-28T23:43:06",
+  "website_updated_at": "2026-09-28T23:45:30",
+  "synced_at": "2026-09-29T04:31:32Z"
+}

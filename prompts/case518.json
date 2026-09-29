@@ -1,0 +1,21 @@
+{
+  "id": "case518",
+  "website_id": 8774,
+  "title": "热带荒岛秘境 360 全景空间生成提示词",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "游戏场景",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8774",
+  "image": "images/case518/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成 2:1 等矩圆柱投影（Equirectangular）的 360 度热带岛屿全景图设计 。通过精确锁死人眼平视视角、两端接缝拓扑闭合及极点平滑渐变，完美呈现阳光湛蓝海域、风化苔藓巨石与茂密热带植被交融的无缝三维空间，可直接用于 VR 场景渲染或全景贴图生成 。"
+  },
+  "website_published_at": "2026-09-28T23:50:54",
+  "website_updated_at": "2026-09-28T23:50:54",
+  "synced_at": "2026-09-29T04:31:24Z"
+}
