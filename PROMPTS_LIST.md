@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 509 个提示词 / Total 509 prompts
+共 510 个提示词 / Total 510 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -513,3 +513,4 @@
 | case519 | 雾夜绝响：维多利亚古宅 360 悬疑全景 | [查看](prompts/case519.json) | [预览](images/case519/output.jpg) |
 | case520 | 迷雾庄园：废弃大门 | [查看](prompts/case520.json) | [预览](images/case520/output.jpg) |
 | case521 | 热带海湾三桅帆船360全景 | [查看](prompts/case521.json) | [预览](images/case521/output.jpg) |
+| case522 | 热带遗迹：沉船与秘境海湾 360 全景图 | [查看](prompts/case522.json) | [预览](images/case522/output.jpg) |

@@ -1,0 +1,21 @@
+{
+  "id": "case522",
+  "website_id": 8778,
+  "title": "热带遗迹：沉船与秘境海湾 360 全景图",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "游戏场景",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8778",
+  "image": "images/case522/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词旨在生成一张高精度、无缝衔接的 2:1 热带海岛 360° 全景图 。画面锁定于人眼视角，融合陡峭岩壁、茂密热带植被、沉船残骸与湛蓝清澈的海湾，阳光斜照，构筑出极具沉浸感与探险色彩的虚拟三维环境 。"
+  },
+  "website_published_at": "2026-09-28T23:56:44",
+  "website_updated_at": "2026-09-28T23:56:44",
+  "synced_at": "2026-09-30T04:13:27Z"
+}
