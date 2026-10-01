@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 510 个提示词 / Total 510 prompts
+共 517 个提示词 / Total 517 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -514,3 +514,10 @@
 | case520 | 迷雾庄园：废弃大门 | [查看](prompts/case520.json) | [预览](images/case520/output.jpg) |
 | case521 | 热带海湾三桅帆船360全景 | [查看](prompts/case521.json) | [预览](images/case521/output.jpg) |
 | case522 | 热带遗迹：沉船与秘境海湾 360 全景图 | [查看](prompts/case522.json) | [预览](images/case522/output.jpg) |
+| case523 | 彩虹谷地质奇观 360 全景图 | [查看](prompts/case523.json) | [预览](images/case523/output.jpg) |
+| case524 | 烈日照耀下的彩虹丹霞奇观 360 度全景图 | [查看](prompts/case524.json) | [预览](images/case524/output.jpg) |
+| case525 | 【360全景】炽红丹霞与彩色沉积岩峡谷 | [查看](prompts/case525.json) | [预览](images/case525/output.jpg) |
+| case526 | 【360全景】斯里兰卡狮子岩：热带树海中的天空巨石遗迹 | [查看](prompts/case526.json) | [预览](images/case526/output.jpg) |
+| case527 | 360度火山湿地全景：大海与天空的交界 | [查看](prompts/case527.json) | [预览](images/case527/output.jpg) |
+| case528 | 暮光遗迹：全景火山口与石像群 360 全景图 | [查看](prompts/case528.json) | [预览](images/case528/output.jpg) |
+| case529 | 蔚蓝之境：360热带环礁高空全景 | [查看](prompts/case529.json) | [预览](images/case529/output.jpg) |

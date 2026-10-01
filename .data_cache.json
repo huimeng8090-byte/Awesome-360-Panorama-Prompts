@@ -5098,5 +5098,75 @@
     "website_updated_at": "2026-09-28T23:56:44",
     "website_published_at": "2026-09-28T23:56:44",
     "synced_at": "2026-09-30T04:13:27Z"
+  },
+  "8852": {
+    "case_id": "case523",
+    "title": "彩虹谷地质奇观 360 全景图",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930142930598.png",
+    "website_updated_at": "2026-09-30T22:31:04",
+    "website_published_at": "2026-09-30T22:30:16",
+    "synced_at": "2026-10-01T04:25:31Z"
+  },
+  "8848": {
+    "case_id": "case524",
+    "title": "烈日照耀下的彩虹丹霞奇观 360 度全景图",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930142453693.png",
+    "website_updated_at": "2026-09-30T22:26:23",
+    "website_published_at": "2026-09-30T22:25:41",
+    "synced_at": "2026-10-01T04:25:38Z"
+  },
+  "8844": {
+    "case_id": "case525",
+    "title": "【360全景】炽红丹霞与彩色沉积岩峡谷",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930141933910.png",
+    "website_updated_at": "2026-09-30T22:20:43",
+    "website_published_at": "2026-09-30T22:20:05",
+    "synced_at": "2026-10-01T04:25:47Z"
+  },
+  "8840": {
+    "case_id": "case526",
+    "title": "【360全景】斯里兰卡狮子岩：热带树海中的天空巨石遗迹",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930141259724.png",
+    "website_updated_at": "2026-09-30T22:14:16",
+    "website_published_at": "2026-09-30T22:13:29",
+    "synced_at": "2026-10-01T04:25:54Z"
+  },
+  "8836": {
+    "case_id": "case527",
+    "title": "360度火山湿地全景：大海与天空的交界",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930140515479.png",
+    "website_updated_at": "2026-09-30T22:07:17",
+    "website_published_at": "2026-09-30T22:06:23",
+    "synced_at": "2026-10-01T04:26:01Z"
+  },
+  "8831": {
+    "case_id": "case528",
+    "title": "暮光遗迹：全景火山口与石像群 360 全景图",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930135003839.png",
+    "website_updated_at": "2026-09-30T21:55:16",
+    "website_published_at": "2026-09-30T21:50:58",
+    "synced_at": "2026-10-01T04:26:09Z"
+  },
+  "8827": {
+    "case_id": "case529",
+    "title": "蔚蓝之境：360热带环礁高空全景",
+    "model": "GPT Image",
+    "category": "景区",
+    "image_url": "https://youpai.diysq.com/2026/09/20260930133903680.png",
+    "website_updated_at": "2026-09-30T21:42:26",
+    "website_published_at": "2026-09-30T21:39:53",
+    "synced_at": "2026-10-01T04:26:16Z"
   }
 }

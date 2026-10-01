@@ -1,0 +1,21 @@
+{
+  "id": "case529",
+  "website_id": 8827,
+  "title": "蔚蓝之境：360热带环礁高空全景",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8827",
+  "image": "images/case529/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成 2:1 Equirectangular 360°全景图 设计 。通过锁定高空固定虚拟节点 ，完美呈现热带环礁、翡翠色浅滩与深蓝大洋的渐变层次 。具备无缝左右闭环 ，天顶与地底无畸变 ，适用于 VR 场景与三维球体渲染 。"
+  },
+  "website_published_at": "2026-09-30T21:39:53",
+  "website_updated_at": "2026-09-30T21:42:26",
+  "synced_at": "2026-10-01T04:26:16Z"
+}

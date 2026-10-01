@@ -1,0 +1,21 @@
+{
+  "id": "case524",
+  "website_id": 8848,
+  "title": "烈日照耀下的彩虹丹霞奇观 360 度全景图",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8848",
+  "image": "images/case524/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成高质量 2:1Equirectangular 360 度全景图设计 。通过精准的球形拓扑锁定与空间深度描述，还原烈日直射下色彩斑斓的丹霞地貌 。指令已排除极点扭曲与接缝断层，适用于 VR 场景搭建与三维渲染背景 。"
+  },
+  "website_published_at": "2026-09-30T22:25:41",
+  "website_updated_at": "2026-09-30T22:26:23",
+  "synced_at": "2026-10-01T04:25:38Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "case525",
+  "website_id": 8844,
+  "title": "【360全景】炽红丹霞与彩色沉积岩峡谷",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8844",
+  "image": "images/case525/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成2:1 Equirectangular 360度全景图设计 。聚焦于展现壮丽的干旱丹霞地貌与彩色沉积岩山脉，融合高空烈日、绚烂云纹与粗粝的红砂地表 。严格锁定球面拓扑逻辑，确保左右0°/360°无缝拼接，天顶与地底平滑无畸变 。"
+  },
+  "website_published_at": "2026-09-30T22:20:05",
+  "website_updated_at": "2026-09-30T22:20:43",
+  "synced_at": "2026-10-01T04:25:47Z"
+}

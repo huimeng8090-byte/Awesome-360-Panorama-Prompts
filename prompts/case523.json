@@ -1,0 +1,21 @@
+{
+  "id": "case523",
+  "website_id": 8852,
+  "title": "彩虹谷地质奇观 360 全景图",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8852",
+  "image": "images/case523/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词旨在构建一张 2:1 标准等角长方投影（Equirectangular）的 360 度全景渲染图 。视角锁定于固定空间节点，呈现日光下壮丽的丹霞彩丘地貌 。中央耸立着风化侵蚀的红褐色主峰，周边环绕层理分明的七彩地层与暗色碎石荒漠，天顶与地底平滑无缝闭合 。"
+  },
+  "website_published_at": "2026-09-30T22:30:16",
+  "website_updated_at": "2026-09-30T22:31:04",
+  "synced_at": "2026-10-01T04:25:31Z"
+}

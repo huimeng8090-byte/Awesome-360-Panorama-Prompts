@@ -1,0 +1,21 @@
+{
+  "id": "case527",
+  "website_id": 8836,
+  "title": "360度火山湿地全景：大海与天空的交界",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8836",
+  "image": "images/case527/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成高质量 2:1 等角矩形全景图设计。采用三维空间拓扑锁定，精准还原复活节岛拉诺考火山般的宏伟景观。核心呈现火山口内的斑驳苔藓湖泊、陡峭玄武岩壁与太平洋海天一色，光影自然无缝，天顶与地底平滑无畸变。"
+  },
+  "website_published_at": "2026-09-30T22:06:23",
+  "website_updated_at": "2026-09-30T22:07:17",
+  "synced_at": "2026-10-01T04:26:01Z"
+}

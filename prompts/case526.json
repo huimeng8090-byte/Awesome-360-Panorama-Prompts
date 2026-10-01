@@ -1,0 +1,21 @@
+{
+  "id": "case526",
+  "website_id": 8840,
+  "title": "【360全景】斯里兰卡狮子岩：热带树海中的天空巨石遗迹",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "景区",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8840",
+  "image": "images/case526/output.jpg",
+  "prompt": {
+    "_raw_prompt": "本提示词旨在生成一张 2:1 等角矩形（Equirectangular）360 度全景图 。呈现高空俯瞰视角下，浩瀚的热带雨林树海中央独立耸立的庞大古老巨石堡垒 。画面融合了强烈日光、倒映蓝天白云的天然湖泊以及隐匿于丛林间的历史遗迹，具备完美的左右无缝闭合与天地极点平滑过渡 。"
+  },
+  "website_published_at": "2026-09-30T22:13:29",
+  "website_updated_at": "2026-09-30T22:14:16",
+  "synced_at": "2026-10-01T04:25:54Z"
+}
