@@ -1,0 +1,21 @@
+{
+  "id": "case530",
+  "website_id": 8897,
+  "title": "【360全景】日光花丛与微观斑蝶",
+  "model": "GPT Image",
+  "style": "写实风格 / Photorealistic",
+  "category": "花",
+  "constraints": [
+    "equirectangular",
+    "seamless",
+    "360 panorama"
+  ],
+  "website_url": "https://www.diysq.com/archives/8897",
+  "image": "",
+  "prompt": {
+    "_raw_prompt": "本提示词专为生成 2:1 比例的 360° 球形全景图设计。采用贴地超低微观视角，精准还原真实三维空间拓扑。画面完美锁定天顶与地底闭合，无缝连接左右边缘，展现日光穿透花丛、斑蝶采蜜的沉浸式自然盛景。"
+  },
+  "website_published_at": "2026-10-08T23:56:20",
+  "website_updated_at": "2026-10-08T23:57:38",
+  "synced_at": "2026-10-09T04:48:05Z"
+}

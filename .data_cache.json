@@ -5168,5 +5168,15 @@
     "website_updated_at": "2026-09-30T21:42:26",
     "website_published_at": "2026-09-30T21:39:53",
     "synced_at": "2026-10-01T04:26:16Z"
+  },
+  "8897": {
+    "case_id": "case530",
+    "title": "【360全景】日光花丛与微观斑蝶",
+    "model": "GPT Image",
+    "category": "花",
+    "image_url": null,
+    "website_updated_at": "2026-10-08T23:57:38",
+    "website_published_at": "2026-10-08T23:56:20",
+    "synced_at": "2026-10-09T04:48:05Z"
   }
 }

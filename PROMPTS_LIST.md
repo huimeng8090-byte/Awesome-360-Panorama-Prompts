@@ -1,6 +1,6 @@
 # 全部提示词列表 / Full Prompts List
 
-共 517 个提示词 / Total 517 prompts
+共 518 个提示词 / Total 518 prompts
 
 | ID | 标题 | 提示词 JSON | 预览图片 |
 |:---|:---|:---|:---:|
@@ -521,3 +521,4 @@
 | case527 | 360度火山湿地全景：大海与天空的交界 | [查看](prompts/case527.json) | [预览](images/case527/output.jpg) |
 | case528 | 暮光遗迹：全景火山口与石像群 360 全景图 | [查看](prompts/case528.json) | [预览](images/case528/output.jpg) |
 | case529 | 蔚蓝之境：360热带环礁高空全景 | [查看](prompts/case529.json) | [预览](images/case529/output.jpg) |
+| case530 | 【360全景】日光花丛与微观斑蝶 | [查看](prompts/case530.json) | [预览](images/case530/output.jpg) |
